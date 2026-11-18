@@ -1,0 +1,62 @@
+{
+  "paper_id": "researcharena_2025",
+  "venue": "arXiv preprint",
+  "budget": 1,
+  "observed_panel": [
+    "DeepSeek-R1"
+  ],
+  "observed_panel_resolved": [
+    "variant::deepseek::deepseek-r1::684b::reasoning"
+  ],
+  "observed_scores": {
+    "Ga": 1.99485,
+    "B": 0.005387,
+    "Dinf": 0.999997,
+    "C0": 8.1e-05
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.682375,
+      "B": 0.005362,
+      "Dinf": 1.0,
+      "C0": 8.1e-05
+    },
+    "greedy_breadth": {
+      "Ga": 1.999984,
+      "B": 0.005988,
+      "Dinf": 0.999362,
+      "C0": 8.1e-05
+    },
+    "hybrid": {
+      "Ga": 1.682375,
+      "B": 0.005362,
+      "Dinf": 1.0,
+      "C0": 8.1e-05
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.312475,
+    "delta_B": -2.5e-05,
+    "delta_Dinf": -3e-06,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::deepseek::deepseek-r1::684b::reasoning",
+      "remove_family": "deepseek",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.312475,
+      "new_Ga": 1.682375
+    }
+  ]
+}

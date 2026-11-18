@@ -1,0 +1,61 @@
+{
+  "paths": {
+    "lineage": "data/oome_lineages_20261105/oome_models_with_lineage.parquet",
+    "annotations": "data/paper_annotations/acl15_new_schema.json",
+    "work_root": ".",
+    "output_root": "outputs/20261105"
+  },
+  "created_date": "2026-06-12",
+  "seed": 20260612,
+  "fast_mode": false,
+  "targets": {
+    "adoption_uniform_mix_alpha": 0.1,
+    "breadth": "uniform branching family -> series -> base -> variant"
+  },
+  "geometry": {
+    "primary": "structural variant-count surprise with positive floor",
+    "beta": 0.15,
+    "lambda0": 0.25,
+    "normalization": "expected pi_a root depth equals one",
+    "breadth_tau": 0.3824042504929137,
+    "breadth_tau_rule": "median nearest-neighbor lineage distance",
+    "family": [
+      "structural_variant_count",
+      "topological",
+      "structural_repo_count",
+      "adoption_weighted_ablation"
+    ]
+  },
+  "resolver": {
+    "papers": 49,
+    "input_names": 526,
+    "resolved_names": 487,
+    "principle": "one input contributes one posterior distribution; no descendant expansion"
+  },
+  "external_snapshots": {
+    "open_llm_leaderboard": {
+      "url": "https://huggingface.co/datasets/open-llm-leaderboard/contents/resolve/9c09a7cae43334062a82cb164f2ef255013dafa2/data/train-00000-of-00001.parquet",
+      "commit": "9c09a7cae43334062a82cb164f2ef255013dafa2",
+      "sha256": "f13a7061e63133bc8745d89f8c7a56148584940ede22d3b27e21cad1e078dca5",
+      "conditioned_variants": 624
+    },
+    "salad_bench": {
+      "url": "https://huggingface.co/spaces/OpenSafetyLab/Salad-Bench-Leaderboard/resolve/187161d5453ea80512b6625d02aec8b4ecfdb546/file/leaderboard.xlsx",
+      "commit": "187161d5453ea80512b6625d02aec8b4ecfdb546",
+      "sha256": "37ffe2a8bfa3f31a5ef00879a787308704aa9088c65fda16771ed25d50714456",
+      "conditioned_variants": 29
+    }
+  },
+  "external_validation": {
+    "folding": "GroupKFold by panel size",
+    "controls": [
+      "log_n",
+      "mean_log_popularity",
+      "family_entropy"
+    ],
+    "bootstrap_repetitions": 150,
+    "empirically_best_individual_predictor": "structural_linf",
+    "caution": "headline formal coordinate remains adoption_gap; no scalar replaces the profile"
+  },
+  "tests_all_passed": true
+}

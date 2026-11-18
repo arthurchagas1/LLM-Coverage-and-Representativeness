@@ -1,0 +1,50 @@
+paper_id,title,year,venue,sample_role,annotation_n_models,n_input,n_resolved,n_unresolved,resolution_rate
+acl_2024_kieval,KIEval: A Knowledge-grounded Interactive Evaluation Framework for Large Language Models,2024.0,ACL 2024,yes_main,6,6,6,0,1.0
+acl_2024_locomo,Evaluating Very Long-Term Conversational Memory of LLM Agents,2024.0,ACL 2024,yes_secondary,3,3,3,0,1.0
+acl_2024_m4le,M4LE: A Multi-Ability Multi-Range Multi-Task Multi-Domain Long-Context Evaluation Benchmark for Large Language Models,2024.0,ACL 2024,yes_main,10,10,10,0,1.0
+acl_2024_marathon,Marathon: A Race Through the Realm of Long Context with Large Language Models,2024.0,ACL 2024,yes_main,10,10,10,0,1.0
+acl_2024_mobile_bench,Mobile-Bench: An Evaluation Benchmark for LLM-based Mobile Agents,2024.0,ACL 2024,yes_secondary,2,2,2,0,1.0
+acl_2024_newsbench,NewsBench: A Systematic Evaluation Framework for Assessing Editorial Capabilities of Large Language Models in Chinese Journalism,2024.0,ACL 2024,yes_main,7,7,7,0,1.0
+acl_2025_ad_llm,AD-LLM: Benchmarking Large Language Models for Anomaly Detection,2025.0,ACL Findings 2025,yes_main,3,3,3,0,1.0
+acl_2025_multichallenge,MultiChallenge: A Realistic Multi-Turn Conversation Evaluation Benchmark Challenging to Frontier LLMs,2025.0,ACL Findings 2025,yes_main,10,10,9,1,0.9
+arxiv2025_multinrc,MultiNRC: A Challenging and Native Multilingual Reasoning Evaluation Benchmark for LLMs,2025.0,arXiv,yes_main,3,3,2,1,0.6666666666666666
+arxiv2026_001,Benchmark2: Systematic Evaluation of LLM Benchmarks,2026.0,arXiv,yes_main,11,11,11,0,1.0
+arxiv2026_llm_wikirace,LLM-WikiRace: Benchmarking Long-term Planning and Reasoning over Real-World Knowledge Graphs,2026.0,arXiv,yes_main,16,16,16,0,1.0
+combibench_2025,CombiBench: Benchmarking LLM Capability for Combinatorial Mathematics,2025.0,arXiv preprint / under review,yes_main,6,6,4,2,0.6666666666666666
+efficient_llm_safety_evaluation_multi_agent_debate_2026,Efficient LLM Safety Evaluation through Multi-Agent Debate,2026.0,arXiv preprint,yes_main,7,7,7,0,1.0
+emnlp_2024_mt_eval,MT-Eval: A Multi-Turn Capabilities Evaluation Benchmark for Large Language Models,2024.0,EMNLP 2024,yes_main,9,9,9,0,1.0
+emnlp_2024_sciex,SciEx: Benchmarking Large Language Models on Scientific Exams with Human Expert Grading and Automatic Grading,2024.0,EMNLP 2024,yes_secondary,3,3,3,0,1.0
+emnlp_2024_time_series_feature_understanding,Evaluating Large Language Models on Time Series Feature Understanding: A Comprehensive Taxonomy and Benchmark,2024.0,EMNLP 2024,yes_main,3,3,3,0,1.0
+emnlp_2024_urs,A User-Centric Multi-Intent Benchmark for Evaluating Large Language Models,2024.0,EMNLP 2024,yes_secondary,0,0,0,0,
+enterprise_llm_evaluation_benchmark_2025,Enterprise Large Language Model Evaluation Benchmark,2025.0,unknown,yes_main,5,5,5,0,1.0
+findings_acl_2024_cflue,Benchmarking Large Language Models on CFLUE - A Chinese Financial Language Understanding Evaluation Dataset,2024.0,Findings of ACL 2024,yes_main,12,12,9,3,0.75
+findings_acl_2024_long_text_mt_llms,Benchmarking and Improving Long-Text Translation with Large Language Models,2024.0,Findings of ACL 2024,yes_main,2,2,2,0,1.0
+findings_acl_2024_salad_bench,SALAD-Bench: A Hierarchical and Comprehensive Safety Benchmark for Large Language Models,2024.0,Findings of ACL 2024,yes_main,32,32,32,0,1.0
+findings_acl_2025_afrobench,AfroBench: How Good are Large Language Models on African Languages?,2025.0,Findings of ACL 2025,yes_main,10,10,10,0,1.0
+findings_emnlp_2024_r_judge,R-Judge: Benchmarking Safety Risk Awareness for LLM Agents,2024.0,Findings of EMNLP 2024,yes_secondary,9,9,9,0,1.0
+findings_naacl_2024_instrusum,Benchmarking Generation and Evaluation Capabilities of Large Language Models for Instruction Controllable Summarization,2024.0,Findings of NAACL 2024,yes_main,4,4,4,0,1.0
+findings_naacl_2025_flex,FLEX: A Benchmark for Evaluating Robustness of Fairness in Large Language Models,2025.0,Findings of NAACL 2025,yes_main,6,6,6,0,1.0
+iclr_013,"Towards Reliable Benchmarking: A Contamination Free, Controllable Evaluation Framework for Multi-Step LLM Function Calling",2026.0,ICLR 2026,yes_main,1,1,1,0,1.0
+iclr_014,EarthSE: A Benchmark Evaluating Earth Scientific Exploration Capability for Large Language Models,2026.0,ICLR 2026,yes_main,4,4,4,0,1.0
+iclr_015,MCP-SafetyBench: A Benchmark for Safety Evaluation of Large Language Models with Real-World MCP Servers,2026.0,ICLR 2026,yes_main,4,4,4,0,1.0
+iclr_016,"ACPBench Hard: Unrestrained Reasoning About Action, Change, and Planning",2026.0,ICLR 2026,yes_main,11,11,10,1,0.9090909090909091
+iclr_017,MedAraBench: Large-Scale Arabic Medical Question Answering Dataset and Benchmark,2026.0,ICLR 2026,yes_main,10,10,7,3,0.7
+iclr_2025_helmet,HELMET: How to Evaluate Long-Context Language Models Effectively and Thoroughly,2025.0,ICLR 2025,yes_main,52,52,51,1,0.9807692307692307
+iclr_2025_livebench,"LiveBench: A Challenging, Contamination-Limited LLM Benchmark",2025.0,ICLR 2025,yes_main,14,14,14,0,1.0
+iclr_2025_livecodebench,LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code,2025.0,ICLR 2025,yes_main,41,41,41,0,1.0
+iclr_2025_wildbench,WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild,2025.0,ICLR 2025,yes_main,17,17,17,0,1.0
+icml_010,CASE-Bench: Context-Aware SafEty Benchmark for Large Language Models,2025.0,ICML 2025,yes_main,5,5,5,0,1.0
+icml_011,Reflection-Bench: Evaluating Epistemic Agency in Large Language Models,2025.0,ICML 2025,yes_main,8,8,8,0,1.0
+icml_012,UGPhysics: A Comprehensive Benchmark for Undergraduate Physics Reasoning with Large Language Models,2025.0,ICML 2025,yes_main,28,28,25,3,0.8928571428571429
+llmspark_2025,LLMsPark: A Benchmark for Evaluating Large Language Models in Strategic Gaming Contexts,2025.0,arXiv preprint,yes_main,10,10,9,1,0.9
+multifinben_2025,"MultiFinBen: A Multilingual, Multimodal, and Difficulty-Aware Benchmark for Financial LLM Evaluation",2025.0,arXiv preprint,yes_main,20,20,13,7,0.65
+naacl_2024_buffet,BUFFET: Benchmarking Large Language Models for Few-shot Cross-lingual Transfer,2024.0,NAACL 2024,yes_main,9,9,9,0,1.0
+neurips2024_019,StreamBench: Towards Benchmarking Continuous Improvement of Language Agents,2024.0,NeurIPS 2024 Datasets and Benchmarks Track,yes_main,0,0,0,0,
+neurips2025_020,AGENTIF: Benchmarking Instruction Following of Large Language Models in Agentic Scenarios,2025.0,NeurIPS 2025 Datasets and Benchmarks Track,yes_main,11,11,9,2,0.8181818181818182
+openreview_005,BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions,2025.0,ICLR 2025,yes_main,50,50,50,0,1.0
+openreview_006,CEB: Compositional Evaluation Benchmark for Fairness in Large Language Models,2025.0,ICLR 2025,yes_main,4,4,4,0,1.0
+openreview_007,metabench: A Sparse Benchmark of Reasoning and Knowledge in Large Language Models,2025.0,ICLR 2025,yes_main,0,0,0,0,
+openreview_008,JudgeBench: A Benchmark for Evaluating LLM-Based Judges,2025.0,ICLR 2025,yes_main,19,19,6,13,0.3157894736842105
+openreview_009,INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge,2025.0,ICLR 2025,yes_main,12,12,11,1,0.9166666666666666
+preprint_018,TRACE: A Comprehensive Benchmark for Continual Learning in Large Language Models,,Preprint / under double-blind review,yes_main,6,6,6,0,1.0
+researcharena_2025,ResearchArena: Benchmarking Large Language Models’ Ability to Collect and Organize Information as Research Agents,2025.0,arXiv preprint,yes_main,1,1,1,0,1.0

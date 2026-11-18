@@ -1,0 +1,93 @@
+{
+  "paper_id": "combibench_2025",
+  "venue": "arXiv preprint / under review",
+  "budget": 4,
+  "observed_panel": [
+    "QwQ-32B",
+    "DeepSeek-R1",
+    "Leanabell-Prover-GD-RL",
+    "Kimina-Prover-Preview"
+  ],
+  "observed_panel_resolved": [
+    "variant::qwen::qwen2.5::32b::reasoning",
+    "variant::deepseek::deepseek-r1::684b::reasoning",
+    "variant::llama::llama::7b::unknown-role",
+    "variant::qwen::qwen2.5::72b::chat"
+  ],
+  "observed_scores": {
+    "Ga": 1.735098,
+    "B": 0.005407,
+    "Dinf": 0.542212,
+    "C0": 0.000323
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen2.5::7b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::gaggle::gaggle::400b::chat"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.283863,
+      "B": 0.005407,
+      "Dinf": 0.499362,
+      "C0": 0.000323
+    },
+    "greedy_breadth": {
+      "Ga": 1.999935,
+      "B": 0.007891,
+      "Dinf": 0.292212,
+      "C0": 0.000323
+    },
+    "hybrid": {
+      "Ga": 1.564411,
+      "B": 0.006651,
+      "Dinf": 0.506681,
+      "C0": 0.000323
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.170687,
+    "delta_B": 0.001244,
+    "delta_Dinf": 0.035531,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::deepseek::deepseek-r1::684b::reasoning",
+      "remove_family": "deepseek",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.17577,
+      "new_Ga": 1.559329
+    },
+    {
+      "remove": "variant::qwen::qwen2.5::72b::chat",
+      "remove_family": "qwen",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.140872,
+      "new_Ga": 1.594226
+    },
+    {
+      "remove": "variant::qwen::qwen2.5::32b::reasoning",
+      "remove_family": "qwen",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.138425,
+      "new_Ga": 1.596673
+    }
+  ]
+}

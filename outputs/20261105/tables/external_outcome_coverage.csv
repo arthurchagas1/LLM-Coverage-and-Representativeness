@@ -1,0 +1,3 @@
+outcome_group,external_rows,matched_unique_variants,conditioned_population,outcomes
+capability_complete_case,4576,624,624,IFEval; BBH; MATH Lvl 5; GPQA; MUSR; MMLU-PRO
+safety_complete_case,68,29,29,salad_base_safety; salad_attack_safety

@@ -1,0 +1,123 @@
+{
+  "paper_id": "acl_2024_m4le",
+  "venue": "ACL 2024",
+  "budget": 10,
+  "observed_panel": [
+    "meta-llama/Llama-2-7b-hf",
+    "meta-llama/Llama-2-7b-chat-hf",
+    "meta-llama/Llama-2-13b-hf",
+    "meta-llama/Llama-2-13b-chat-hf",
+    "THUDM/chatglm2-6b",
+    "THUDM/chatglm2-6b-32k",
+    "lmsys/longchat-7b-v1.5-32k",
+    "lmsys/longchat-13b-16k",
+    "lmsys/vicuna-7b-v1.5-16k",
+    "lmsys/vicuna-13b-v1.5-16k"
+  ],
+  "observed_panel_resolved": [
+    "variant::llama::llama2::7b::base",
+    "variant::llama::llama2::7b::chat",
+    "variant::llama::llama2::13b::base",
+    "variant::llama::llama2::13b::chat",
+    "variant::glm::chatglm2::6b::code",
+    "variant::glm::chatglm2::6b::code",
+    "variant::llama::llama::7b::unknown-role",
+    "variant::llama::llama::13b::unknown-role",
+    "variant::llama::llama::7b::unknown-role",
+    "variant::llama::llama::13b::unknown-role"
+  ],
+  "observed_scores": {
+    "Ga": 1.932571,
+    "B": 0.005458,
+    "Dinf": 0.799362,
+    "C0": 0.000565
+  },
+  "greedy_adoption_panel": [
+    "variant::gpt2::gpt2::126m::base",
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen3::14b::base",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::qwen::qwen3::4b::base",
+    "variant::llama::llama3.1::8b::instruct",
+    "variant::gpt-oss::gpt-oss::20b::base",
+    "variant::nemotron::nemotron::30b::instruct",
+    "variant::mistral::mistral::7b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::mininlm::mininlm::46m::unknown-role",
+    "variant::vbq::vbq::100m::instruct",
+    "variant::lfm-omni-dualhead::lfm-omni-dualhead::2b::code",
+    "variant::sentinel-r08-geodesic-v7-2a::sentinel-r08-geodesic-v7-2a::52m::instruct"
+  ],
+  "hybrid_panel": [
+    "variant::gpt2::gpt2::126m::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::qwen::qwen3::14b::base",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::yebb-dense::yebb-dense::0.8b::code"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.000892,
+      "B": 0.00553,
+      "Dinf": 0.491829,
+      "C0": 0.000807
+    },
+    "greedy_breadth": {
+      "Ga": 1.99983,
+      "B": 0.011697,
+      "Dinf": 0.186416,
+      "C0": 0.000807
+    },
+    "hybrid": {
+      "Ga": 1.281046,
+      "B": 0.008579,
+      "Dinf": 0.299362,
+      "C0": 0.000807
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.651526,
+    "delta_B": 0.003121,
+    "delta_Dinf": 0.5,
+    "delta_C0": 0.000242
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::llama::llama::7b::unknown-role",
+      "remove_family": "llama",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.180246,
+      "new_Ga": 1.752325
+    },
+    {
+      "remove": "variant::llama::llama::13b::unknown-role",
+      "remove_family": "llama",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.180246,
+      "new_Ga": 1.752325
+    },
+    {
+      "remove": "variant::glm::chatglm2::6b::code",
+      "remove_family": "glm",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.180246,
+      "new_Ga": 1.752325
+    }
+  ]
+}

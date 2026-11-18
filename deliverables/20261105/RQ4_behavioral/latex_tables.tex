@@ -1,0 +1,46 @@
+\begin{table}[h]
+\centering
+\caption{RMSE of panel means relative to the lineage-blind design on all 624 scored variants (geometric mean over six benchmarks), with 95\% intervals from 200 bootstrap resamples of families.}
+\label{tab:supp-rq4-population}
+\setlength{\tabcolsep}{4pt}
+\fitwidth{\begin{tabular}{@{}lrccc@{}}
+\toprule
+Target & $n$ & Lineage-spread & Scale-spread & Scale and lineage \\
+\midrule
+Adoption & 5 & 0.982 [0.852, 1.027] & 0.750 [0.636, 0.881] & 0.727 [0.625, 0.889] \\
+ & 10 & 0.942 [0.836, 1.013] & 0.771 [0.633, 0.856] & 0.786 [0.620, 0.849] \\
+ & 20 & 0.889 [0.802, 0.973] & 0.724 [0.658, 0.852] & 0.691 [0.626, 0.851] \\
+ & 40 & 0.873 [0.762, 0.926] & 0.758 [0.668, 0.845] & 0.724 [0.623, 0.830] \\
+\addlinespace
+Breadth & 5 & 0.980 [0.896, 1.056] & 0.795 [0.721, 0.951] & 0.803 [0.734, 0.957] \\
+ & 10 & 0.945 [0.863, 1.038] & 0.827 [0.736, 0.940] & 0.830 [0.739, 0.937] \\
+ & 20 & 0.947 [0.854, 1.004] & 0.867 [0.750, 0.929] & 0.869 [0.751, 0.941] \\
+ & 40 & 0.875 [0.769, 0.974] & 0.874 [0.754, 0.928] & 0.867 [0.724, 0.931] \\
+\addlinespace
+Uniform & 5 & 0.944 [0.905, 1.039] & 0.849 [0.787, 0.930] & 0.847 [0.790, 0.960] \\
+ & 10 & 0.936 [0.871, 1.017] & 0.811 [0.736, 0.903] & 0.799 [0.704, 0.905] \\
+ & 20 & 0.904 [0.816, 0.999] & 0.786 [0.718, 0.879] & 0.758 [0.697, 0.849] \\
+ & 40 & 0.867 [0.751, 0.959] & 0.804 [0.707, 0.872] & 0.739 [0.676, 0.818] \\
+\botrule
+\end{tabular}}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{RMSE of panel means when the panel is chosen among 20 independent draws with probability $t$, relative to a random choice (geometric mean over six benchmarks, 3,000 repetitions). The permuted tree keeps the edge lengths and assigns its leaves to variants at random.}
+\label{tab:supp-rejective}
+\setlength{\tabcolsep}{5pt}
+\fitwidth{\begin{tabular}{@{}lrccc@{}}
+\toprule
+Target & $n$ & Lowest $G$ & Lowest $G$, permuted tree & Highest $G$ \\
+\midrule
+Adoption & 5 & 0.775 & 0.776 & 1.101 \\
+ & 10 & 0.743 & 0.760 & 1.249 \\
+ & 20 & 0.735 & 0.768 & 1.317 \\
+\addlinespace
+Breadth & 5 & 0.762 & 0.807 & 1.373 \\
+ & 10 & 0.766 & 0.837 & 1.292 \\
+ & 20 & 0.801 & 0.853 & 1.233 \\
+\botrule
+\end{tabular}}
+\end{table}

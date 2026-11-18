@@ -1,0 +1,108 @@
+{
+  "paper_id": "efficient_llm_safety_evaluation_multi_agent_debate_2026",
+  "venue": "arXiv preprint",
+  "budget": 7,
+  "observed_panel": [
+    "DeepSeek-V3",
+    "DeepSeek-R1",
+    "Llama-3.3-70B-Instruct",
+    "Llama-3.1-8B-Instruct",
+    "Qwen3-4B-Instruct-2507",
+    "Qwen3-4B-Thinking-2507",
+    "GPT-OSS-20B"
+  ],
+  "observed_panel_resolved": [
+    "variant::deepseek::deepseek-v3::16b::instruct",
+    "variant::deepseek::deepseek-r1::684b::reasoning",
+    "variant::llama::llama3.1::70b::instruct",
+    "variant::llama::llama3.1::8b::instruct",
+    "variant::qwen::qwen3::4b::instruct",
+    "variant::qwen::qwen3::4b::reasoning",
+    "variant::gpt-oss::gpt-oss::20b::base"
+  ],
+  "observed_scores": {
+    "Ga": 1.665264,
+    "B": 0.005464,
+    "Dinf": 0.542212,
+    "C0": 0.000565
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen3::14b::base",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::llama::llama3.1::8b::instruct",
+    "variant::qwen::qwen3::4b::base"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::mininlm::mininlm::46m::unknown-role"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::qwen::qwen3::14b::base"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.1177,
+      "B": 0.005419,
+      "Dinf": 0.570791,
+      "C0": 0.000565
+    },
+    "greedy_breadth": {
+      "Ga": 1.999885,
+      "B": 0.009794,
+      "Dinf": 0.142219,
+      "C0": 0.000565
+    },
+    "hybrid": {
+      "Ga": 1.340897,
+      "B": 0.007306,
+      "Dinf": 0.352175,
+      "C0": 0.000565
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.324366,
+    "delta_B": 0.001842,
+    "delta_Dinf": 0.190037,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::deepseek::deepseek-r1::684b::reasoning",
+      "remove_family": "deepseek",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.180726,
+      "new_Ga": 1.484538
+    },
+    {
+      "remove": "variant::deepseek::deepseek-v3::16b::instruct",
+      "remove_family": "deepseek",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.180375,
+      "new_Ga": 1.484889
+    },
+    {
+      "remove": "variant::llama::llama3.1::70b::instruct",
+      "remove_family": "llama",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.179439,
+      "new_Ga": 1.485824
+    }
+  ]
+}

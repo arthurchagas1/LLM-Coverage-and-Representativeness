@@ -1,0 +1,118 @@
+{
+  "paper_id": "findings_acl_2024_cflue",
+  "venue": "Findings of ACL 2024",
+  "budget": 9,
+  "observed_panel": [
+    "meta-llama/Llama-2-7b-hf",
+    "meta-llama/Llama-2-70b-hf",
+    "lmsys/vicuna-7b-v1.5",
+    "THUDM/chatglm3-6b",
+    "Qwen/Qwen-7B",
+    "Qwen/Qwen-14B",
+    "Qwen/Qwen-72B",
+    "baichuan-inc/Baichuan2-7B-Base",
+    "baichuan-inc/Baichuan2-13B-Base"
+  ],
+  "observed_panel_resolved": [
+    "variant::llama::llama2::7b::base",
+    "variant::llama::llama2::70b::base",
+    "variant::llama::llama::7b::unknown-role",
+    "variant::glm::chatglm3::6b::code",
+    "variant::qwen::qwen::7b::code",
+    "variant::qwen::qwen::14b::code",
+    "variant::qwen::qwen::72b::code",
+    "variant::baichuan::baichuan2::7b::code",
+    "variant::baichuan::baichuan2::13b::code"
+  ],
+  "observed_scores": {
+    "Ga": 1.778526,
+    "B": 0.005645,
+    "Dinf": 0.542212,
+    "C0": 0.000726
+  },
+  "greedy_adoption_panel": [
+    "variant::gpt2::gpt2::126m::base",
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen3::14b::base",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::qwen::qwen3::4b::base",
+    "variant::llama::llama3.1::8b::instruct",
+    "variant::gpt-oss::gpt-oss::20b::base",
+    "variant::nemotron::nemotron::30b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::mininlm::mininlm::46m::unknown-role",
+    "variant::vbq::vbq::100m::instruct",
+    "variant::lfm-omni-dualhead::lfm-omni-dualhead::2b::code"
+  ],
+  "hybrid_panel": [
+    "variant::gpt2::gpt2::126m::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::qwen::qwen3::14b::base",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::qwen::qwen2.5::7b::instruct"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.037355,
+      "B": 0.005516,
+      "Dinf": 0.491829,
+      "C0": 0.000726
+    },
+    "greedy_breadth": {
+      "Ga": 1.999847,
+      "B": 0.011062,
+      "Dinf": 0.170355,
+      "C0": 0.000726
+    },
+    "hybrid": {
+      "Ga": 1.261177,
+      "B": 0.007945,
+      "Dinf": 0.332696,
+      "C0": 0.000726
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.517349,
+    "delta_B": 0.0023,
+    "delta_Dinf": 0.209517,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::baichuan::baichuan2::13b::code",
+      "remove_family": "baichuan",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.180898,
+      "new_Ga": 1.597628
+    },
+    {
+      "remove": "variant::baichuan::baichuan2::7b::code",
+      "remove_family": "baichuan",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.180888,
+      "new_Ga": 1.597637
+    },
+    {
+      "remove": "variant::llama::llama2::70b::base",
+      "remove_family": "llama",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.180722,
+      "new_Ga": 1.597804
+    }
+  ]
+}

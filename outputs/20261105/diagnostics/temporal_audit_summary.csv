@@ -1,0 +1,12 @@
+,value
+papers,46.0
+median_eligible_fraction,0.32392321342151964
+median_eligible_variants,4016.0
+kendall_tau_rank_present_vs_timeconsistent,0.7623188405797102
+spearman_Ga_present_vs_timeconsistent,0.8920752389762565
+median_popularity_percentile_present,0.0
+median_popularity_percentile_timeconsistent,0.0
+median_uniform_percentile_present,0.5166666666666666
+median_uniform_percentile_timeconsistent,0.35416666666666663
+median_familystrat_percentile_present,0.0
+median_familystrat_percentile_timeconsistent,0.0

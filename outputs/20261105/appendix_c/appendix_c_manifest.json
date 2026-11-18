@@ -1,0 +1,45 @@
+{
+  "coverage_root": ".",
+  "lineage_file": "data/oome_lineages_20261105/oome_models_with_lineage.parquet",
+  "annotations_file": "data/paper_annotations/acl15_new_schema.json",
+  "cutoffs_file": null,
+  "shared_cutoffs": "outputs/20261105/paper_contexts.pkl",
+  "output_dir": "outputs/20261105/appendix_c",
+  "seed": 20260612,
+  "n_null": 120,
+  "scoreable_papers": 46,
+  "outputs": [
+    "appendix_c21_constraint_definitions.csv",
+    "appendix_c21_eligibility_feasibility_per_paper.csv",
+    "appendix_c21_summary.csv",
+    "appendix_c4_complete_audit_per_paper.csv",
+    "appendix_c4_greedy_panel_members.csv",
+    "appendix_c4_summary.csv",
+    "appendix_c5_claim_conditioned_per_paper.csv",
+    "appendix_c5_claim_conditioned_summary.csv",
+    "appendix_c5_population_definitions.csv",
+    "appendix_c5_population_summary.csv",
+    "appendix_c5_scores_per_paper_population.csv",
+    "appendix_c_master_per_paper.csv",
+    "paper_cutoffs_template.csv"
+  ],
+  "methodological_scope": {
+    "geometry": "global frozen lineage tree",
+    "historical_targets": "current adoption weights restricted to historically eligible variants",
+    "feasibility_constraints": [
+      "availability",
+      "access gate",
+      "functional role",
+      "coarse size bucket"
+    ],
+    "not_enforced_due_to_missing_data": [
+      "context length",
+      "language/domain requirements",
+      "precision",
+      "throughput",
+      "hardware",
+      "active parameter count",
+      "total inference workload"
+    ]
+  }
+}

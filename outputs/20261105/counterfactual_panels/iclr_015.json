@@ -1,0 +1,93 @@
+{
+  "paper_id": "iclr_015",
+  "venue": "ICLR 2026",
+  "budget": 4,
+  "observed_panel": [
+    "Zhipu/GLM-4.5",
+    "Moonshot/Kimi-K2",
+    "Qwen/Qwen3-235B",
+    "DeepSeek/DeepSeek-V3.1"
+  ],
+  "observed_panel_resolved": [
+    "variant::glm::glm4::358b::base",
+    "variant::smollm::smollm2::135m::instruct",
+    "variant::qwen::qwen3::235b::base",
+    "variant::deepseek::deepseek-v3::5m::code"
+  ],
+  "observed_scores": {
+    "Ga": 1.799829,
+    "B": 0.005469,
+    "Dinf": 0.499071,
+    "C0": 0.000323
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen2.5::7b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::gaggle::gaggle::400b::chat"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.283863,
+      "B": 0.005407,
+      "Dinf": 0.499362,
+      "C0": 0.000323
+    },
+    "greedy_breadth": {
+      "Ga": 1.999935,
+      "B": 0.007891,
+      "Dinf": 0.292212,
+      "C0": 0.000323
+    },
+    "hybrid": {
+      "Ga": 1.564411,
+      "B": 0.006651,
+      "Dinf": 0.506681,
+      "C0": 0.000323
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.235418,
+    "delta_B": 0.001182,
+    "delta_Dinf": -0.00761,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::deepseek::deepseek-v3::5m::code",
+      "remove_family": "deepseek",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.175589,
+      "new_Ga": 1.624239
+    },
+    {
+      "remove": "variant::smollm::smollm2::135m::instruct",
+      "remove_family": "smollm",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.165184,
+      "new_Ga": 1.634645
+    },
+    {
+      "remove": "variant::glm::glm4::358b::base",
+      "remove_family": "glm",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.162873,
+      "new_Ga": 1.636956
+    }
+  ]
+}

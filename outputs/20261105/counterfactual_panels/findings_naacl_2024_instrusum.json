@@ -1,0 +1,93 @@
+{
+  "paper_id": "findings_naacl_2024_instrusum",
+  "venue": "Findings of NAACL 2024",
+  "budget": 4,
+  "observed_panel": [
+    "meta-llama/Llama-2-7b-chat-hf",
+    "meta-llama/Llama-2-13b-chat-hf",
+    "meta-llama/Llama-2-70b-chat-hf",
+    "mistralai/Mistral-7B-Instruct-v0.1"
+  ],
+  "observed_panel_resolved": [
+    "variant::llama::llama2::7b::chat",
+    "variant::llama::llama2::13b::chat",
+    "variant::llama::llama2::70b::chat",
+    "variant::mistral::mistral::7b::instruct"
+  ],
+  "observed_scores": {
+    "Ga": 1.920045,
+    "B": 0.005379,
+    "Dinf": 0.886416,
+    "C0": 0.000323
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen2.5::7b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::gaggle::gaggle::400b::chat"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.283863,
+      "B": 0.005407,
+      "Dinf": 0.499362,
+      "C0": 0.000323
+    },
+    "greedy_breadth": {
+      "Ga": 1.999935,
+      "B": 0.007891,
+      "Dinf": 0.292212,
+      "C0": 0.000323
+    },
+    "hybrid": {
+      "Ga": 1.564411,
+      "B": 0.006651,
+      "Dinf": 0.506681,
+      "C0": 0.000323
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.355634,
+    "delta_B": 0.001272,
+    "delta_Dinf": 0.379735,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::llama::llama2::70b::chat",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.254384,
+      "new_Ga": 1.665661
+    },
+    {
+      "remove": "variant::llama::llama2::13b::chat",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.253776,
+      "new_Ga": 1.666269
+    },
+    {
+      "remove": "variant::llama::llama2::7b::chat",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.253081,
+      "new_Ga": 1.666965
+    }
+  ]
+}

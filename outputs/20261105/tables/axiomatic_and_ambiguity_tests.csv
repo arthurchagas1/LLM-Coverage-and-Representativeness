@@ -1,0 +1,8 @@
+test,value,threshold,pass
+Tree-W1 closed form equals LP,0.0,<1e-8,True
+all branch lengths strictly positive,0.0045947453692222065,>0,True
+ambiguous C0 conserves one-entry credit,6.776263578034403e-20,<1e-12,True
+ambiguous soft C0 below expansion,0.040000000000000036,=1/k,True
+soft breadth clone invariant,0.0,<1e-12,True
+breadth diminishing returns,1.0,=1,True
+1-Lipschitz probe obeys W1 bound,0.12155096993635894,<=1,True

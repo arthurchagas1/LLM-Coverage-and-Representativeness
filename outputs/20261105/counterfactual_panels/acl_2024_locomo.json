@@ -1,0 +1,88 @@
+{
+  "paper_id": "acl_2024_locomo",
+  "venue": "ACL 2024",
+  "budget": 3,
+  "observed_panel": [
+    "mistralai/Mistral-7B-Instruct-v0.2",
+    "meta-llama/Llama-2-70b-chat-hf",
+    "meta-llama/Meta-Llama-3-70B-Instruct"
+  ],
+  "observed_panel_resolved": [
+    "variant::mistral::mistral::7b::instruct",
+    "variant::llama::llama2::70b::chat",
+    "variant::llama::llama3::70b::instruct"
+  ],
+  "observed_scores": {
+    "Ga": 1.916486,
+    "B": 0.005382,
+    "Dinf": 0.886416,
+    "C0": 0.000242
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::t5::t5::60m::seq2seq"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gpt2::gpt2::126m::base"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.369569,
+      "B": 0.005403,
+      "Dinf": 0.626492,
+      "C0": 0.000242
+    },
+    "greedy_breadth": {
+      "Ga": 1.999952,
+      "B": 0.007256,
+      "Dinf": 0.542212,
+      "C0": 0.000242
+    },
+    "hybrid": {
+      "Ga": 1.523877,
+      "B": 0.006016,
+      "Dinf": 0.626492,
+      "C0": 0.000242
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.392609,
+    "delta_B": 0.000635,
+    "delta_Dinf": 0.259924,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::llama::llama2::70b::chat",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.292153,
+      "new_Ga": 1.624333
+    },
+    {
+      "remove": "variant::llama::llama3::70b::instruct",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.28921,
+      "new_Ga": 1.627275
+    },
+    {
+      "remove": "variant::mistral::mistral::7b::instruct",
+      "remove_family": "mistral",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.258051,
+      "new_Ga": 1.658435
+    }
+  ]
+}

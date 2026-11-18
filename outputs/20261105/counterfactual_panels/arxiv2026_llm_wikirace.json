@@ -1,0 +1,153 @@
+{
+  "paper_id": "arxiv2026_llm_wikirace",
+  "venue": "arXiv",
+  "budget": 16,
+  "observed_panel": [
+    "deepseek-ai/DeepSeek-R1",
+    "moonshotai/Kimi-K2",
+    "meta-llama/Llama-3.2-1B-Instruct",
+    "meta-llama/Llama-3.2-3B-Instruct",
+    "meta-llama/Meta-Llama-3-8B-Instruct",
+    "meta-llama/Meta-Llama-3-70B-Instruct",
+    "google/gemma-3-4b-it",
+    "google/gemma-3-12b-it",
+    "google/gemma-3-27b-it",
+    "swiss-ai/Apertus-8B-Instruct",
+    "swiss-ai/Apertus-70B-Instruct",
+    "mistralai/Mistral-7B-Instruct",
+    "mistralai/Ministral-8B-Instruct",
+    "Qwen/Qwen2.5-7B-Instruct",
+    "Dream-org/Dream-v0-Instruct-7B",
+    "GSAI-ML/LLaDA-8B-Instruct"
+  ],
+  "observed_panel_resolved": [
+    "variant::deepseek::deepseek-r1::684b::reasoning",
+    "variant::smollm::smollm2::135m::instruct",
+    "variant::llama::llama3.2::1b::instruct",
+    "variant::llama::llama3.2::3b::instruct",
+    "variant::llama::llama3::8b::instruct",
+    "variant::llama::llama3::70b::instruct",
+    "variant::gemma::gemma3::4b::instruct",
+    "variant::gemma::gemma3::12b::instruct",
+    "variant::gemma::gemma3::27b::code",
+    "variant::apertus::apertus::8b::instruct",
+    "variant::apertus::apertus::70b::instruct",
+    "variant::mistral::mistral::7b::instruct",
+    "variant::mistral::mistral::8b::instruct",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::dream::dream::7b::instruct",
+    "variant::llada::llada::8b::instruct"
+  ],
+  "observed_scores": {
+    "Ga": 1.767883,
+    "B": 0.006581,
+    "Dinf": 0.803668,
+    "C0": 0.001291
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::qwen::qwen3::14b::base",
+    "variant::qwen::qwen3::4b::base",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::qwen::qwen3::1.7b::base",
+    "variant::qwen::qwen3::8b::base",
+    "variant::llama::llama3.1::8b::instruct",
+    "variant::gpt2::gpt2::126m::unknown-role",
+    "variant::gpt-oss::gpt-oss::20b::base",
+    "variant::nemotron::nemotron::30b::instruct",
+    "variant::mistral::mistral::7b::instruct",
+    "variant::t5::t5::220m::base",
+    "variant::qwen::qwen2.5::1.5b::instruct",
+    "variant::llama::llama3.2::1b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::mininlm::mininlm::46m::unknown-role",
+    "variant::vbq::vbq::100m::instruct",
+    "variant::lfm-omni-dualhead::lfm-omni-dualhead::2b::code",
+    "variant::sentinel-r08-geodesic-v7-2a::sentinel-r08-geodesic-v7-2a::52m::instruct",
+    "variant::lfm3-omni::lfm3-omni::2b::instruct",
+    "variant::numbat-truncated::numbat-truncated::4.7b::unknown-role",
+    "variant::nano-ncm::nano-ncm::35m::code",
+    "variant::vistarc::vistarc::80m::code",
+    "variant::zhihu::zhihu::0.3b::code",
+    "variant::urdu-words2sentence::urdu-words2sentence::17m::code"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::qwen::qwen3::14b::base",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::qwen::qwen3::4b::base",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::mininlm::mininlm::46m::unknown-role",
+    "variant::qwen::qwen3::1.7b::base",
+    "variant::vbq::vbq::100m::instruct",
+    "variant::qwen::qwen3::8b::base",
+    "variant::lfm-omni-dualhead::lfm-omni-dualhead::2b::code"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 0.903393,
+      "B": 0.005536,
+      "Dinf": 0.491829,
+      "C0": 0.001291
+    },
+    "greedy_breadth": {
+      "Ga": 1.999718,
+      "B": 0.015503,
+      "Dinf": 0.146859,
+      "C0": 0.001291
+    },
+    "hybrid": {
+      "Ga": 1.227691,
+      "B": 0.010482,
+      "Dinf": 0.374362,
+      "C0": 0.001291
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.540191,
+    "delta_B": 0.003901,
+    "delta_Dinf": 0.429306,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::apertus::apertus::70b::instruct",
+      "remove_family": "apertus",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.124962,
+      "new_Ga": 1.642921
+    },
+    {
+      "remove": "variant::gemma::gemma3::27b::code",
+      "remove_family": "gemma",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.124896,
+      "new_Ga": 1.642987
+    },
+    {
+      "remove": "variant::gemma::gemma3::4b::instruct",
+      "remove_family": "gemma",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.124765,
+      "new_Ga": 1.643118
+    }
+  ]
+}

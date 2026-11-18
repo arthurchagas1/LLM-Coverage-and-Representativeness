@@ -1,0 +1,7 @@
+comparison,value
+"kendall_tau(exact_only, posterior)",0.8583509513742071
+"kendall_tau(exact_only, descendant_expansion)",0.6744186046511628
+papers_with_ambiguous_mentions,24.0
+mean_expansion_inflation_factor,2.6461419876691066
+max_expansion_inflation_factor,27.0
+mean_C0_posterior_over_expansion,0.5912417848444081

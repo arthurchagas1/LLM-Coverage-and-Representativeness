@@ -1,0 +1,8 @@
+population_id,description,conditioning_dimension,global_support_size,global_support_fraction
+all_textual,All variants in the primary text-generative ecosystem,none,12398,1.0
+assistant_models,"Instruction-, chat-, or reasoning-oriented variants",model_role,3003,0.24221648653008548
+reasoning_models,Variants classified with the reasoning functional role,model_role,799,0.06444587836747863
+code_models,Variants classified with the code functional role,model_role,2573,0.20753347314082918
+base_models,Untuned base-model variants,model_role,1991,0.1605904178093241
+small_models_le_13b,Variants in known size buckets up to and including 13B,size_bucket,9168,0.7394741087272141
+large_models_ge_34b,Variants in known size buckets of 34B or larger,size_bucket,1440,0.11614776576867236

@@ -1,0 +1,68 @@
+{
+  "release": "20261105",
+  "seed": 20261117,
+  "population_repositories": 414075,
+  "strata": {
+    "small": {
+      "sampled": 50,
+      "population": 4420
+    },
+    "medium": {
+      "sampled": 50,
+      "population": 12705
+    },
+    "panel": {
+      "sampled": 40,
+      "population": 355
+    },
+    "singleton": {
+      "sampled": 40,
+      "population": 792
+    },
+    "large": {
+      "sampled": 60,
+      "population": 396118
+    }
+  },
+  "tiers": {
+    "singleton": [
+      1,
+      1
+    ],
+    "small": [
+      2,
+      49
+    ],
+    "medium": [
+      50,
+      999
+    ],
+    "large": [
+      1000,
+      1000000000000
+    ]
+  },
+  "batches": {
+    "1": {
+      "small": 13,
+      "medium": 12,
+      "panel": 10,
+      "singleton": 10,
+      "large": 15
+    },
+    "2": {
+      "small": 12,
+      "medium": 13,
+      "panel": 10,
+      "singleton": 10,
+      "large": 15
+    },
+    "3": {
+      "small": 25,
+      "medium": 25,
+      "panel": 20,
+      "singleton": 20,
+      "large": 30
+    }
+  }
+}

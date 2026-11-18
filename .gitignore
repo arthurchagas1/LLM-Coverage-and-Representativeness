@@ -1,0 +1,31 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Run logs
+logs/
+
+# Regenerated intermediates (rebuilt by run_all_experiments.py)
+data/oome_lineages_*/
+outputs/*/cache/
+outputs/*/paper_contexts.pkl
+outputs/*/*.ipynb
+
+# Full raw snapshot files (git holds the reduced parts, *.flat.part-NN.parquet) and new collections
+data/hf_snapshots_*/*.flat.parquet
+data/hf_snapshots_*/*.jsonl.gz
+data/hf_snapshots_new/
+
+# Written only by the cleaning step when it runs from the raw snapshot (--with-clean)
+data/oome_clean_*/oome_broad_clean.parquet
+data/oome_clean_*/oome_multimodal_language.parquet
+data/oome_clean_*/oome_noncore_language_like.parquet
+data/oome_clean_*/oome_rejected.parquet
+
+# Full text of the audited papers (fetched by the paper_dates step with --network; not redistributed)
+data/paper_fulltext/
+
+# Annotation site log
+annotation/server.log

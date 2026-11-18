@@ -1,0 +1,15 @@
+stratum,venue_short,year,papers
+"AAAI, ICLR, NeurIPS, ICML",ICLR,2025.0,9
+"AAAI, ICLR, NeurIPS, ICML",ICLR,2026.0,5
+"AAAI, ICLR, NeurIPS, ICML",ICML,2025.0,3
+"AAAI, ICLR, NeurIPS, ICML",NEURIPS,2024.0,1
+"AAAI, ICLR, NeurIPS, ICML",NEURIPS,2025.0,1
+ACL Anthology,ACL,2024.0,6
+ACL Anthology,ACL Findings (all),2024.0,5
+ACL Anthology,ACL Findings (all),2025.0,4
+ACL Anthology,EMNLP,2024.0,4
+ACL Anthology,NAACL,2024.0,1
+Unspecified,Unspecified,2025.0,1
+arXiv or preprint,arXiv or preprint,2025.0,6
+arXiv or preprint,arXiv or preprint,2026.0,3
+arXiv or preprint,arXiv or preprint,,1

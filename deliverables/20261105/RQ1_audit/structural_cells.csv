@@ -1,0 +1,17 @@
+observed_structural_partition,observed_structural_cell,papers
+stage,instruction_or_chat_tuned,10
+family,llama,9
+role,instruct,8
+series,deepseek / deepseek-r1,2
+size,13B-34B,2
+size,7B-13B,2
+series,qwen / qwen2.5,2
+series,llama / llama3.1,2
+size,unknown,2
+base,qwen / qwen3 / base::qwen::qwen3::235b,1
+family,deepseek,1
+family,mistral,1
+family,qwen,1
+size,180B+,1
+size,<1B,1
+stage,task_or_domain_specialized,1

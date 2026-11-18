@@ -1,0 +1,103 @@
+{
+  "paper_id": "findings_naacl_2025_flex",
+  "venue": "Findings of NAACL 2025",
+  "budget": 6,
+  "observed_panel": [
+    "meta-llama/Llama-2-7b-chat-hf",
+    "meta-llama/Llama-2-13b-chat-hf",
+    "meta-llama/Meta-Llama-3-8B-Instruct",
+    "upstage/SOLAR-10.7B-Instruct-v1.0",
+    "mistralai/Mistral-7B-Instruct-v0.2",
+    "google/gemma-1.1-7b-it"
+  ],
+  "observed_panel_resolved": [
+    "variant::llama::llama2::7b::chat",
+    "variant::llama::llama2::13b::chat",
+    "variant::llama::llama3::8b::instruct",
+    "variant::solar::solar::10.7b::instruct",
+    "variant::mistral::mistral::7b::instruct",
+    "variant::gemma::gemma::7b::instruct"
+  ],
+  "observed_scores": {
+    "Ga": 1.89764,
+    "B": 0.005476,
+    "Dinf": 0.886416,
+    "C0": 0.000484
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen3::14b::base",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::llama::llama3.1::8b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::yebb-dense::yebb-dense::0.8b::code"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::vault-v2-5::vault-v2-5::180m::code"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.163056,
+      "B": 0.005419,
+      "Dinf": 0.499362,
+      "C0": 0.000484
+    },
+    "greedy_breadth": {
+      "Ga": 1.999903,
+      "B": 0.009159,
+      "Dinf": 0.247398,
+      "C0": 0.000484
+    },
+    "hybrid": {
+      "Ga": 1.463239,
+      "B": 0.007306,
+      "Dinf": 0.325163,
+      "C0": 0.000484
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.434401,
+    "delta_B": 0.00183,
+    "delta_Dinf": 0.561253,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::llama::llama2::13b::chat",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.200608,
+      "new_Ga": 1.697032
+    },
+    {
+      "remove": "variant::solar::solar::10.7b::instruct",
+      "remove_family": "solar",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.200033,
+      "new_Ga": 1.697607
+    },
+    {
+      "remove": "variant::llama::llama2::7b::chat",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.199912,
+      "new_Ga": 1.697728
+    }
+  ]
+}

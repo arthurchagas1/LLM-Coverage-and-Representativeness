@@ -1,0 +1,98 @@
+{
+  "paper_id": "icml_010",
+  "venue": "ICML 2025",
+  "budget": 5,
+  "observed_panel": [
+    "deepseek-ai/DeepSeek-R1",
+    "meta-llama/Llama-3-70B-Instruct",
+    "Qwen/Qwen2-72B-Instruct",
+    "mistralai/Mixtral-8x7B-Instruct",
+    "cognitivecomputations/Dolphin-2.9-Llama3-70B"
+  ],
+  "observed_panel_resolved": [
+    "variant::deepseek::deepseek-r1::684b::reasoning",
+    "variant::llama::llama3::70b::instruct",
+    "variant::qwen::qwen2::72b::instruct",
+    "variant::mistral::mixtral::8x7b::instruct",
+    "variant::llama::llama3::70b::instruct"
+  ],
+  "observed_scores": {
+    "Ga": 1.835342,
+    "B": 0.005423,
+    "Dinf": 0.728668,
+    "C0": 0.000323
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::llama::llama3.1::8b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::t5::t5::60m::seq2seq"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.225298,
+      "B": 0.005419,
+      "Dinf": 0.491829,
+      "C0": 0.000403
+    },
+    "greedy_breadth": {
+      "Ga": 1.999919,
+      "B": 0.008525,
+      "Dinf": 0.247398,
+      "C0": 0.000403
+    },
+    "hybrid": {
+      "Ga": 1.441988,
+      "B": 0.006671,
+      "Dinf": 0.491829,
+      "C0": 0.000403
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.393354,
+    "delta_B": 0.001249,
+    "delta_Dinf": 0.236839,
+    "delta_C0": 8.1e-05
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::llama::llama3::70b::instruct",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.21497,
+      "new_Ga": 1.620372
+    },
+    {
+      "remove": "variant::deepseek::deepseek-r1::684b::reasoning",
+      "remove_family": "deepseek",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.20982,
+      "new_Ga": 1.625522
+    },
+    {
+      "remove": "variant::mistral::mixtral::8x7b::instruct",
+      "remove_family": "mistral",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.194761,
+      "new_Ga": 1.640581
+    }
+  ]
+}

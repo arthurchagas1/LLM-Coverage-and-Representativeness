@@ -1,0 +1,192 @@
+================================================================================
+OOME CLEANING V2 SUMMARY
+================================================================================
+Input file: data/hf_snapshots_20261105/hf_model_snapshot_all_hub_models_20261105T020806Z.flat.parquet
+Input rows: 3,213,895
+Broad clean rows: 484,825
+Core text LLM rows: 425,223
+Multimodal-language rows: 20,196
+Noncore language-like rows: 39,406
+Rejected rows: 2,729,070
+Broad clean fraction: 0.1509
+Core among broad fraction: 0.8771
+
+Top rejection reasons:
+  - low_llm_relevance_score: 1,855,405
+  - no_weight_files_detected: 1,036,002
+  - adapter_or_lora_variant: 651,550
+  - quantized_or_compressed_variant: 425,246
+  - checkpoint_or_intermediate_artifact: 268,904
+  - hard_excluded_pipeline:text-to-image: 113,230
+  - hard_excluded_pipeline:reinforcement-learning: 80,238
+  - hard_excluded_pipeline:robotics: 39,252
+  - hard_excluded_pipeline:automatic-speech-recognition: 39,058
+  - hard_excluded_pipeline:image-classification: 30,319
+  - hard_excluded_pipeline:text-to-speech: 9,369
+  - hard_excluded_pipeline:object-detection: 7,403
+  - hard_excluded_pipeline:audio-classification: 5,403
+  - hard_excluded_pipeline:image-to-image: 4,454
+  - hard_excluded_pipeline:image-segmentation: 3,908
+  - hard_excluded_pipeline:text-to-audio: 3,660
+  - hard_excluded_pipeline:text-to-video: 3,037
+  - hard_excluded_pipeline:unconditional-image-generation: 2,825
+  - hard_excluded_pipeline:video-classification: 2,277
+  - hard_excluded_pipeline:image-to-video: 1,913
+  - hard_excluded_pipeline:audio-to-audio: 1,822
+  - hard_excluded_pipeline:image-feature-extraction: 1,764
+  - hard_excluded_pipeline:tabular-classification: 1,254
+  - hard_excluded_pipeline:time-series-forecasting: 1,049
+  - hard_excluded_pipeline:image-text-to-image: 1,041
+  - hard_excluded_pipeline:depth-estimation: 767
+  - hard_excluded_pipeline:tabular-regression: 646
+  - hard_excluded_pipeline:voice-activity-detection: 374
+  - hard_excluded_pipeline:mask-generation: 363
+  - hard_excluded_pipeline:zero-shot-object-detection: 143
+
+Top warnings among broad clean:
+  - missing_language_metadata: 403,526
+  - missing_base_model_metadata: 368,256
+  - missing_license: 318,219
+  - merge_model: 30,984
+  - gated_model: 13,759
+  - classifier_or_task_specific_like: 10,115
+  - embedding_or_retrieval_like: 5,421
+  - noncore_language_pipeline:text-classification: 4,311
+  - encoder_only_or_masked_lm_like: 4,224
+  - noncore_language_pipeline:feature-extraction: 2,840
+  - noncore_language_pipeline:fill-mask: 1,642
+  - noncore_language_pipeline:sentence-similarity: 961
+  - noncore_language_pipeline:token-classification: 848
+  - non_language_or_modal_type: 765
+  - duplicate_sha: 211
+  - noncore_language_pipeline:text-ranking: 179
+  - noncore_language_pipeline:zero-shot-classification: 144
+  - noncore_language_pipeline:table-question-answering: 44
+
+Top core pipeline tags:
+  - text-generation: 228,282
+  - MISSING: 179,164
+  - translation: 9,268
+  - any-to-any: 4,939
+  - summarization: 2,215
+  - question-answering: 1,250
+  - multiple-choice: 48
+  - visual-document-retrieval: 20
+  - other: 18
+  - text-to-3d: 7
+  - image-to-3d: 6
+  - graph-ml: 2
+  - image-text-to-video: 1
+  - video-to-video: 1
+  - keypoint-detection: 1
+  - table-to-text: 1
+
+Top core model families:
+  - qwen: 121,018
+  - llama: 117,426
+  - gpt2: 34,341
+  - t5: 24,033
+  - mistral: 23,675
+  - gemma: 21,802
+  - marian: 9,334
+  - stablelm: 6,770
+  - MISSING: 6,617
+  - gpt_neox: 6,067
+  - bart: 5,855
+  - phi: 5,354
+  - olmo: 5,097
+  - mt5: 4,226
+  - mbart: 2,842
+  - mixtral: 1,538
+  - opt: 1,442
+  - falcon: 1,315
+  - deepseek: 1,272
+  - glm: 1,164
+  - pegasus: 1,148
+  - m2m_100: 1,104
+  - gpt_neo: 1,051
+  - bloom: 1,047
+  - gpt_oss: 1,033
+  - gpt-neo: 950
+  - chess_transformer: 931
+  - mamba: 839
+  - lfm2: 722
+  - pico_decoder: 499
+  - starcoder: 424
+  - granite: 399
+  - gpt_optimized: 392
+  - gptj: 372
+  - mpt: 362
+  - rwkv: 358
+  - smollm3: 356
+  - codegen: 327
+  - llava: 289
+  - nemotron_h: 272
+
+Top multimodal-language pipeline tags:
+  - image-text-to-text: 18,551
+  - image-to-text: 719
+  - video-text-to-text: 382
+  - visual-question-answering: 291
+  - audio-text-to-text: 248
+  - document-question-answering: 5
+
+Top noncore pipeline tags:
+  - MISSING: 22,158
+  - text-classification: 4,311
+  - text-generation: 3,498
+  - feature-extraction: 2,840
+  - fill-mask: 1,642
+  - multiple-choice: 1,156
+  - sentence-similarity: 961
+  - token-classification: 848
+  - translation: 755
+  - question-answering: 323
+  - text-ranking: 179
+  - zero-shot-classification: 144
+  - any-to-any: 115
+  - image-text-to-video: 114
+  - summarization: 97
+  - image-text-to-text: 80
+  - table-question-answering: 44
+  - visual-document-retrieval: 39
+  - other: 28
+  - video-to-video: 22
+  - image-to-3d: 19
+  - text-retrieval: 11
+  - keypoint-detection: 9
+  - graph-ml: 8
+  - zero-shot-image-classification: 4
+  - table-to-text: 1
+
+Examples by rejection reason:
+  - low_llm_relevance_score: ['CalmCampus/calmcampus-reframe-1.7b-bf16', 'ASD12DS1DAS/MyAwesomeModel-TestRepository', 'Unique007/microduck-tug-dat-v3', 'RunningHubAI/rh-lora-6-lora', 'krishnamanja/brain-tumor-model', 'Ilham69/itr-i4ct2g-04ac2174-ship', 'RunningHubAI/rh-lora-5-lora-2082738526155776001', 'rezoryt/emmaB', 'isyamada/work-data-efficient-learning', 'RunningHubAI/rh-lora-5-lora', 'mradermacher/LightOnOCR-3-4B-MTP-Repacked-GGUF', 'adipotnis/pi05-droid-cofactvla-droid-init']
+  - no_weight_files_detected: ['CalmCampus/calmcampus-reframe-1.7b-bf16', 'Unique007/microduck-tug-dat-v3', 'krishnamanja/brain-tumor-model', 'mradermacher/plamo-3-translate-0.8b-GGUF', 'anton-ro/ingo-corpus', 'yyuan244/hop2-tb-replay3-trsns2oht-geo-gs220', 'divy11222/multilingual-stt-w2v', 'yyuanuw/hop2-tb-replay3-trsns2oht-geo-gs220', 'poplolioi11/deep-rl-unit5-pyramids-20261105', 'seotarek/medorqis-hakim-6b', 'huuhuyng/attune-i47-recovery', 'HojoAI/Hojo-TTS-Light-40M-V2']
+  - hard_excluded_pipeline:robotics: ['Unique007/microduck-tug-dat-v3', 'Donghyun1228/pi05-libero-lape-k10-yaw10-lam0p05-lr1e-5-10000-20261104', 'roboticascent/graspgenx-so101', 'mrrl-emcnei/smolvla_l3r2_acbag-slidelift-pick', 'kamus1018/bib_c2', 'fecasado/gfm-kitchen-toasts-22dF', 'alexhegit/so101-simstudio-rax-drawer-act-rgbd-place100d', 'alexhegit/so101-simstudio-rax-drawer-act-rgb-place100d', 'Dongkkka/GR00T-N1.7-PaperTowelBasket-895-896-907-912-RightArm8-150k-20261105', 'Muhammad241198/act_M12_toolrem_210', 'DrainpipeAI/feather_test_70eps', 'Muhammad241198/act_M12_toolrem_180']
+  - adapter_or_lora_variant: ['RunningHubAI/rh-lora-6-lora', 'CalmCampus/calmcampus-reframe-1.7b-4bit', 'RunningHubAI/rh-lora-5-lora-2082738526155776001', 'RunningHubAI/rh-lora-5-lora', 'RunningHubAI/rh-lora-4-lora', 'RunningHubAI/rh-lora-3-lora', 'RunningHubAI/rh-lora-2-lora', 'RunningHubAI/rh-lora-1-lora', 'RunningHubAI/rh-lora-01-lora', 'seotarek/medorqis-hakim-6b', 'chadstthomas/CTRL-0.6B', 'tianyagk/krea2-loras']
+  - quantized_or_compressed_variant: ['CalmCampus/calmcampus-reframe-1.7b-4bit', 'mradermacher/LightOnOCR-3-4B-MTP-Repacked-GGUF', 'mradermacher/flash-sqlite-4b-GGUF', 'mradermacher/plamo-3-translate-0.8b-GGUF', 'chadstthomas/CTRL-0.6B', 'mradermacher/LibreDeepSeekOCR1-GGUF', 'tokiryo/Qwen3.8-Flash-Next-UD-IQ1_S-Strata-GGUF', 'maxh8086/tokenfrugal-wan2.2-ti2v-5b-turbo-q4km', 'maxh8086/tokenfrugal-t5xxl-fp8', 'maxh8086/tokenfrugal-flux1-kontext-dev-q4km', 'maxh8086/tokenfrugal-mage-flow-int8', 'maxh8086/tokenfrugal-qwen3vl-4b-fp8']
+  - hard_excluded_pipeline:reinforcement-learning: ['poplolioi11/deep-rl-unit5-pyramids-20261105', 'poplolioi11/deep-rl-unit8-doom-20261105', 'kushasareen/qwen35-9b-ft-c300', 'suryeon123/connectailab-rl-suryeon-kim-v2-1-humanoid-delivery-ppo', 'poplolioi11/deep-rl-unit5-snowball-20261105', 'kushasareen/qwen35-9b-ft-c200', 'poplolioi11/deep-rl-unit4-pixelcopter-20261105', 'poplolioi11/deep-rl-unit3-atari-20261105', 'kushasareen/qwen35-9b-ft-c100', 'kareyoung09/connectailab-rl-kay09-allstar-v1-link01', 'kareyoung09/connectailab-rl-kay09-yeonsangun-route-v1-link01', 'kareyoung09/connectailab-rl-kay09-yeonsangun-obstacle-v1-link01']
+  - checkpoint_or_intermediate_artifact: ['backup-enter-someone-broken/Ling-QSA-HashKV-CPT-backups', 'seancspkim/finetuned-diffusiondrafter-qwen3-8b', 'mhseo2/opd_sftb8ot3e10lr8e-5_s1600_qwen3moe30b_ot3math-step50', 'roboticascent/graspgenx-so101', 'Cisco1963/llmplasticity-zh_nl_instant_8-rand-d0.5-c0.99-r0.8-s42', 'DFveloper/lumen-recovery-checkpoints', 'unl-reset/tofu-phi-1_5-locuslabft-unlresetoracle-forget10-ihl_head-epoch04', 'unl-reset/tofu-phi-1_5-locuslabft-unlresetoracle-forget10-ihl_head-epoch03', 'unl-reset/tofu-phi-1_5-locuslabft-unlresetoracle-forget10-ihl_head-epoch02', 'unl-reset/tofu-phi-1_5-locuslabft-unlresetoracle-forget10-ihl_head-epoch01', 'FaiasPromit/HaploLM', 'Cisco1963/llmplasticity-zh_nl_instant_8-rand-d0.006-c0.99-r0.2-s42']
+  - hard_excluded_pipeline:text-to-speech: ['novainspireofficial/ilda-voice', 'hthuatong/s2-pro', 'tomzhengy/socrates-pocket-tts-onnx', 'MatterWaveAI/grt-30m-tts', 'PraxySante/CS_VITS_medical_16k', 'Infinix-io/maya2-native', 'danielgloo/swahili-drc', 'deinhofe/pocket-tts-onnx', 'sw-voice/qwen3-tts-12hz-1.7b-swamiji-te-chartok-navaratri-only-lr1e-6-9ep', 'sw-voice/qwen3-tts-12hz-1.7b-swamiji-te-chartok-navaratri-only-lr1e-6-17ep', 'muhammedekinci/yazgi-tts-1-safe', 'sw-voice/qwen3-tts-12hz-1.7b-telugu-chartok-indictts-sft-lr1e-6-2ep']
+  - hard_excluded_pipeline:image-segmentation: ['litert-community/fcn_resnet101', 'litert-community/deeplabv3_mobilenet_v3_large', 'toqi/Gasformer', 'ai-hhmi/lmd-vitl-p8-affinity-scratch', 'ai-hhmi/lmd-vitl-p8-affinity-lvd', 'leeely/segformer-b2-turkey-building-damage', 'KhangTruong/Detective-SAM-small-Casia-v2.0', 'AbdelrahmanU3/deepforest_UNet_OAM', 'eurocontrol-asu/deepcontrail-segmentation', 'dexsholex/unet-roof-material', 'EladY/captor', 'clevr-tools/birefnet-lite-web']
+  - hard_excluded_pipeline:tabular-regression: ['Lukit4as/lucas-keras-regresion', 'Lukit4as/lucas-pytorch-regresion', 'Lukit4as/lucas-sklearn-regresion', 'Queimo/cyp-regression-reproduction-20261029', 'At1uri/stochastic-volatility-calibrator', 'mtu-sdh-agile-avengers/agentic_lender', 'Elpriser/gb-price-estimate', 'Elpriser/eu-price-forecast', 'sebsmedina/keras_regression', 'sebsmedina/pytorch_regression', 'AraceliAmherdt/03-keras-regresion', 'AraceliAmherdt/02-pytorch-regresion']
+  - hard_excluded_pipeline:text-to-image: ['TigerFan69/Krea-2-Violet-v1', 'TigerFan69/Krea-2-Amber-v1', 'TigerFan69/Krea-2-Amanda-v1', 'diablomike20/Qwen-Image-2.1-LoRAs', 'RunningHubAI/rh-piano-girl-lora', 'ununununununununununununununununununun/sd-turbo-phi-lattice-v2', 'cpral/HomeIMG-641M-PL-stage1', 'Jakes09/Flux-NSFW-uncensored', 'RunningHubAI/rh-niji-midjourney-aestheticz-image-turbo-lora', 'RunningHubAI/rh-zimage-turbo-043-10000-lora', 'MusicForge/cover-realvisxl-v5-lightning-6bit-v2', 'RunningHubAI/rh-tang-klein-v1.0-lora']
+  - hard_excluded_pipeline:tabular-classification: ['Jonatasperaza/s9c-jena-rain-nowcaster', 'ununununununununununununununununununun/breast-cancer-wisconsin-phi-lattice-v2', 'ununununununununununununununununununun/breast-cancer-wisconsin-phi-lattice', 'SalehMammadli/the-primer-v2', 'kurtulus7182/SEPrimer', 'CemErsen/primer-v2-mudahale-onnx', 'gonulnazire/primer-refleks-onnx', 'MiguelAngelAB/unsw-nb15-defiende-servidor', 'Kubra37/se-primer-zorluk', 'baranozbey/nexusprimer-adaptive-model', 'burcuuysal/primer-v2-zorlanma', 'Dreemurr0/radyoai-risk-onnx']
+  - hard_excluded_pipeline:image-text-to-image: ['RunningHubAI/rh-allisson-lora', 'RunningHubAI/rh-maddy-moledora-lora', 'RunningHubAI/rh-victoria-lora', 'RunningHubAI/rh-krea2-t-ai8-lora', 'RunningHubAI/rh-krea2-turbo-bf16-unet-2084462727153958913', 'RunningHubAI/rh-mey-lora', 'RunningHubAI/rh-hkretouch-lora', 'RunningHubAI/rh-emiliya212-lora', 'RunningHubAI/rh-krea2-turbo-int4-convrot-comfyui.safetensors-unet', 'RunningHubAI/rh-role-splitting-lora', 'RunningHubAI/rh-2101535305546420226-lora', 'RunningHubAI/rh-krea2-r-lokr-lora']
+  - hard_excluded_pipeline:automatic-speech-recognition: ['qualcomm/Parakeet-TDT-0.6B-v3', 'marcosremar2/acft-whisper-large-v3-ggml', 'lofcz/VibeVoice-CSK1', 'prithivMLmods/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-GGUF', 'LooNuH/loom-wav2vec2-ja-onnx', 'LooNuH/loom-wav2vec2-ru-onnx', 'Selbyggen/nb-whisper-medium-coreml', 'PrinceAlhassanNasamu/tekyerema-asr-dag', 'turkish-sa-asr/kashgari-large-v1.0', 'turkish-sa-asr/bitig-large-v1.0', 'ahdrage/norwegian-parakeet', 'AhmedAttia3/sanad-egy-whisper-turbo-int8']
+  - hard_excluded_pipeline:image-classification: ['qualcomm/NetVLAD', 'Sumsub/aladdin-detector', 'ununununununununununununununununununun/vit-base-breast-cancer-phi-lattice-v2', 'david-b59/brain-tumor-classifier', 'kindredsp/siglip2-explicit-content-onnx', 'aryan-sentlyx/glimmer-system-one-heads', 'ununununununununununununununununununun/vit-base-breast-cancer-phi-lattice', 'padam5699/pets-convnext-sagemaker', 'cboonthum/my_awesome_food_model', 'UberCuber/smai-a4-cifar10-ioc-nn', 'UberCuber/smai-a4-cifar10-mlp', 'Oprockyvai/Silent-Face-Anti-Spoofing-LiteRT']
+  - hard_excluded_pipeline:audio-to-audio: ['bmarti44/before-the-implant-causal-enhancer', 'pymss-project/BS-Roformer-HyperACE-Chinese-FolkOpera', 'Acapellas/htdemucs-ft-onnx', 'Acapellas/Mini-BS-RoFormer-V2.5-46.2M', 'Moipee/MossFormer2-SS-16K-CoreML', 'claudemama/s2s-timing16-fresh-hf3-001', 'Koptev/mossformer2-se-48k-coreml', 'HY-2012/AudioSR.AXERA', 't4t2k1m/metronitor-htdemucs-onnx', 'PhantomVoidTTV/NebulaMapper', 'jsbeaudry/Sidon-ONNX-web', 'giangndm/NVIDIA-NemotronLabs-RE-USE-laughter-bf16']
+  - hard_excluded_pipeline:image-to-video: ['taurusduan/Minimax-h3_Singularity', 'brandow1984/Wan2.2-S2V-14B', 'taurusduan/Pika-H3-Flex-Turbo-LoRA', 'zalastra/Pika-H3-Flex', 'Riyan200324200324/Wan2.1-I2V-14B-480P-gguf', 'amanim71/UGG', 'mbao827/seeing_the_unseen', 'FenomAI/Minimax-h3_Singularity', 'FenomAI/Minimax-h3-Singularity-V2-Pruned-GGUF', 'JoshHughes/sana-video2-firstframe-lora', 'zfkuang/StreetNVS', 'infosave/Kandinsky-S2V-1.0-Pro-distill-cmf']
+  - hard_excluded_pipeline:audio-classification: ['SOTAagi2030/Habitat-Acoustic-Experts-291', 'cmu-mlsp/Curry', 'thalovant/zeligui-wakeword', 'thalovant/guezilo-wakeword', 'thalovant/zoguilo-wakeword', 'thalovant/thalovant-wakeword', 'ArmanSandhu1729/voiceshield-hindi-english-deepfake-v2', 'sitatech/Smart-Turn-v3.2-ONNX', 'samthehugenerd/Smart-Turn-Topo', 'AtharvIITB/meow-decoder', 'ThakiCloud/Thaki-VoiceSpoof-W2V2-Large', 'syvai/tie']
+  - hard_excluded_pipeline:object-detection: ['daros10/road-damage-yolov8s-quito-mobile', 'FootnotesExtractor/footnotes-extractor-models', 'jainarchita/ppe-yolov8s-bf16-modalix', 'zaltahir/kaptchaocr-medium-det', 'zaltahir/kaptchaocr-small-det', 'AllanDai/freightlens-yolo11n-loco', 'AeroPilot/AeroPilot-v1', 'kroya2006/dirty-room', 'Subh775/yolo26s-hardhat', 'TechsphereAI/FactoryVision-PPE-YOLO', 'cryptolake/vehicle-hybrid-research', 'fastforks/rtdetrv2']
+  - hard_excluded_pipeline:text-to-video: ['Spectrallic/MiniMax-H3-LightX2V-int8-convrot', 'karlsencoin/Wan2.2-TI2V-5B-Turbo-FastWan-Q8_0-GGUF', 'RunningHubAI/rh-minimax-h3-ref2va-pruned-zs05-int8-convrot.safetensors-unet', 'RunningHubAI/rh-teste-unet', 'RunningHubAI/rh-minimax-h3-fl2va-pruned-int8-unet', 'manateelazycat/Pika-H3-Flex-Turbo-LoRA-AIPod', 'rzgar/TaoMate-HD-preview-T2V-Comfy', 'Riyan200324200324/Wan2.1-T2V-14B-gguf', 'Spectrallic/MiniMax-H3-PDMD-4step-int8-convrot', 'Jjausiiwowi/Wan2.2-TI2V-5B', 'thedefine/Wan2.2-T2V-A14B-GGUF', 'jaxbaxxxxxx/HunyuanVideo']
+  - hard_excluded_pipeline:mask-generation: ['avencera/sam3-safetensors', 'tariqkhalif/slimsam-77-crack', 'Q-P1NG/edgetam', 'MedMLX/sam3-interactive', 'heypatkay/solume-sam3-coreml', 'wkentaro/sam3-onnx-models-v0.6.0', 'wW-Ww/sam3-ONNX', 'bf0820/VQ-SAM', 'sdoqb15/sam3-shelf-d2-2261', 'sdoqb15/sam3-shelf-c7a-2380', 'imagingforgood/sam2.1-hiera-tiny-onnx', 'wkentaro/sam3-onnx-models-v0.5.0']
+  - hard_excluded_pipeline:image-to-image: ['KryptykAngel/qwen-image-edit-uncensored-GGUF', 'TAKOCOS/FLUX.2-klein-base-4B', 'cvprsubmission/stereodiffgen', 'cokeadrink/moss-image-edit', 'benzo86/FLUX.2-klein-9B-kv-bnb-int8', 'toxicdog/qwen-image-edit-2511-mlx-int4', 'selective-image-analogy/SIA-weights', 'benzo86/FLUX.2-klein-base-9B-bnb-int8', 'benzo86/FLUX.2-klein-base-9B-bnb-nf4', 'ZhLa/dont-judge-env-lora-flux2-klein-base', 'mtaelp/koharu-nvfp4-qwen-image-2.1-turbo-gguf', 'LibreYOLO/LibreDPFlowm-flow-spring']
+  - hard_excluded_pipeline:text-to-audio: ['MusicForge/stable-audio-3-medium-8bit', 'MusicForge/stable-audio-3-small-4bit', 'MusicForge/magnet-medium-8bit', 'MusicForge/magnet-medium-4bit', 'MusicForge/magnet-small-8bit', 'MusicForge/magnet-small-4bit', 'WJM-George/AMBIT', 'arpanpathak/staleynet-checkpoints', 'yoga-0125/speecht5_finetuned_voxpopuli_nl', 'sil-ai/mlv-mntnt-audio-aligned-speecht5', 'speedykom-group/pokot-tts-v1', 'iamzeaq/honest-orb-ng-male']
+  - hard_excluded_pipeline:image-feature-extraction: ['ai-hhmi/lmd-vitl-p8-simmim-scratch', 'ai-hhmi/lmd-vitl-p8-simmim-lvd', 'Larxel/USFM', 'TAC13/industrial-damage-patchcore-bottle', 'gatilin/lfm3-vl-2b-vision-encoder', 'litert-community/TIPSv2-B14-LiteRT', 'fr4nzzch/bioclip-2.5-vith14-visual-int8-onnx', 'fr4nzzch/butterfly-id-small-onnx', 'olinesn/dinov3-vits16-lucid', 'gatilin/mistral-large-4-vision-encoder', 'thinkspread/Qwen3.8-27B-Vision-CoreML-fp16', 'Jingong/MoME']
+  - hard_excluded_pipeline:depth-estimation: ['Richard-ZZZZZ/depth-video-joint-step7804', 'LibreYOLO/LibreMoGe3g-normal', 'LibreYOLO/LibreMoGe3g-depth', 'LibreYOLO/LibreMoGe3l-depth', 'LibreYOLO/LibreMoGe3l-normal', 'alexwang24/moge-2-vitb-normal-web', 'smile-forge/depth-anything-v2-small-onnx', 'runes/video-depth-anything-small-webgpu', 'Vathography/vathography-app-models', 'cyun9286/IGGT4D-causal-v19r10-step5676', 'cyun9286/IGGT4D-causal-v19r9-step4644', 'fastforks/igev-plusplus']
+  - hard_excluded_pipeline:voice-activity-detection: ['keithics/speaker-diarization-coreml', 'keithics/silero-vad-coreml', 'Z9RTM/FASTDIAR-GGUF', 'twmht/FireRedVAD-VAD-onnx', 'notaneimu/jasper-vad-v3-fixed-log-onnx', 'manateelazycat/Nemotron-3-Diarization-AIPod-HF', 'bhaveshnarra/barnowl-turnbench', 'avencera/silero-vad-v6-safetensors', 'soniqo/VAP-OTO-ONNX', 'aufklarer/VAP-OTO-CoreML', 'aufklarer/P99-Turn-1-Mini-CoreML', 'theaifactorybv/murmel-flash-speakers-multichannel-v1']
+  - hard_excluded_pipeline:video-classification: ['Abdullahtahir11/rwf2000-violence-detection-3dresnet', 'priyamraj99/CSCA-Net-HiAV-Mix', 'galilai-group/LeVJEPA-1.5-Large', 'Zeteng/GeoMo-Lite', 'NaveenKumarGottipalli/FinalShopliftingdetector', 'multimodal-vision-ai/mvai-video-action-compare-models', 'KBlueLeaf/Foliation-L', 'KBlueLeaf/Foliation-B', 'vaibhavshiroorkar/deepfake-generalization-demo', 'Ceendi/deepfake-video-detector', 'shahriarhd/mtl-face-auth', 'Arystank01/fight-detection-x3d']
+  - hard_excluded_pipeline:unconditional-image-generation: ['rad-dit/ldit-brats', 'rad-dit/ldit-radimagenet', 'rad-dit/jit-radimagenet', 'kosei5712/sd-class-butterflies-64', 'kosei5712/sd-class-butterflies-32', 'utkucoban/BadgeImageGen', 'taras1814/ddpm-celebahq-finetuned-butterflies-2epochs', 'michelmf/sd-class-butterflies-64', 'michelmf/sd-class-butterflies-32', 'MaiT8/sd-class-butterflies-32', 'alayou/sd-class-butterflies-32', 'roshan-acharya/sd-class-butterflies-32-copy-5']
+  - hard_excluded_pipeline:time-series-forecasting: ['shreyashsharma/MaPa-Rhythm-Base', 'HollowTensor/Toto-Evolve-0.1', 'ThakiCloud/Thaki-EnergyLoad-Forecaster-v0.1', 'HollowTensor/Yug-Evolve-0.1', 'ming-jan/Kronos-small', 'neikhn/kronos-base-vn30-sft', 'neikhn/kronos-small-vn30-sft', 'neikhn/kronos-mini-vn30-sft', 'Cosmicosrl/Timestral-123M-ONNX', 'BhalalaDaksh/CompactTS-Agent', 'amaye15/kumoforecast-gguf', 'amaye15/kumoanomaly-gguf']
+  - hard_excluded_pipeline:zero-shot-object-detection: ['nikigoli/CountGDPlusPlus', 'dotimothy/sima-grounding-dino', 'CardAnvilModels/grounding-dino-tiny-ONNX', 'mtbui2010/rfdetr-textalign-ONNX', 'Mydeskfor/owlv2-base-patch16-ensemble', 'JONNYVERSE/owlv2-base-patch16-ONNX', 'JONNYVERSE/grounding-dino-tiny-ONNX', 'ZumaInnovations/zuma-ground-base-onnx', 'mtbui2010/grounding-dino-tiny-fixedmask-ONNX', 'mlboydaisuke/YOLOE-S-CoreML', 'mlboydaisuke/YOLO-World-V2-S-CoreML', 'zeromodels/owlv2-large-patch14-finetuned']

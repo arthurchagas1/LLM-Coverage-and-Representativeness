@@ -1,0 +1,118 @@
+{
+  "paper_id": "findings_emnlp_2024_r_judge",
+  "venue": "Findings of EMNLP 2024",
+  "budget": 9,
+  "observed_panel": [
+    "meta-llama/Meta-Llama-3-8B-Instruct",
+    "meta-llama/Llama-2-13b-chat-hf",
+    "meta-llama/Llama-2-7b-chat-hf",
+    "lmsys/vicuna-13b-v1.5",
+    "lmsys/vicuna-13b-v1.5-16k",
+    "lmsys/vicuna-7b-v1.5",
+    "lmsys/vicuna-7b-v1.5-16k",
+    "mistralai/Mistral-7B-Instruct-v0.2",
+    "mistralai/Mistral-7B-Instruct-v0.3"
+  ],
+  "observed_panel_resolved": [
+    "variant::llama::llama3::8b::instruct",
+    "variant::llama::llama2::13b::chat",
+    "variant::llama::llama2::7b::chat",
+    "variant::llama::llama::13b::unknown-role",
+    "variant::llama::llama::13b::unknown-role",
+    "variant::llama::llama::7b::unknown-role",
+    "variant::llama::llama::7b::unknown-role",
+    "variant::mistral::mistral::7b::instruct",
+    "variant::mistral::mistral::7b::instruct"
+  ],
+  "observed_scores": {
+    "Ga": 1.902597,
+    "B": 0.005382,
+    "Dinf": 0.77714,
+    "C0": 0.000484
+  },
+  "greedy_adoption_panel": [
+    "variant::gpt2::gpt2::126m::base",
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen3::14b::base",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::qwen::qwen3::4b::base",
+    "variant::llama::llama3.1::8b::instruct",
+    "variant::gpt-oss::gpt-oss::20b::base",
+    "variant::nemotron::nemotron::30b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::mininlm::mininlm::46m::unknown-role",
+    "variant::vbq::vbq::100m::instruct",
+    "variant::lfm-omni-dualhead::lfm-omni-dualhead::2b::code"
+  ],
+  "hybrid_panel": [
+    "variant::gpt2::gpt2::126m::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::qwen::qwen3::14b::base",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::qwen::qwen2.5::7b::instruct"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.037355,
+      "B": 0.005516,
+      "Dinf": 0.491829,
+      "C0": 0.000726
+    },
+    "greedy_breadth": {
+      "Ga": 1.999847,
+      "B": 0.011062,
+      "Dinf": 0.170355,
+      "C0": 0.000726
+    },
+    "hybrid": {
+      "Ga": 1.261177,
+      "B": 0.007945,
+      "Dinf": 0.332696,
+      "C0": 0.000726
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.64142,
+    "delta_B": 0.002562,
+    "delta_Dinf": 0.444444,
+    "delta_C0": 0.000242
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::llama::llama::7b::unknown-role",
+      "remove_family": "llama",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.18092,
+      "new_Ga": 1.721677
+    },
+    {
+      "remove": "variant::mistral::mistral::7b::instruct",
+      "remove_family": "mistral",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.18092,
+      "new_Ga": 1.721677
+    },
+    {
+      "remove": "variant::llama::llama::13b::unknown-role",
+      "remove_family": "llama",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.18092,
+      "new_Ga": 1.721677
+    }
+  ]
+}

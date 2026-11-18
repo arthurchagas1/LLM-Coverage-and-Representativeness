@@ -1,0 +1,25 @@
+target,n,selection,ratio
+adoption,5,random,1.0
+adoption,5,min gap,0.775390773828723
+adoption,5,"min gap, permuted tree",0.7756329140603008
+adoption,5,max gap,1.1005729014130363
+adoption,10,random,1.0
+adoption,10,min gap,0.7430237722974652
+adoption,10,"min gap, permuted tree",0.7603982674068865
+adoption,10,max gap,1.2490374336492627
+adoption,20,random,1.0
+adoption,20,min gap,0.7346662409568899
+adoption,20,"min gap, permuted tree",0.7680741160890135
+adoption,20,max gap,1.3165417626049056
+breadth,5,random,1.0
+breadth,5,min gap,0.7621288626263027
+breadth,5,"min gap, permuted tree",0.8071806329650976
+breadth,5,max gap,1.3732335276723953
+breadth,10,random,1.0
+breadth,10,min gap,0.7661484345168963
+breadth,10,"min gap, permuted tree",0.8370781990177014
+breadth,10,max gap,1.29162856561825
+breadth,20,random,1.0
+breadth,20,min gap,0.8014496697195881
+breadth,20,"min gap, permuted tree",0.8534489326718304
+breadth,20,max gap,1.2330369496893934

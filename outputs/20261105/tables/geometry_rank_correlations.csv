@@ -1,0 +1,7 @@
+geometry_a,geometry_b,kendall_tau,n_papers
+adoption_weighted_ablation,structural_repo_count,0.6830917874396135,46
+adoption_weighted_ablation,structural_variant_count,0.4782608695652174,46
+adoption_weighted_ablation,topological,0.4570048309178744,46
+structural_repo_count,structural_variant_count,0.34299516908212563,46
+structural_repo_count,topological,0.32560386473429953,46
+structural_variant_count,topological,0.9246376811594205,46

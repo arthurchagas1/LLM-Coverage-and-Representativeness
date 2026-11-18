@@ -1,0 +1,527 @@
+input_model,status,match_type,confidence,n_candidate_variants,posterior_entropy,posterior_max,top_candidates,reason,paper_id,input_position
+meta-llama/Llama-2-70b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::70b::chat (1.000),exact full repository id,acl_2024_kieval,0
+meta-llama/Llama-2-13b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::13b::chat (1.000),exact full repository id,acl_2024_kieval,1
+meta-llama/Llama-2-7b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::chat (1.000),exact full repository id,acl_2024_kieval,2
+mistralai/Mistral-7B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,acl_2024_kieval,3
+01-ai/Yi-6B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi::6b::chat (1.000),exact full repository id,acl_2024_kieval,4
+mosaicml/mpt-7b-chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::mpt::mpt::7b::instruct (1.000),basename candidates retained; no first-match collapse,acl_2024_kieval,5
+mistralai/Mistral-7B-Instruct-v0.2,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,acl_2024_locomo,0
+meta-llama/Llama-2-70b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::70b::chat (1.000),exact full repository id,acl_2024_locomo,1
+meta-llama/Meta-Llama-3-70B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::70b::instruct (1.000),exact full repository id,acl_2024_locomo,2
+meta-llama/Llama-2-7b-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::base (1.000),exact full repository id,acl_2024_m4le,0
+meta-llama/Llama-2-7b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::chat (1.000),exact full repository id,acl_2024_m4le,1
+meta-llama/Llama-2-13b-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::13b::base (1.000),exact full repository id,acl_2024_m4le,2
+meta-llama/Llama-2-13b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::13b::chat (1.000),exact full repository id,acl_2024_m4le,3
+THUDM/chatglm2-6b,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::glm::chatglm2::6b::code (1.000),basename candidates retained; no first-match collapse,acl_2024_m4le,4
+THUDM/chatglm2-6b-32k,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::glm::chatglm2::6b::code (1.000),basename candidates retained; no first-match collapse,acl_2024_m4le,5
+lmsys/longchat-7b-v1.5-32k,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::7b::unknown-role (1.000),exact full repository id,acl_2024_m4le,6
+lmsys/longchat-13b-16k,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::13b::unknown-role (1.000),exact full repository id,acl_2024_m4le,7
+lmsys/vicuna-7b-v1.5-16k,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::7b::unknown-role (1.000),exact full repository id,acl_2024_m4le,8
+lmsys/vicuna-13b-v1.5-16k,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::13b::unknown-role (1.000),exact full repository id,acl_2024_m4le,9
+THUDM/chatglm3-6b-32k,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::glm::chatglm3::6b::code (1.000),basename candidates retained; no first-match collapse,acl_2024_marathon,0
+mistralai/Mistral-7B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,acl_2024_marathon,1
+HuggingFaceH4/zephyr-7b-beta,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::base (1.000),exact full repository id,acl_2024_marathon,2
+togethercomputer/StripedHyena-Nous-7B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::stripedhyena::stripedhyena::7b::code (1.000),exact full repository id,acl_2024_marathon,3
+lmsys/longchat-13b-16k,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::13b::unknown-role (1.000),exact full repository id,acl_2024_marathon,4
+Qwen/Qwen-14B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::14b::chat (1.000),exact full repository id,acl_2024_marathon,5
+01-ai/Yi-34B-200K,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi::34b::base (1.000),exact full repository id,acl_2024_marathon,6
+lightonai/alfred-40b-1023,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::falcon::falcon::40b::instruct (1.000),exact full repository id,acl_2024_marathon,7
+stabilityai/StableBeluga2,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::unknown-size::unknown-role (1.000),exact full repository id,acl_2024_marathon,8
+allenai/tulu-2-dpo-70b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::70b::base (1.000),exact full repository id,acl_2024_marathon,9
+huggyllama/llama-13b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::13b::unknown-role (1.000),exact full repository id,acl_2024_mobile_bench,0
+huggyllama/llama-65b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::65b::unknown-role (1.000),exact full repository id,acl_2024_mobile_bench,1
+baichuan-inc/Baichuan2-13B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::baichuan::baichuan2::13b::chat (1.000),exact full repository id,acl_2024_newsbench,0
+THUDM/chatglm2-6b,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::glm::chatglm2::6b::code (1.000),basename candidates retained; no first-match collapse,acl_2024_newsbench,1
+THUDM/chatglm3-6b,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::glm::chatglm3::6b::code (1.000),basename candidates retained; no first-match collapse,acl_2024_newsbench,2
+BAAI/AquilaChat2-34B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::aquila::aquila::34b::code (1.000),exact full repository id,acl_2024_newsbench,3
+internlm/internlm-20b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::internlm::internlm::20b::code (1.000),exact full repository id,acl_2024_newsbench,4
+Qwen/Qwen-14B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::14b::code (1.000),exact full repository id,acl_2024_newsbench,5
+xverse/XVERSE-13B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::xverse::xverse::13b::code (1.000),exact full repository id,acl_2024_newsbench,6
+meta-llama/Llama-3.1-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::8b::instruct (1.000),exact full repository id,acl_2025_ad_llm,0
+deepseek-ai/DeepSeek-V3,matched_generated_alias_soft,generated_alias,0.82,3,1.098065277393555,0.3489835027059078,variant::deepseek::deepseek-v3::1b::code (0.349); variant::deepseek::deepseek-v3::7b::unknown-role (0.326); variant::deepseek::deepseek-v3::8b::unknown-role (0.325),most specific compatible generated alias: deepseek-v3,acl_2025_ad_llm,1
+deepseek-ai/DeepSeek-R1,matched_basename_soft,repo_basename,0.85,3,0.7195657412637968,0.7588421718146834,variant::deepseek::deepseek-r1::684b::reasoning (0.759); variant::deepseek::deepseek-r1::4.8b::reasoning (0.121); variant::deepseek::deepseek-r1::490m::reasoning (0.120),basename candidates retained; no first-match collapse,acl_2025_ad_llm,2
+meta-llama/Llama-3.1-405B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::405b::instruct (1.000),exact full repository id,acl_2025_multichallenge,0
+meta-llama/Llama-3.2-3B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.2::3b::instruct (1.000),exact full repository id,acl_2025_multichallenge,1
+meta-llama/Llama-3.3-70B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),exact full repository id,acl_2025_multichallenge,2
+Qwen/Qwen2-72B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2::72b::instruct (1.000),exact full repository id,acl_2025_multichallenge,3
+Qwen/Qwen2.5-14B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::14b::instruct (1.000),exact full repository id,acl_2025_multichallenge,4
+Qwen/Qwen2.5-72B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::72b::instruct (1.000),exact full repository id,acl_2025_multichallenge,5
+mistralai/Mixtral-8x7B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mixtral::8x7b::instruct (1.000),exact full repository id,acl_2025_multichallenge,6
+mistralai/Mixtral-8x22B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mixtral::8x22b::instruct (1.000),exact full repository id,acl_2025_multichallenge,7
+deepseek-ai/DeepSeek-V3-2025-03,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",acl_2025_multichallenge,8
+deepseek-ai/DeepSeek-R1,matched_basename_soft,repo_basename,0.85,3,0.7195657412637968,0.7588421718146834,variant::deepseek::deepseek-r1::684b::reasoning (0.759); variant::deepseek::deepseek-r1::4.8b::reasoning (0.121); variant::deepseek::deepseek-r1::490m::reasoning (0.120),basename candidates retained; no first-match collapse,acl_2025_multichallenge,9
+deepseek-ai/DeepSeek-R1-0528,matched_generated_alias_soft,generated_alias,0.82,3,1.0962125480583502,0.36616051566512564,variant::deepseek::deepseek-r1::14b::reasoning (0.366); variant::deepseek::deepseek-r1::70b::reasoning (0.319); variant::deepseek::deepseek-r1::490m::reasoning (0.315),most specific compatible generated alias: deepseek-r1,arxiv2025_multinrc,0
+deepseek-ai/DeepSeek-R1,matched_basename_soft,repo_basename,0.85,3,0.7195657412637968,0.7588421718146834,variant::deepseek::deepseek-r1::684b::reasoning (0.759); variant::deepseek::deepseek-r1::4.8b::reasoning (0.121); variant::deepseek::deepseek-r1::490m::reasoning (0.120),basename candidates retained; no first-match collapse,arxiv2025_multinrc,1
+meta-llama/Llama-4-Maverick,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",arxiv2025_multinrc,2
+DeepSeek/DeepSeek-R1-Distill-Qwen-1.5B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen::1.5b::reasoning (1.000),basename candidates retained; no first-match collapse,arxiv2026_001,0
+DeepSeek/DeepSeek-R1-Distill-Qwen-7B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen::7b::reasoning (1.000),basename candidates retained; no first-match collapse,arxiv2026_001,1
+DeepSeek/DeepSeek-R1-Distill-Qwen-32B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen::32b::reasoning (1.000),basename candidates retained; no first-match collapse,arxiv2026_001,2
+Meta/Llama-3.1-8B-Instruct,matched_basename_soft,repo_basename,0.85,2,0.02306655163100988,0.9965388520983915,variant::llama::llama3.1::8b::instruct (0.997); variant::llama::llama3.1::8b::reasoning (0.003),basename candidates retained; no first-match collapse,arxiv2026_001,3
+Meta/Llama-3.1-70B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),basename candidates retained; no first-match collapse,arxiv2026_001,4
+Qwen/Qwen2.5-1.5B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::1.5b::instruct (1.000),exact full repository id,arxiv2026_001,5
+Qwen/Qwen2.5-7B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::7b::instruct (1.000),exact full repository id,arxiv2026_001,6
+Qwen/Qwen2.5-72B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::72b::instruct (1.000),exact full repository id,arxiv2026_001,7
+Qwen/Qwen3-1.7B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen3::1.7b::base (1.000),exact full repository id,arxiv2026_001,8
+Qwen/Qwen3-8B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen3::8b::base (1.000),exact full repository id,arxiv2026_001,9
+Qwen/Qwen3-32B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen3::32b::base (1.000),exact full repository id,arxiv2026_001,10
+deepseek-ai/DeepSeek-R1,matched_basename_soft,repo_basename,0.85,3,0.7195657412637968,0.7588421718146834,variant::deepseek::deepseek-r1::684b::reasoning (0.759); variant::deepseek::deepseek-r1::4.8b::reasoning (0.121); variant::deepseek::deepseek-r1::490m::reasoning (0.120),basename candidates retained; no first-match collapse,arxiv2026_llm_wikirace,0
+moonshotai/Kimi-K2,matched_basename_soft,repo_basename,0.85,2,0.3550979678378561,0.8858533850925839,variant::smollm::smollm2::135m::instruct (0.886); variant::deepseek::deepseek-v3::11m::instruct (0.114),basename candidates retained; no first-match collapse,arxiv2026_llm_wikirace,1
+meta-llama/Llama-3.2-1B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.2::1b::instruct (1.000),exact full repository id,arxiv2026_llm_wikirace,2
+meta-llama/Llama-3.2-3B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.2::3b::instruct (1.000),exact full repository id,arxiv2026_llm_wikirace,3
+meta-llama/Meta-Llama-3-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::8b::instruct (1.000),exact full repository id,arxiv2026_llm_wikirace,4
+meta-llama/Meta-Llama-3-70B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::70b::instruct (1.000),exact full repository id,arxiv2026_llm_wikirace,5
+google/gemma-3-4b-it,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::gemma::gemma3::4b::instruct (1.000),basename candidates retained; no first-match collapse,arxiv2026_llm_wikirace,6
+google/gemma-3-12b-it,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::gemma::gemma3::12b::instruct (1.000),basename candidates retained; no first-match collapse,arxiv2026_llm_wikirace,7
+google/gemma-3-27b-it,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::gemma::gemma3::27b::code (1.000),most specific compatible generated alias: google/google-gemma-3 [compatibility fallback],arxiv2026_llm_wikirace,8
+swiss-ai/Apertus-8B-Instruct,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::apertus::apertus::8b::instruct (1.000),most specific compatible generated alias: swiss-ai/apertus-8b-instruct,arxiv2026_llm_wikirace,9
+swiss-ai/Apertus-70B-Instruct,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::apertus::apertus::70b::instruct (1.000),most specific compatible generated alias: swiss-ai/apertus-70b-instruct,arxiv2026_llm_wikirace,10
+mistralai/Mistral-7B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),basename candidates retained; no first-match collapse,arxiv2026_llm_wikirace,11
+mistralai/Ministral-8B-Instruct,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::mistral::mistral::8b::instruct (1.000),most specific compatible generated alias: mistralai/ministral-8b-instruct,arxiv2026_llm_wikirace,12
+Qwen/Qwen2.5-7B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::7b::instruct (1.000),exact full repository id,arxiv2026_llm_wikirace,13
+Dream-org/Dream-v0-Instruct-7B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::dream::dream::7b::instruct (1.000),exact full repository id,arxiv2026_llm_wikirace,14
+GSAI-ML/LLaDA-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llada::llada::8b::instruct (1.000),exact full repository id,arxiv2026_llm_wikirace,15
+QwQ-32B,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::32b::reasoning (1.000),manual alias -> Qwen/QwQ-32B,combibench_2025,0
+DeepSeek-R1,matched_taxonomy_soft,taxonomy_series_id,0.9,27,3.1316033275857698,0.18145429918577546,variant::deepseek::deepseek-r1::684b::reasoning (0.181); variant::deepseek::deepseek-r1::397b::reasoning (0.047); variant::deepseek::deepseek-r1::671b::reasoning (0.045); variant::deepseek::deepseek-r1::2.4b::reasoning (0.038); variant::deepseek::deepseek-r1::8b::reasoning (0.036); variant::deepseek::deepseek-r1::1.5b::reasoning (0.034); variant::deepseek::deepseek-r1::17m::reasoning (0.034); variant::deepseek::deepseek-r1::14b::reasoning (0.033),exact series_id; retained as posterior over descendants,combibench_2025,1
+Goedel-Prover,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",combibench_2025,2
+STP,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",combibench_2025,3
+Leanabell-Prover-GD-RL,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama::7b::unknown-role (1.000),basename candidates retained; no first-match collapse,combibench_2025,4
+Kimina-Prover-Preview,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::qwen::qwen2.5::72b::chat (1.000),most specific compatible generated alias: kimina-prover,combibench_2025,5
+DeepSeek-V3,matched_taxonomy_soft,taxonomy_series_id,0.9,109,4.319838787092617,0.08274838657009376,variant::deepseek::deepseek-v3::16b::instruct (0.083); variant::deepseek::deepseek-v3::3.8m::unknown-role (0.069); variant::deepseek::deepseek-v3::16b::code (0.053); variant::deepseek::deepseek-v3::11m::code (0.041); variant::deepseek::deepseek-v3::9b::code (0.036); variant::deepseek::deepseek-v3::1.7m::code (0.035); variant::deepseek::deepseek-v3::4.3m::code (0.020); variant::deepseek::deepseek-v3::30b::instruct (0.015),exact series_id; retained as posterior over descendants,efficient_llm_safety_evaluation_multi_agent_debate_2026,0
+DeepSeek-R1,matched_taxonomy_soft,taxonomy_series_id,0.9,27,3.1316033275857698,0.18145429918577546,variant::deepseek::deepseek-r1::684b::reasoning (0.181); variant::deepseek::deepseek-r1::397b::reasoning (0.047); variant::deepseek::deepseek-r1::671b::reasoning (0.045); variant::deepseek::deepseek-r1::2.4b::reasoning (0.038); variant::deepseek::deepseek-r1::8b::reasoning (0.036); variant::deepseek::deepseek-r1::1.5b::reasoning (0.034); variant::deepseek::deepseek-r1::17m::reasoning (0.034); variant::deepseek::deepseek-r1::14b::reasoning (0.033),exact series_id; retained as posterior over descendants,efficient_llm_safety_evaluation_multi_agent_debate_2026,1
+Llama-3.3-70B-Instruct,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),manual alias -> meta-llama/Llama-3.3-70B-Instruct,efficient_llm_safety_evaluation_multi_agent_debate_2026,2
+Llama-3.1-8B-Instruct,matched_basename_soft,repo_basename,0.85,2,0.02306655163100988,0.9965388520983915,variant::llama::llama3.1::8b::instruct (0.997); variant::llama::llama3.1::8b::reasoning (0.003),basename candidates retained; no first-match collapse,efficient_llm_safety_evaluation_multi_agent_debate_2026,3
+Qwen3-4B-Instruct-2507,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::qwen::qwen3::4b::instruct (1.000),manual alias -> Qwen/Qwen3-4B-Instruct-2507,efficient_llm_safety_evaluation_multi_agent_debate_2026,4
+Qwen3-4B-Thinking-2507,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::qwen::qwen3::4b::reasoning (1.000),manual alias -> Qwen/Qwen3-4B-Thinking-2507,efficient_llm_safety_evaluation_multi_agent_debate_2026,5
+GPT-OSS-20B,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::gpt-oss::gpt-oss::20b::base (1.000),manual alias -> openai/gpt-oss-20b,efficient_llm_safety_evaluation_multi_agent_debate_2026,6
+THUDM/chatglm3-6b,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::glm::chatglm3::6b::code (1.000),basename candidates retained; no first-match collapse,emnlp_2024_mt_eval,0
+lmsys/vicuna-7b-v1.5,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::7b::unknown-role (1.000),exact full repository id,emnlp_2024_mt_eval,1
+meta-llama/Llama-2-7b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::chat (1.000),exact full repository id,emnlp_2024_mt_eval,2
+Qwen/Qwen-7B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::7b::chat (1.000),exact full repository id,emnlp_2024_mt_eval,3
+mistralai/Mistral-7B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,emnlp_2024_mt_eval,4
+lmsys/vicuna-13b-v1.5,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::13b::unknown-role (1.000),exact full repository id,emnlp_2024_mt_eval,5
+meta-llama/Llama-2-13b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::13b::chat (1.000),exact full repository id,emnlp_2024_mt_eval,6
+Qwen/Qwen-14B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::14b::chat (1.000),exact full repository id,emnlp_2024_mt_eval,7
+mistralai/Mixtral-8x7B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mixtral::8x7b::instruct (1.000),exact full repository id,emnlp_2024_mt_eval,8
+mistralai/Mixtral-8x7B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mixtral::8x7b::instruct (1.000),exact full repository id,emnlp_2024_sciex,0
+Qwen/Qwen-72B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::72b::code (1.000),exact full repository id,emnlp_2024_sciex,1
+mistralai/Mistral-7B-Instruct-v0.2,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,emnlp_2024_sciex,2
+meta-llama/Llama-2-13b-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::13b::base (1.000),exact full repository id,emnlp_2024_time_series_feature_understanding,0
+lmsys/vicuna-13b-v1.5,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::13b::unknown-role (1.000),exact full repository id,emnlp_2024_time_series_feature_understanding,1
+microsoft/Phi-3-medium-4k-instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::phi::phi3::14b::instruct (1.000),exact full repository id,emnlp_2024_time_series_feature_understanding,2
+Llama-3.2-3B-Instruct,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::llama::llama3.2::3b::instruct (1.000),manual alias -> meta-llama/Llama-3.2-3B-Instruct,enterprise_llm_evaluation_benchmark_2025,0
+Llama-3.3-70B-Instruct,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),manual alias -> meta-llama/Llama-3.3-70B-Instruct,enterprise_llm_evaluation_benchmark_2025,1
+Llama-4-Scout,matched_generated_alias_soft,generated_alias,0.82,2,0.6728595642837856,0.6003744111211511,variant::llama::llama4::17b::instruct (0.600); variant::llama::llama4::17b::unknown-role (0.400),most specific compatible generated alias: llama-4-scout,enterprise_llm_evaluation_benchmark_2025,2
+DeepSeek-R1,matched_taxonomy_soft,taxonomy_series_id,0.9,27,3.1316033275857698,0.18145429918577546,variant::deepseek::deepseek-r1::684b::reasoning (0.181); variant::deepseek::deepseek-r1::397b::reasoning (0.047); variant::deepseek::deepseek-r1::671b::reasoning (0.045); variant::deepseek::deepseek-r1::2.4b::reasoning (0.038); variant::deepseek::deepseek-r1::8b::reasoning (0.036); variant::deepseek::deepseek-r1::1.5b::reasoning (0.034); variant::deepseek::deepseek-r1::17m::reasoning (0.034); variant::deepseek::deepseek-r1::14b::reasoning (0.033),exact series_id; retained as posterior over descendants,enterprise_llm_evaluation_benchmark_2025,3
+DeepSeek-R1-Distill-Llama-70B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama::70b::reasoning (1.000),basename candidates retained; no first-match collapse,enterprise_llm_evaluation_benchmark_2025,4
+meta-llama/Llama-2-7b-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::base (1.000),exact full repository id,findings_acl_2024_cflue,0
+meta-llama/Llama-2-70b-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::70b::base (1.000),exact full repository id,findings_acl_2024_cflue,1
+lmsys/vicuna-7b-v1.5,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::7b::unknown-role (1.000),exact full repository id,findings_acl_2024_cflue,2
+THUDM/chatglm3-6b,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::glm::chatglm3::6b::code (1.000),basename candidates retained; no first-match collapse,findings_acl_2024_cflue,3
+Qwen/Qwen-7B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::7b::code (1.000),exact full repository id,findings_acl_2024_cflue,4
+Qwen/Qwen-14B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::14b::code (1.000),exact full repository id,findings_acl_2024_cflue,5
+Qwen/Qwen-72B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::72b::code (1.000),exact full repository id,findings_acl_2024_cflue,6
+baichuan-inc/Baichuan2-7B-Base,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::baichuan::baichuan2::7b::code (1.000),exact full repository id,findings_acl_2024_cflue,7
+baichuan-inc/Baichuan2-13B-Base,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::baichuan::baichuan2::13b::code (1.000),exact full repository id,findings_acl_2024_cflue,8
+FinGPT/fingpt-mt-chatglm2-6b-lora,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",findings_acl_2024_cflue,9
+Fudan/DISC-FinLLM-13B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",findings_acl_2024_cflue,10
+Alibaba/Tongyi-Finance-14B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",findings_acl_2024_cflue,11
+meta-llama/Llama-2-7b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::chat (1.000),exact full repository id,findings_acl_2024_long_text_mt_llms,0
+meta-llama/Llama-7b-hf,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama::7b::unknown-role (1.000),basename candidates retained; no first-match collapse,findings_acl_2024_long_text_mt_llms,1
+THUDM/chatglm3-6b,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::glm::chatglm3::6b::code (1.000),basename candidates retained; no first-match collapse,findings_acl_2024_salad_bench,0
+internlm/internlm-chat-7b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::internlm::internlm::7b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,1
+internlm/internlm-chat-20b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::internlm::internlm::20b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,2
+internlm/internlm2-chat-7b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::internlm::internlm2::7b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,3
+internlm/internlm2-chat-20b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::internlm::internlm2::20b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,4
+meta-llama/Llama-2-7b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,5
+meta-llama/Llama-2-13b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::13b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,6
+meta-llama/Llama-2-70b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::70b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,7
+meta-llama/Meta-Llama-3-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::8b::instruct (1.000),exact full repository id,findings_acl_2024_salad_bench,8
+meta-llama/Meta-Llama-3-70B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::70b::instruct (1.000),exact full repository id,findings_acl_2024_salad_bench,9
+mistralai/Mistral-7B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,findings_acl_2024_salad_bench,10
+mistralai/Mistral-7B-Instruct-v0.2,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,findings_acl_2024_salad_bench,11
+mistralai/Mixtral-8x7B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mixtral::8x7b::instruct (1.000),exact full repository id,findings_acl_2024_salad_bench,12
+Qwen/Qwen-7B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::7b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,13
+Qwen/Qwen-14B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::14b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,14
+Qwen/Qwen-72B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::72b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,15
+Qwen/Qwen1.5-0.5B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen1.5::0.5b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,16
+Qwen/Qwen1.5-1.8B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen1.5::1.8b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,17
+Qwen/Qwen1.5-4B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen1.5::4b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,18
+Qwen/Qwen1.5-7B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen1.5::7b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,19
+Qwen/Qwen1.5-14B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen1.5::14b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,20
+Qwen/Qwen1.5-72B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen1.5::72b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,21
+google/gemma-2b-it,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::gemma::gemma::2b::instruct (1.000),basename candidates retained; no first-match collapse,findings_acl_2024_salad_bench,22
+google/gemma-7b-it,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::gemma::gemma::7b::instruct (1.000),basename candidates retained; no first-match collapse,findings_acl_2024_salad_bench,23
+allenai/tulu-2-dpo-7b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::base (1.000),exact full repository id,findings_acl_2024_salad_bench,24
+allenai/tulu-2-dpo-13b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::13b::base (1.000),exact full repository id,findings_acl_2024_salad_bench,25
+allenai/tulu-2-dpo-70b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::70b::base (1.000),exact full repository id,findings_acl_2024_salad_bench,26
+lmsys/vicuna-7b-v1.5,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::7b::unknown-role (1.000),exact full repository id,findings_acl_2024_salad_bench,27
+lmsys/vicuna-13b-v1.5,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::13b::unknown-role (1.000),exact full repository id,findings_acl_2024_salad_bench,28
+lmsys/vicuna-33b-v1.3,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::33b::unknown-role (1.000),exact full repository id,findings_acl_2024_salad_bench,29
+01-ai/Yi-6B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi::6b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,30
+01-ai/Yi-34B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi::34b::chat (1.000),exact full repository id,findings_acl_2024_salad_bench,31
+google/gemma-1.1-7b-it,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::gemma::gemma::7b::instruct (1.000),exact full repository id,findings_acl_2025_afrobench,0
+meta-llama/Llama-2-7b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::chat (1.000),exact full repository id,findings_acl_2025_afrobench,1
+meta-llama/Meta-Llama-3-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::8b::instruct (1.000),exact full repository id,findings_acl_2025_afrobench,2
+MBZUAI-Paris/LLaMAX3-8B-Alpaca,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama::8b::instruct (1.000),basename candidates retained; no first-match collapse,findings_acl_2025_afrobench,3
+meta-llama/Meta-Llama-3.1-8B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::8b::instruct (1.000),basename candidates retained; no first-match collapse,findings_acl_2025_afrobench,4
+Jacaranda/AfroLlama-V1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::8b::unknown-role (1.000),exact full repository id,findings_acl_2025_afrobench,5
+google/gemma-2-9b-it,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::gemma::gemma2::9b::instruct (1.000),exact full repository id,findings_acl_2025_afrobench,6
+CohereForAI/aya-101,matched_basename_soft,repo_basename,0.85,2,0.5219957240271604,0.7838469338775971,variant::t5::t5::11b::unknown-role (0.784); variant::t5::mt5::13b::unknown-role (0.216),basename candidates retained; no first-match collapse,findings_acl_2025_afrobench,7
+google/gemma-2-27b-it,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::gemma::gemma2::27b::instruct (1.000),exact full repository id,findings_acl_2025_afrobench,8
+meta-llama/Meta-Llama-3.1-70B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),basename candidates retained; no first-match collapse,findings_acl_2025_afrobench,9
+meta-llama/Meta-Llama-3-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::8b::instruct (1.000),exact full repository id,findings_emnlp_2024_r_judge,0
+meta-llama/Llama-2-13b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::13b::chat (1.000),exact full repository id,findings_emnlp_2024_r_judge,1
+meta-llama/Llama-2-7b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::chat (1.000),exact full repository id,findings_emnlp_2024_r_judge,2
+lmsys/vicuna-13b-v1.5,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::13b::unknown-role (1.000),exact full repository id,findings_emnlp_2024_r_judge,3
+lmsys/vicuna-13b-v1.5-16k,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::13b::unknown-role (1.000),exact full repository id,findings_emnlp_2024_r_judge,4
+lmsys/vicuna-7b-v1.5,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::7b::unknown-role (1.000),exact full repository id,findings_emnlp_2024_r_judge,5
+lmsys/vicuna-7b-v1.5-16k,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::7b::unknown-role (1.000),exact full repository id,findings_emnlp_2024_r_judge,6
+mistralai/Mistral-7B-Instruct-v0.2,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,findings_emnlp_2024_r_judge,7
+mistralai/Mistral-7B-Instruct-v0.3,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,findings_emnlp_2024_r_judge,8
+meta-llama/Llama-2-7b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::chat (1.000),exact full repository id,findings_naacl_2024_instrusum,0
+meta-llama/Llama-2-13b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::13b::chat (1.000),exact full repository id,findings_naacl_2024_instrusum,1
+meta-llama/Llama-2-70b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::70b::chat (1.000),exact full repository id,findings_naacl_2024_instrusum,2
+mistralai/Mistral-7B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,findings_naacl_2024_instrusum,3
+meta-llama/Llama-2-7b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::chat (1.000),exact full repository id,findings_naacl_2025_flex,0
+meta-llama/Llama-2-13b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::13b::chat (1.000),exact full repository id,findings_naacl_2025_flex,1
+meta-llama/Meta-Llama-3-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::8b::instruct (1.000),exact full repository id,findings_naacl_2025_flex,2
+upstage/SOLAR-10.7B-Instruct-v1.0,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::solar::solar::10.7b::instruct (1.000),exact full repository id,findings_naacl_2025_flex,3
+mistralai/Mistral-7B-Instruct-v0.2,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,findings_naacl_2025_flex,4
+google/gemma-1.1-7b-it,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::gemma::gemma::7b::instruct (1.000),exact full repository id,findings_naacl_2025_flex,5
+Qwen/Qwen3-235B-A22B-Instruct-2507,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen3::235b::instruct (1.000),exact full repository id,iclr_013,0
+Meta/Llama-3.1-8B,matched_basename_soft,repo_basename,0.85,4,0.20740614672762772,0.9604558511472232,variant::llama::llama3.1::8b::instruct (0.960); variant::llama::llama3.1::8b::unknown-role (0.019); variant::llama::llama3.1::8b::base (0.013); variant::llama::llama3.1::8b::domain (0.008),basename candidates retained; no first-match collapse,iclr_014,0
+Meta/Llama-3.1-70B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_014,1
+Qwen/Qwen2.5-72B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::72b::base (1.000),exact full repository id,iclr_014,2
+DeepSeek/DeepSeek-V3,matched_generated_alias_soft,generated_alias,0.82,3,1.098065277393555,0.3489835027059078,variant::deepseek::deepseek-v3::1b::code (0.349); variant::deepseek::deepseek-v3::7b::unknown-role (0.326); variant::deepseek::deepseek-v3::8b::unknown-role (0.325),most specific compatible generated alias: deepseek-v3,iclr_014,3
+Zhipu/GLM-4.5,matched_basename_soft,repo_basename,0.85,3,0.31896841539860343,0.9197302318255567,variant::glm::glm4::358b::base (0.920); variant::glm::glm4::2.6m::base (0.065); variant::glm::glm4::358b::unknown-role (0.016),basename candidates retained; no first-match collapse,iclr_015,0
+Moonshot/Kimi-K2,matched_basename_soft,repo_basename,0.85,2,0.3550979678378561,0.8858533850925839,variant::smollm::smollm2::135m::instruct (0.886); variant::deepseek::deepseek-v3::11m::instruct (0.114),basename candidates retained; no first-match collapse,iclr_015,1
+Qwen/Qwen3-235B,matched_generated_alias_soft,generated_alias,0.82,3,0.7086280107793255,0.7253600310478496,variant::qwen::qwen3::235b::base (0.725); variant::qwen::qwen3::235b::instruct (0.231); variant::qwen::qwen3::235b::reasoning (0.044),most specific compatible generated alias: qwen/qwen-qwen3,iclr_015,2
+DeepSeek/DeepSeek-V3.1,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::deepseek::deepseek-v3::5m::code (1.000),basename candidates retained; no first-match collapse,iclr_015,3
+IBM/Granite-3.1-8B,matched_fuzzy_soft_review,fuzzy_structural_soft,0.9892857142857143,3,1.0457669462073458,0.4207386301813157,variant::granite::granite::8b::instruct (0.421); variant::granite::granite::8b::base (0.391); variant::granite::granite::8b::reasoning (0.188),3 candidates within review band,iclr_016,0
+Meta/Llama-3.1-8B,matched_basename_soft,repo_basename,0.85,4,0.20740614672762772,0.9604558511472232,variant::llama::llama3.1::8b::instruct (0.960); variant::llama::llama3.1::8b::unknown-role (0.019); variant::llama::llama3.1::8b::base (0.013); variant::llama::llama3.1::8b::domain (0.008),basename candidates retained; no first-match collapse,iclr_016,1
+DeepSeek/DeepSeek-Coder-33B,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::deepseek::deepseek-coder::33b::code (1.000),most specific compatible generated alias: deepseek-ai/deepseek-coder-33b,iclr_016,2
+IBM/Granite-34B-Code,matched_fuzzy_soft_review,fuzzy_structural_soft,0.99,2,0.6930941372685826,0.5051498715271622,variant::granite::granite::34b::code (0.505); variant::granite::granite::34b::instruct (0.495),2 candidates within review band,iclr_016,3
+Mistral/Mixtral-8x22B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",iclr_016,4
+Meta/Llama-3.1-70B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_016,5
+Meta/Llama-3.1-405B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::405b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_016,6
+DeepSeek/DeepSeek-V3,matched_generated_alias_soft,generated_alias,0.82,3,1.098065277393555,0.3489835027059078,variant::deepseek::deepseek-v3::1b::code (0.349); variant::deepseek::deepseek-v3::7b::unknown-role (0.326); variant::deepseek::deepseek-v3::8b::unknown-role (0.325),most specific compatible generated alias: deepseek-v3,iclr_016,7
+DeepSeek/DeepSeek-R1,matched_basename_soft,repo_basename,0.85,3,0.7195657412637968,0.7588421718146834,variant::deepseek::deepseek-r1::684b::reasoning (0.759); variant::deepseek::deepseek-r1::4.8b::reasoning (0.121); variant::deepseek::deepseek-r1::490m::reasoning (0.120),basename candidates retained; no first-match collapse,iclr_016,8
+OpenAI/gpt-oss-20b,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::gpt-oss::gpt-oss::20b::base (1.000),manual alias -> openai/gpt-oss-20b,iclr_016,9
+OpenAI/gpt-oss-120b,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::gpt-oss::gpt-oss::120b::base (1.000),manual alias -> openai/gpt-oss-120b,iclr_016,10
+Meta/Llama-3.3-70B-Instruct,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),manual alias -> meta-llama/Llama-3.3-70B-Instruct,iclr_017,0
+Meta/Llama-3.1-8B-Instruct,matched_basename_soft,repo_basename,0.85,2,0.02306655163100988,0.9965388520983915,variant::llama::llama3.1::8b::instruct (0.997); variant::llama::llama3.1::8b::reasoning (0.003),basename candidates retained; no first-match collapse,iclr_017,1
+DeepSeek/DeepSeek-V3-0324,matched_generated_alias_soft,generated_alias,0.82,2,0.6931471656973467,0.5000862049840398,variant::deepseek::deepseek-v3::439b::code (0.500); variant::deepseek::deepseek-v3::521b::code (0.500),most specific compatible generated alias: deepseek-v3-0324,iclr_017,2
+SDAIA/Allam-7B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama::7b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_017,3
+CohereForAI/c4ai-command-r7b-arabic-02-2025,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::cohere::cohere2::8b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_017,4
+Google/MedGemma-4B-IT,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::gemma::gemma3::4b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_017,5
+Apollo-7B,matched_basename_soft,repo_basename,0.85,2,0.6722818458464251,0.6017836066237893,variant::qwen::qwen2.5::7b::reasoning (0.602); variant::gemma::gemma::7b::unknown-role (0.398),basename candidates retained; no first-match collapse,iclr_017,6
+Fanar/Fanar-C-1-8.7B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",iclr_017,7
+BiMedix/BiMedix-Bi-27B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",iclr_017,8
+M42/Med42-8B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",iclr_017,9
+togethercomputer/LLaMA-2-7B-32K,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::instruct (1.000),exact full repository id,iclr_2025_helmet,0
+togethercomputer/Llama-2-7B-32K-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::instruct (1.000),exact full repository id,iclr_2025_helmet,1
+abacusai/llama-2-7b-80k-basefixed,matched_generated_alias_soft,generated_alias,0.82,6,1.2142779457963646,0.36733055355971655,variant::llama::llama2::7b::base (0.367); variant::llama::llama2::7b::chat (0.307); variant::llama::llama2::7b::unknown-role (0.297); variant::llama::llama2::7b::instruct (0.021); variant::llama::llama2::7b::reasoning (0.004); variant::gpt-neo::gpt-neo::7b::chat (0.004),most specific compatible generated alias: llama-2,iclr_2025_helmet,2
+NousResearch/Yarn-Llama-2-7b-64k,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::code (1.000),exact full repository id,iclr_2025_helmet,3
+NousResearch/Yarn-Llama-2-7b-128k,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::code (1.000),exact full repository id,iclr_2025_helmet,4
+meta-llama/Meta-Llama-3-8B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::8b::base (1.000),exact full repository id,iclr_2025_helmet,5
+meta-llama/Meta-Llama-3-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::8b::instruct (1.000),exact full repository id,iclr_2025_helmet,6
+meta-llama/Meta-Llama-3-8B + RoPE theta=16M,matched_generated_alias_soft,generated_alias,0.82,2,0.47409506540310364,0.8182112347173154,variant::llama::llama3::8b::instruct (0.818); variant::llama::llama3::8b::base (0.182),most specific compatible generated alias: meta-llama/meta-llama-meta-llama-3,iclr_2025_helmet,7
+meta-llama/Meta-Llama-3-8B-Instruct + RoPE theta=16M,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::llama::llama3::8b::instruct (1.000),most specific compatible generated alias: meta-llama/meta-llama-meta-llama-3,iclr_2025_helmet,8
+meta-llama/Meta-Llama-3-70B + RoPE theta=16M,matched_generated_alias_soft,generated_alias,0.82,2,0.6879958342720345,0.5507074685699647,variant::llama::llama3::70b::instruct (0.551); variant::llama::llama3::70b::base (0.449),most specific compatible generated alias: meta-llama/meta-llama-meta-llama-3,iclr_2025_helmet,9
+meta-llama/Meta-Llama-3-70B-Instruct + RoPE theta=16M,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::llama::llama3::70b::instruct (1.000),most specific compatible generated alias: meta-llama/meta-llama-meta-llama-3,iclr_2025_helmet,10
+meta-llama/Llama-3.1-8B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::8b::instruct (1.000),exact full repository id,iclr_2025_helmet,11
+meta-llama/Llama-3.1-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::8b::instruct (1.000),exact full repository id,iclr_2025_helmet,12
+meta-llama/Llama-3.1-70B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),exact full repository id,iclr_2025_helmet,13
+meta-llama/Llama-3.1-70B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),exact full repository id,iclr_2025_helmet,14
+meta-llama/Llama-3.3-70B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),exact full repository id,iclr_2025_helmet,15
+meta-llama/Llama-3.2-1B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.2::1b::instruct (1.000),exact full repository id,iclr_2025_helmet,16
+meta-llama/Llama-3.2-1B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.2::1b::instruct (1.000),exact full repository id,iclr_2025_helmet,17
+meta-llama/Llama-3.2-3B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.2::3b::instruct (1.000),exact full repository id,iclr_2025_helmet,18
+meta-llama/Llama-3.2-3B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.2::3b::instruct (1.000),exact full repository id,iclr_2025_helmet,19
+PrincetonPLI/ProLong-8B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",iclr_2025_helmet,20
+mistralai/Mistral-7B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,iclr_2025_helmet,21
+mistralai/Mistral-7B-Instruct-v0.2,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,iclr_2025_helmet,22
+mistralai/Mistral-7B-v0.3,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::base (1.000),exact full repository id,iclr_2025_helmet,23
+mistralai/Mistral-7B-Instruct-v0.3,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,iclr_2025_helmet,24
+mistralai/Mistral-Nemo-Base-2407,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::12b::instruct (1.000),exact full repository id,iclr_2025_helmet,25
+mistralai/Mistral-Nemo-Instruct-2407,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::12b::instruct (1.000),exact full repository id,iclr_2025_helmet,26
+MegaBeam/MegaBeam-Mistral-7B-512K,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::mistral::mistral::7b::unknown-role (1.000),basename candidates retained; no first-match collapse,iclr_2025_helmet,27
+mistralai/Ministral-8B-Instruct-2410,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::8b::instruct (1.000),exact full repository id,iclr_2025_helmet,28
+01-ai/Yi-6B-200K,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi::6b::base (1.000),exact full repository id,iclr_2025_helmet,29
+01-ai/Yi-9B-200K,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi::9b::base (1.000),exact full repository id,iclr_2025_helmet,30
+01-ai/Yi-34B-200K,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi::34b::base (1.000),exact full repository id,iclr_2025_helmet,31
+01-ai/Yi-1.5-9B-32K,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi1.5::9b::base (1.000),exact full repository id,iclr_2025_helmet,32
+microsoft/Phi-3-mini-128k-instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::phi::phi3::3.8b::instruct (1.000),exact full repository id,iclr_2025_helmet,33
+microsoft/Phi-3-small-128k-instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::phi::phi3::7b::instruct (1.000),exact full repository id,iclr_2025_helmet,34
+microsoft/Phi-3-medium-128k-instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::phi::phi3::14b::instruct (1.000),exact full repository id,iclr_2025_helmet,35
+microsoft/Phi-3.5-mini-instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::phi::phi3.5::3.8b::instruct (1.000),exact full repository id,iclr_2025_helmet,36
+Qwen/Qwen2-7B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2::7b::base (1.000),exact full repository id,iclr_2025_helmet,37
+Qwen/Qwen2-7B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2::7b::instruct (1.000),exact full repository id,iclr_2025_helmet,38
+Qwen/Qwen2-57B-A14B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2::57b::base (1.000),exact full repository id,iclr_2025_helmet,39
+Qwen/Qwen2-57B-A14B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2::57b::instruct (1.000),exact full repository id,iclr_2025_helmet,40
+Qwen/Qwen2.5-1.5B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::1.5b::base (1.000),exact full repository id,iclr_2025_helmet,41
+Qwen/Qwen2.5-1.5B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::1.5b::instruct (1.000),exact full repository id,iclr_2025_helmet,42
+Qwen/Qwen2.5-3B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::3b::base (1.000),exact full repository id,iclr_2025_helmet,43
+Qwen/Qwen2.5-3B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::3b::instruct (1.000),exact full repository id,iclr_2025_helmet,44
+Qwen/Qwen2.5-7B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::7b::base (1.000),exact full repository id,iclr_2025_helmet,45
+Qwen/Qwen2.5-7B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::7b::instruct (1.000),exact full repository id,iclr_2025_helmet,46
+Qwen/Qwen2.5-72B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::72b::instruct (1.000),exact full repository id,iclr_2025_helmet,47
+Qwen/Qwen2.5-7B-Instruct-1M,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::7b::instruct (1.000),exact full repository id,iclr_2025_helmet,48
+Qwen/Qwen2.5-14B-Instruct-1M,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::14b::instruct (1.000),exact full repository id,iclr_2025_helmet,49
+ai21labs/Jamba-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::jamba::jamba::52b::code (1.000),exact full repository id,iclr_2025_helmet,50
+ai21labs/AI21-Jamba-1.5-Mini,matched_fuzzy_soft_review,fuzzy_structural_soft,0.9884210526315791,2,0.6895763277448292,0.5422291395674858,variant::jamba::jamba::52b::instruct (0.542); variant::jamba::jamba::399b::instruct (0.458),2 candidates within review band,iclr_2025_helmet,51
+meta-llama/Meta-Llama-3.1-405B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::405b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_2025_livebench,0
+abacusai/Dracarys2-72B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2::72b::instruct (1.000),exact full repository id,iclr_2025_livebench,1
+Qwen/Qwen2.5-Coder-32B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::32b::instruct (1.000),exact full repository id,iclr_2025_livebench,2
+meta-llama/Meta-Llama-3.1-70B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_2025_livebench,3
+google/gemma-2-27b-it,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::gemma::gemma2::27b::instruct (1.000),exact full repository id,iclr_2025_livebench,4
+Qwen/Qwen2.5-7B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::7b::instruct (1.000),exact full repository id,iclr_2025_livebench,5
+mistralai/Mixtral-8x22B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mixtral::8x22b::instruct (1.000),exact full repository id,iclr_2025_livebench,6
+CohereForAI/c4ai-command-r-plus-08-2024,matched_basename_soft,repo_basename,0.85,2,0.693146466241717,0.5005976278349382,variant::cohere::command-r::104b::instruct (0.501); variant::cohere::command-r::104b::base (0.499),basename candidates retained; no first-match collapse,iclr_2025_livebench,7
+google/gemma-2-9b-it,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::gemma::gemma2::9b::instruct (1.000),exact full repository id,iclr_2025_livebench,8
+CohereForAI/c4ai-command-r-08-2024,matched_basename_soft,repo_basename,0.85,2,0.6904228692100809,0.5368906254508946,variant::cohere::command-r::32b::base (0.537); variant::cohere::command-r::32b::instruct (0.463),basename candidates retained; no first-match collapse,iclr_2025_livebench,9
+CohereForAI/c4ai-command-r-plus,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::cohere::command-r::104b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_2025_livebench,10
+meta-llama/Meta-Llama-3.1-8B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::8b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_2025_livebench,11
+microsoft/Phi-3-mini-128k-instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::phi::phi3::3.8b::instruct (1.000),exact full repository id,iclr_2025_livebench,12
+microsoft/Phi-3-mini-4k-instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::phi::phi3::3.8b::instruct (1.000),exact full repository id,iclr_2025_livebench,13
+deepseek-ai/deepseek-coder-33b-instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::deepseek::deepseek-coder::33b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,0
+deepseek-ai/deepseek-coder-6.7b-instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::deepseek::deepseek-coder::6.7b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,1
+deepseek-ai/deepseek-coder-1.3b-instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::deepseek::deepseek-coder::1.3b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,2
+codellama/CodeLlama-70b-Instruct-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::codellama::70b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,3
+openbmb/Eurus-70b-sft,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::70b::reasoning (1.000),exact full repository id,iclr_2025_livecodebench,4
+openbmb/Eurux-8x22b-nca,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mixtral::8x22b::reasoning (1.000),exact full repository id,iclr_2025_livecodebench,5
+codellama/CodeLlama-34b-Instruct-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::codellama::34b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,6
+codellama/CodeLlama-13b-Instruct-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::codellama::13b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,7
+codellama/CodeLlama-7b-Instruct-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::codellama::7b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,8
+meta-llama/Meta-Llama-3-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::8b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,9
+meta-llama/Meta-Llama-3-70B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::70b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,10
+Phind/Phind-CodeLlama-34B-v2,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::codellama::34b::code (1.000),exact full repository id,iclr_2025_livecodebench,11
+abacusai/Smaug-2-72B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen1.5::72b::chat (1.000),exact full repository id,iclr_2025_livecodebench,12
+Qwen/Qwen1.5-72B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen1.5::72b::chat (1.000),exact full repository id,iclr_2025_livecodebench,13
+Qwen/CodeQwen1.5-7B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::7b::base (1.000),exact full repository id,iclr_2025_livecodebench,14
+Qwen/CodeQwen1.5-7B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::7b::chat (1.000),exact full repository id,iclr_2025_livecodebench,15
+ise-uiuc/Magicoder-S-DS-6.7B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::6.7b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,16
+ise-uiuc/Magicoder-S-CL-7B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::7b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,17
+bigcode/starcoder2-3b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::starcoder::starcoder2::3b::code (1.000),exact full repository id,iclr_2025_livecodebench,18
+bigcode/starcoder2-7b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::starcoder::starcoder2::7b::code (1.000),exact full repository id,iclr_2025_livecodebench,19
+bigcode/starcoder2-15b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::starcoder::starcoder2::15b::code (1.000),exact full repository id,iclr_2025_livecodebench,20
+codellama/CodeLlama-70b-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::codellama::70b::code (1.000),exact full repository id,iclr_2025_livecodebench,21
+codellama/CodeLlama-34b-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::codellama::34b::code (1.000),exact full repository id,iclr_2025_livecodebench,22
+codellama/CodeLlama-13b-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::codellama::13b::code (1.000),exact full repository id,iclr_2025_livecodebench,23
+codellama/CodeLlama-7b-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::codellama::7b::code (1.000),exact full repository id,iclr_2025_livecodebench,24
+deepseek-ai/deepseek-coder-33b-base,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::deepseek::deepseek-coder::33b::code (1.000),exact full repository id,iclr_2025_livecodebench,25
+deepseek-ai/deepseek-coder-6.7b-base,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::deepseek::deepseek-coder::6.7b::code (1.000),exact full repository id,iclr_2025_livecodebench,26
+deepseek-ai/deepseek-coder-1.3b-base,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::deepseek::deepseek-coder::1.3b::code (1.000),exact full repository id,iclr_2025_livecodebench,27
+google/codegemma-7b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::gemma::gemma::7b::base (1.000),exact full repository id,iclr_2025_livecodebench,28
+google/codegemma-2b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::gemma::gemma::2b::base (1.000),exact full repository id,iclr_2025_livecodebench,29
+google/gemma-7b,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::gemma::gemma::7b::unknown-role (1.000),basename candidates retained; no first-match collapse,iclr_2025_livecodebench,30
+google/gemma-2b,matched_basename_soft,repo_basename,0.85,2,0.41506117425746636,0.8543655965049749,variant::gemma::gemma::2b::unknown-role (0.854); variant::gemma::gemma::2b::code (0.146),basename candidates retained; no first-match collapse,iclr_2025_livecodebench,31
+meta-llama/Meta-Llama-3-70B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::70b::base (1.000),exact full repository id,iclr_2025_livecodebench,32
+meta-llama/Meta-Llama-3-8B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::8b::base (1.000),exact full repository id,iclr_2025_livecodebench,33
+mistralai/Mixtral-8x22B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mixtral::8x22b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,34
+mistralai/Mixtral-8x7B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mixtral::8x7b::instruct (1.000),exact full repository id,iclr_2025_livecodebench,35
+m-a-p/OpenCodeInterpreter-DS-33B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::33b::code (1.000),exact full repository id,iclr_2025_livecodebench,36
+m-a-p/OpenCodeInterpreter-DS-6.7B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::6.7b::code (1.000),exact full repository id,iclr_2025_livecodebench,37
+m-a-p/OpenCodeInterpreter-DS-1.3B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::1.3b::code (1.000),exact full repository id,iclr_2025_livecodebench,38
+CohereForAI/c4ai-command-r-v01,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::cohere::command-r::35b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_2025_livecodebench,39
+CohereForAI/c4ai-command-r-plus,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::cohere::command-r::104b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_2025_livecodebench,40
+meta-llama/Meta-Llama-3-70B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::70b::instruct (1.000),exact full repository id,iclr_2025_wildbench,0
+01-ai/Yi-1.5-34B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi1.5::34b::chat (1.000),exact full repository id,iclr_2025_wildbench,1
+princeton-nlp/Llama-3-Instruct-8B-SimPO,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::8b::instruct (1.000),exact full repository id,iclr_2025_wildbench,2
+Qwen/Qwen1.5-72B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen1.5::72b::chat (1.000),exact full repository id,iclr_2025_wildbench,3
+Nexusflow/Starling-LM-7B-beta,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::unknown-role (1.000),exact full repository id,iclr_2025_wildbench,4
+meta-llama/Meta-Llama-3-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::8b::instruct (1.000),exact full repository id,iclr_2025_wildbench,5
+mistralai/Mixtral-8x7B-Instruct-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mixtral::8x7b::instruct (1.000),exact full repository id,iclr_2025_wildbench,6
+databricks/dbrx-instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::dbrx::dbrx::132b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_2025_wildbench,7
+01-ai/Yi-1.5-6B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi1.5::6b::chat (1.000),exact full repository id,iclr_2025_wildbench,8
+mistralai/Mistral-7B-Instruct-v0.2,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,iclr_2025_wildbench,9
+allenai/tulu-2-dpo-70b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::70b::base (1.000),exact full repository id,iclr_2025_wildbench,10
+meta-llama/Llama-2-70b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::70b::chat (1.000),exact full repository id,iclr_2025_wildbench,11
+Qwen/Qwen1.5-7B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen1.5::7b::chat (1.000),exact full repository id,iclr_2025_wildbench,12
+microsoft/Phi-3-medium-128k-instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::phi::phi3::14b::instruct (1.000),exact full repository id,iclr_2025_wildbench,13
+meta-llama/Llama-2-7b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::chat (1.000),exact full repository id,iclr_2025_wildbench,14
+google/gemma-7b-it,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::gemma::gemma::7b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_2025_wildbench,15
+google/gemma-2b-it,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::gemma::gemma::2b::instruct (1.000),basename candidates retained; no first-match collapse,iclr_2025_wildbench,16
+deepseek-ai/DeepSeek-R1,matched_basename_soft,repo_basename,0.85,3,0.7195657412637968,0.7588421718146834,variant::deepseek::deepseek-r1::684b::reasoning (0.759); variant::deepseek::deepseek-r1::4.8b::reasoning (0.121); variant::deepseek::deepseek-r1::490m::reasoning (0.120),basename candidates retained; no first-match collapse,icml_010,0
+meta-llama/Llama-3-70B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3::70b::instruct (1.000),basename candidates retained; no first-match collapse,icml_010,1
+Qwen/Qwen2-72B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2::72b::instruct (1.000),exact full repository id,icml_010,2
+mistralai/Mixtral-8x7B-Instruct,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::mistral::mixtral::8x7b::instruct (1.000),most specific compatible generated alias: mistralai/mistralai-mixtral,icml_010,3
+cognitivecomputations/Dolphin-2.9-Llama3-70B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3::70b::instruct (1.000),basename candidates retained; no first-match collapse,icml_010,4
+deepseek-ai/DeepSeek-R1,matched_basename_soft,repo_basename,0.85,3,0.7195657412637968,0.7588421718146834,variant::deepseek::deepseek-r1::684b::reasoning (0.759); variant::deepseek::deepseek-r1::4.8b::reasoning (0.121); variant::deepseek::deepseek-r1::490m::reasoning (0.120),basename candidates retained; no first-match collapse,icml_011,0
+Qwen/QwQ-32B-Preview,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::32b::reasoning (1.000),exact full repository id,icml_011,1
+deepseek-ai/DeepSeek-V3,matched_generated_alias_soft,generated_alias,0.82,3,1.098065277393555,0.3489835027059078,variant::deepseek::deepseek-v3::1b::code (0.349); variant::deepseek::deepseek-v3::7b::unknown-role (0.326); variant::deepseek::deepseek-v3::8b::unknown-role (0.325),most specific compatible generated alias: deepseek-v3,icml_011,2
+meta-llama/Llama-3.3-70B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),exact full repository id,icml_011,3
+Qwen/Qwen2.5-72B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::72b::instruct (1.000),exact full repository id,icml_011,4
+Qwen/Qwen2.5-32B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::32b::instruct (1.000),exact full repository id,icml_011,5
+Qwen/Qwen2.5-14B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::14b::instruct (1.000),exact full repository id,icml_011,6
+Qwen/Qwen2.5-7B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::7b::instruct (1.000),exact full repository id,icml_011,7
+01-ai/Yi-1.5-6B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi1.5::6b::chat (1.000),exact full repository id,icml_012,0
+Qwen/Qwen2.5-7B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::7b::instruct (1.000),exact full repository id,icml_012,1
+meta-llama/Llama-3.1-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::8b::instruct (1.000),exact full repository id,icml_012,2
+mistralai/Ministral-8B-Instruct-2410,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::8b::instruct (1.000),exact full repository id,icml_012,3
+01-ai/Yi-1.5-9B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi1.5::9b::chat (1.000),exact full repository id,icml_012,4
+mistralai/Mistral-Nemo-Instruct-2407,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::12b::instruct (1.000),exact full repository id,icml_012,5
+deepseek-ai/DeepSeek-MoE-16B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::deepseek::deepseek::16b::chat (1.000),exact full repository id,icml_012,6
+deepseek-ai/DeepSeek-V2-Lite-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::deepseek::deepseek-v2::16b::chat (1.000),exact full repository id,icml_012,7
+mistralai/Mistral-Small-Instruct-2409,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral-small::22b::instruct (1.000),exact full repository id,icml_012,8
+01-ai/Yi-1.5-34B-Chat,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::yi::yi1.5::34b::chat (1.000),exact full repository id,icml_012,9
+meta-llama/Llama-3.1-70B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),exact full repository id,icml_012,10
+meta-llama/Llama-3.3-70B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),exact full repository id,icml_012,11
+Qwen/Qwen2.5-72B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::72b::instruct (1.000),exact full repository id,icml_012,12
+mistralai/Mistral-Large-Instruct-2407,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral-large::123b::instruct (1.000),exact full repository id,icml_012,13
+deepseek-ai/DeepSeekMath-7B-Instruct,matched_fuzzy_soft_review,fuzzy_structural_soft,0.964438775510204,1,-0.0,1.0,variant::deepseek::deepseek-math::7b::instruct (1.000),1 candidates within review band,icml_012,14
+deepseek-ai/DeepSeekMath-7B-RL,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",icml_012,15
+AI-MO/NuminaMath-7B-CoT,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::deepseek::deepseek-math::7b::math (1.000),basename candidates retained; no first-match collapse,icml_012,16
+mistralai/Mathstral-7B-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::base (1.000),exact full repository id,icml_012,17
+nvidia/OpenMath2-Llama-3.1-8B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",icml_012,18
+Qwen/Qwen2.5-Math-7B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::7b::instruct (1.000),exact full repository id,icml_012,19
+nvidia/OpenMath2-Llama-3.1-70B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",icml_012,20
+Qwen/Qwen2.5-Math-72B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::72b::instruct (1.000),exact full repository id,icml_012,21
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::7b::reasoning (1.000),exact full repository id,icml_012,22
+Skywork/Skywork-o1-Open-Llama-3.1-8B,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::llama::llama3.1::8b::instruct (1.000),manual alias -> Skywork/Skywork-o1-Open-Llama-3.1-8B,icml_012,23
+deepseek-ai/DeepSeek-R1-Distill-Llama-8B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::8b::reasoning (1.000),exact full repository id,icml_012,24
+Qwen/QwQ-32B-Preview,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::32b::reasoning (1.000),exact full repository id,icml_012,25
+deepseek-ai/DeepSeek-R1-Distill-Qwen-32B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen::32b::reasoning (1.000),exact full repository id,icml_012,26
+deepseek-ai/DeepSeek-R1-Distill-Llama-70B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::70b::reasoning (1.000),exact full repository id,icml_012,27
+Baichuan-7B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::baichuan::baichuan::7b::code (1.000),basename candidates retained; no first-match collapse,llmspark_2025,0
+Phoenix-Inst-Chat-7B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::bloom::bloom::7b::chat (1.000),basename candidates retained; no first-match collapse,llmspark_2025,1
+ChatGLM-6B,matched_basename_soft,repo_basename,0.85,2,0.6062342626035963,0.7053827758808925,variant::glm::chatglm::6b::code (0.705); variant::glm::chatglm::6b::unknown-role (0.295),basename candidates retained; no first-match collapse,llmspark_2025,2
+ChatGLM2-6B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::glm::chatglm2::6b::code (1.000),basename candidates retained; no first-match collapse,llmspark_2025,3
+ChatYuan-Large-v2,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::t5::t5::unknown-size::code (1.000),basename candidates retained; no first-match collapse,llmspark_2025,4
+MOSS-Moon-003-SFT,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::moss::moss::unknown-size::code (1.000),basename candidates retained; no first-match collapse,llmspark_2025,5
+Dolly-v2-12B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",llmspark_2025,6
+RWKV-4-World-7B,matched_basename_soft,repo_basename,0.85,2,0.6908230536696115,0.5340758404861443,variant::rwkv::rwkv::7b::base (0.534); variant::rwkv::rwkv::7b::unknown-role (0.466),basename candidates retained; no first-match collapse,llmspark_2025,7
+Baichuan2-7B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::baichuan::baichuan2::7b::chat (1.000),basename candidates retained; no first-match collapse,llmspark_2025,8
+Qwen-14B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen::14b::chat (1.000),basename candidates retained; no first-match collapse,llmspark_2025,9
+Llama-4-Scout-17B-16E-Instruct,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::llama::llama4::17b::instruct (1.000),most specific compatible generated alias: llama-4-scout,multifinben_2025,0
+Gemma-3-4B-IT,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::gemma::gemma3::4b::instruct (1.000),basename candidates retained; no first-match collapse,multifinben_2025,1
+Gemma-3-27B-IT,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::gemma::gemma3::27b::code (1.000),most specific compatible generated alias: gemma-3,multifinben_2025,2
+Qwen2.5-Omni-7B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen2.5::7b::unknown-role (1.000),basename candidates retained; no first-match collapse,multifinben_2025,3
+Llama-3.1-70B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),basename candidates retained; no first-match collapse,multifinben_2025,4
+DeepSeek-V3,matched_taxonomy_soft,taxonomy_series_id,0.9,109,4.319838787092617,0.08274838657009376,variant::deepseek::deepseek-v3::16b::instruct (0.083); variant::deepseek::deepseek-v3::3.8m::unknown-role (0.069); variant::deepseek::deepseek-v3::16b::code (0.053); variant::deepseek::deepseek-v3::11m::code (0.041); variant::deepseek::deepseek-v3::9b::code (0.036); variant::deepseek::deepseek-v3::1.7m::code (0.035); variant::deepseek::deepseek-v3::4.3m::code (0.020); variant::deepseek::deepseek-v3::30b::instruct (0.015),exact series_id; retained as posterior over descendants,multifinben_2025,5
+Qwen2.5-32B-Instruct,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::32b::instruct (1.000),manual alias -> Qwen/Qwen2.5-32B-Instruct,multifinben_2025,6
+DeepSeek-R1-Distill-Qwen-32B-Japanese,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen::32b::reasoning (1.000),basename candidates retained; no first-match collapse,multifinben_2025,7
+Llama3.1-XuanYuan-FinX1-Preview,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::70b::unknown-role (1.000),basename candidates retained; no first-match collapse,multifinben_2025,8
+FinMA-ES-Bilingual,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",multifinben_2025,9
+Plutus-8B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama::8b::reasoning (1.000),basename candidates retained; no first-match collapse,multifinben_2025,10
+FinMA-7B-Full,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama::7b::domain (1.000),basename candidates retained; no first-match collapse,multifinben_2025,11
+Qwen-VL-Max,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",multifinben_2025,12
+DeepSeek-VL-7B-Chat,matched_fuzzy_soft_review,fuzzy_structural_soft,0.8384615384615386,1,-0.0,1.0,variant::deepseek::deepseek::7b::chat (1.000),1 candidates within review band,multifinben_2025,13
+LLaVA-v1.6-Vicuna-13B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",multifinben_2025,14
+Whisper-V3,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",multifinben_2025,15
+Qwen2-Audio-7B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",multifinben_2025,16
+Qwen2-Audio-7B-Instruct,matched_fuzzy_soft_review,fuzzy_structural_soft,0.8275000000000001,2,0.15568757799453775,0.9637957188844409,variant::qwen::qwen2.5::7b::instruct (0.964); variant::qwen::qwen2::7b::instruct (0.036),2 candidates within review band,multifinben_2025,17
+SALMONN-7B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",multifinben_2025,18
+SALMONN-13B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",multifinben_2025,19
+google/mt5-base,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::t5::mt5::unknown-size::instruct (1.000),exact full repository id,naacl_2024_buffet,0
+bigscience/bloom-7b1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::bloom::bloom::7b::code (1.000),exact full repository id,naacl_2024_buffet,1
+google/mt5-xxl,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::t5::mt5::unknown-size::instruct (1.000),exact full repository id,naacl_2024_buffet,2
+bigscience/bloomz-7b1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::bloom::bloomz::7b::code (1.000),exact full repository id,naacl_2024_buffet,3
+bigscience/mt0-xxl,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::t5::mt5::14b::instruct (1.000),exact full repository id,naacl_2024_buffet,4
+huggyllama/llama-7b,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::7b::unknown-role (1.000),exact full repository id,naacl_2024_buffet,5
+meta-llama/Llama-2-7b-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::base (1.000),exact full repository id,naacl_2024_buffet,6
+meta-llama/Llama-2-7b-chat-hf,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama2::7b::chat (1.000),exact full repository id,naacl_2024_buffet,7
+mistralai/Mistral-7B-v0.1,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::base (1.000),exact full repository id,naacl_2024_buffet,8
+OpenAI/gpt-oss-120b,matched_manual_alias,manual_alias,1.0,1,-0.0,1.0,variant::gpt-oss::gpt-oss::120b::base (1.000),manual alias -> openai/gpt-oss-120b,neurips2025_020,0
+Qwen/Qwen3-32B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen3::32b::base (1.000),exact full repository id,neurips2025_020,1
+Qwen/QwQ-32B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::32b::reasoning (1.000),exact full repository id,neurips2025_020,2
+THUDM/GLM-Z1-32B,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::glm::glm::32b::base (1.000),most specific compatible generated alias: glm-z1-32b,neurips2025_020,3
+Meta/Meta-Llama-3.1-70B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),basename candidates retained; no first-match collapse,neurips2025_020,4
+DeepSeek/DeepSeek-R1-Distill-Qwen-32B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen::32b::reasoning (1.000),basename candidates retained; no first-match collapse,neurips2025_020,5
+DeepSeek/DeepSeek-R1-Distill-Llama-70B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama::70b::reasoning (1.000),basename candidates retained; no first-match collapse,neurips2025_020,6
+Meta/Meta-Llama-3.1-8B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::8b::instruct (1.000),basename candidates retained; no first-match collapse,neurips2025_020,7
+Mistral/Crab-DPO-7B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",neurips2025_020,8
+Mistral/Mistral-7B-Instruct-v0.3,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),basename candidates retained; no first-match collapse,neurips2025_020,9
+Mistral/Conifer-DPO-7B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",neurips2025_020,10
+DeepSeek-Coder-33B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::deepseek::deepseek-coder::33b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_005,0
+DeepSeek-Coder-6.7B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::deepseek::deepseek-coder::6.7b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_005,1
+DeepSeek-Coder-1.3B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::deepseek::deepseek-coder::1.3b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_005,2
+CodeLlama-70B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::codellama::70b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_005,3
+CodeLlama-34B-Instruct,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::llama::codellama::34b::instruct (1.000),most specific compatible generated alias: codellama-34b,openreview_005,4
+CodeLlama-13B-Instruct,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::llama::codellama::13b::instruct (1.000),most specific compatible generated alias: codellama-13b,openreview_005,5
+CodeLlama-7B-Instruct,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::llama::codellama::7b::instruct (1.000),most specific compatible generated alias: codellama-7b,openreview_005,6
+Meta-Llama-3-70B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3::70b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_005,7
+Meta-Llama-3-8B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3::8b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_005,8
+Qwen2-72B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen2::72b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_005,9
+Qwen2-57B-A14B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen2::57b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_005,10
+Qwen2-7B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen2::7b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_005,11
+CodeQwen1.5-7B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen::7b::chat (1.000),basename candidates retained; no first-match collapse,openreview_005,12
+Qwen1.5-110B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen1.5::110b::chat (1.000),basename candidates retained; no first-match collapse,openreview_005,13
+Qwen1.5-72B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen1.5::72b::chat (1.000),basename candidates retained; no first-match collapse,openreview_005,14
+Qwen1.5-32B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::qwen::qwen1.5::32b::chat (1.000),basename candidates retained; no first-match collapse,openreview_005,15
+Yi-1.5-34B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::yi::yi1.5::34b::chat (1.000),basename candidates retained; no first-match collapse,openreview_005,16
+Yi-1.5-9B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::yi::yi1.5::9b::chat (1.000),basename candidates retained; no first-match collapse,openreview_005,17
+Yi-1.5-6B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::yi::yi1.5::6b::chat (1.000),basename candidates retained; no first-match collapse,openreview_005,18
+Mixtral-8x22B-Instruct-v0.1,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::mistral::mixtral::8x22b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_005,19
+Magicoder-S-DS-6.7B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama::6.7b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_005,20
+CodeGemma-7B-Instruct,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::gemma::gemma::7b::instruct (1.000),most specific compatible generated alias: codegemma-7b,openreview_005,21
+StarCoder2-15B-Instruct-v0.1,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::starcoder::starcoder2::15b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_005,22
+Granite-34B-Code-Instruct,matched_fuzzy_soft_review,fuzzy_structural_soft,1.0,2,0.6868566625209273,0.5560237303674257,variant::granite::granite::34b::instruct (0.556); variant::granite::granite::34b::code (0.444),2 candidates within review band,openreview_005,23
+Granite-20B-Code-Instruct,matched_fuzzy_soft_review,fuzzy_structural_soft,1.0,3,1.0933343302128218,0.38196328098308235,variant::granite::granite::20b::instruct (0.382); variant::granite::granite::20b::reasoning (0.314); variant::granite::granite::20b::code (0.304),3 candidates within review band,openreview_005,24
+Granite-8B-Code-Instruct,matched_fuzzy_high_confidence,fuzzy_structural,0.9785106382978723,1,-0.0,1.0,variant::granite::granite::8b::code (1.000),top margin=0.157,openreview_005,25
+Granite-3B-Code-Instruct,matched_fuzzy_high_confidence,fuzzy_structural,0.9785106382978723,1,-0.0,1.0,variant::granite::granite::3b::code (1.000),top margin=0.185,openreview_005,26
+CodeLlama-70B-Base,matched_generated_alias_soft,generated_alias,0.82,2,0.6931246436466791,0.5033568395822222,variant::llama::codellama::70b::instruct (0.503); variant::llama::codellama::70b::code (0.497),most specific compatible generated alias: codellama-70b,openreview_005,27
+CodeLlama-34B-Base,matched_generated_alias_soft,generated_alias,0.82,2,0.6794800846205633,0.5824764159479882,variant::llama::codellama::34b::instruct (0.582); variant::llama::codellama::34b::code (0.418),most specific compatible generated alias: codellama-34b,openreview_005,28
+CodeLlama-13B-Base,matched_generated_alias_soft,generated_alias,0.82,3,0.9386979078832232,0.5436474294110232,variant::llama::codellama::13b::instruct (0.544); variant::llama::codellama::13b::code (0.349); variant::llama::llama3.1::13b::code (0.108),most specific compatible generated alias: codellama-13b,openreview_005,29
+CodeLlama-7B-Base,matched_generated_alias_soft,generated_alias,0.82,2,0.29494942834443355,0.913251650230872,variant::llama::codellama::7b::code (0.913); variant::llama::codellama::7b::instruct (0.087),most specific compatible generated alias: codellama-7b,openreview_005,30
+Meta-Llama-3-70B-Base,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::llama::llama3::70b::base (1.000),most specific compatible generated alias: meta-llama-3-70b,openreview_005,31
+Meta-Llama-3-8B-Base,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::llama::llama3::8b::base (1.000),most specific compatible generated alias: meta-llama-3-8b,openreview_005,32
+DeepSeek-Coder-33B-Base,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::deepseek::deepseek-coder::33b::code (1.000),basename candidates retained; no first-match collapse,openreview_005,33
+DeepSeek-Coder-6.7B-Base,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::deepseek::deepseek-coder::6.7b::code (1.000),basename candidates retained; no first-match collapse,openreview_005,34
+DeepSeek-Coder-1.3B-Base,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::deepseek::deepseek-coder::1.3b::code (1.000),basename candidates retained; no first-match collapse,openreview_005,35
+CodeQwen1.5-7B-Base,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::qwen::qwen::7b::base (1.000),most specific compatible generated alias: codeqwen1.5-7b,openreview_005,36
+Yi-1.5-34B-Base,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::yi::yi1.5::34b::base (1.000),most specific compatible generated alias: yi-1.5-34b,openreview_005,37
+Yi-1.5-9B-Base,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::yi::yi1.5::9b::base (1.000),most specific compatible generated alias: yi-1.5-9b,openreview_005,38
+Yi-1.5-6B-Base,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::yi::yi1.5::6b::base (1.000),most specific compatible generated alias: yi-1.5-6b,openreview_005,39
+Mixtral-8x22B-Base-v0.1,matched_fuzzy_high_confidence,fuzzy_structural,0.9600000000000001,1,-0.0,1.0,variant::mistral::mixtral::8x22b::instruct (1.000),top margin=0.530,openreview_005,40
+CodeGemma-7B-Base,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::gemma::gemma::7b::base (1.000),most specific compatible generated alias: codegemma-7b,openreview_005,41
+CodeGemma-2B-Base,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::gemma::gemma::2b::base (1.000),most specific compatible generated alias: codegemma-2b,openreview_005,42
+StarCoder2-15B-Base,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::starcoder::starcoder2::15b::code (1.000),most specific compatible generated alias: starcoder2-15b,openreview_005,43
+StarCoder2-7B-Base,matched_generated_alias_soft,generated_alias,0.82,2,0.28696938266447647,0.9166110262600534,variant::starcoder::starcoder2::7b::code (0.917); variant::starcoder::starcoder2::7b::instruct (0.083),most specific compatible generated alias: starcoder2-7b,openreview_005,44
+StarCoder2-3B-Base,matched_generated_alias_soft,generated_alias,0.82,2,0.2872681134763367,0.9164863656049584,variant::starcoder::starcoder2::3b::code (0.916); variant::starcoder::starcoder2::3b::instruct (0.084),most specific compatible generated alias: starcoder2-3b,openreview_005,45
+Granite-34B-Code-Base,matched_fuzzy_soft_review,fuzzy_structural_soft,1.0,2,0.6920972912863257,0.5229076602870981,variant::granite::granite::34b::code (0.523); variant::granite::granite::34b::instruct (0.477),2 candidates within review band,openreview_005,46
+Granite-20B-Code-Base,matched_fuzzy_soft_review,fuzzy_structural_soft,1.0,3,1.0899438147546507,0.3787410527817149,variant::granite::granite::20b::code (0.379); variant::granite::granite::20b::instruct (0.346); variant::granite::granite::20b::reasoning (0.275),3 candidates within review band,openreview_005,47
+Granite-8B-Code-Base,matched_fuzzy_high_confidence,fuzzy_structural,1.0,1,-0.0,1.0,variant::granite::granite::8b::code (1.000),top margin=0.312,openreview_005,48
+Granite-3B-Code-Base,matched_fuzzy_high_confidence,fuzzy_structural,1.0,1,-0.0,1.0,variant::granite::granite::3b::code (1.000),top margin=0.312,openreview_005,49
+meta-llama/Llama-2-7b,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama2::7b::unknown-role (1.000),basename candidates retained; no first-match collapse,openreview_006,0
+meta-llama/Llama-2-13b,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama2::13b::unknown-role (1.000),basename candidates retained; no first-match collapse,openreview_006,1
+meta-llama/Meta-Llama-3-8B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3::8b::base (1.000),exact full repository id,openreview_006,2
+mistralai/Mistral-7B,matched_basename_soft,repo_basename,0.85,2,0.2660858818776187,0.9251188070462046,variant::mistral::mistral::7b::unknown-role (0.925); variant::mistral::mistral::7b::code (0.075),basename candidates retained; no first-match collapse,openreview_006,3
+PandaLM/PandaLM,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,0
+prometheus-eval/Prometheus-2-7B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,1
+prometheus-eval/Prometheus-2-8x7B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,2
+prometheus-eval/Prometheus-2-BGB-8x7B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,3
+JudgeLM/JudgeLM-7B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,4
+JudgeLM/JudgeLM-13B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,5
+JudgeLM/JudgeLM-33B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,6
+GAIR/Auto-J,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,7
+Skywork/Skywork-LLaMA-3.1-8B-Judge,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,8
+Skywork/Skywork-LLaMA-3.1-70B-Judge,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,9
+meta-llama/Meta-Llama-3.1-405B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::405b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_008,10
+meta-llama/Meta-Llama-3.1-70B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_008,11
+meta-llama/Meta-Llama-3.1-8B-Instruct,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama3.1::8b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_008,12
+deepseek-ai/DeepSeek-R1,matched_basename_soft,repo_basename,0.85,3,0.7195657412637968,0.7588421718146834,variant::deepseek::deepseek-r1::684b::reasoning (0.759); variant::deepseek::deepseek-r1::4.8b::reasoning (0.121); variant::deepseek::deepseek-r1::490m::reasoning (0.120),basename candidates retained; no first-match collapse,openreview_008,13
+Skywork/Skywork-Reward-Gemma-2-27B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,14
+Skywork/Skywork-Reward-Llama-3.1-8B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,15
+internlm/internlm2-20b-reward,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::internlm::internlm2::20b::code (1.000),most specific compatible generated alias: internlm/internlm-internlm2,openreview_008,16
+internlm/internlm2-7b-reward,matched_generated_alias_unique,generated_alias,0.96,1,-0.0,1.0,variant::internlm::internlm2::7b::code (1.000),most specific compatible generated alias: internlm/internlm-internlm2,openreview_008,17
+GRM-Gemma-2B,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_008,18
+meta-llama/Llama-3.1-70B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::70b::instruct (1.000),exact full repository id,openreview_009,0
+CohereForAI/Aya-expanse-32B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::cohere::cohere::32b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_009,1
+Qwen/Qwen2.5-14B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::14b::base (1.000),exact full repository id,openreview_009,2
+CohereForAI/Aya-expanse-8B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::cohere::cohere::8b::instruct (1.000),basename candidates retained; no first-match collapse,openreview_009,3
+mistralai/Mistral-7B-v0.3,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::base (1.000),exact full repository id,openreview_009,4
+mistralai/Mistral-7B-Instruct-v0.3,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::mistral::mistral::7b::instruct (1.000),exact full repository id,openreview_009,5
+google/Gemma-7B,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::gemma::gemma::7b::unknown-role (1.000),basename candidates retained; no first-match collapse,openreview_009,6
+google/Gemma-7B-Instruct,unresolved,none,0.0,0,,,,"no exact, taxonomy, basename, alias, or accepted fuzzy match",openreview_009,7
+Qwen/Qwen2.5-7B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::7b::base (1.000),exact full repository id,openreview_009,8
+Qwen/Qwen2.5-7B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::qwen::qwen2.5::7b::instruct (1.000),exact full repository id,openreview_009,9
+meta-llama/Llama-3.1-8B,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::8b::instruct (1.000),exact full repository id,openreview_009,10
+meta-llama/Llama-3.1-8B-Instruct,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama3.1::8b::instruct (1.000),exact full repository id,openreview_009,11
+Meta/Llama-2-7B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama2::7b::chat (1.000),basename candidates retained; no first-match collapse,preprint_018,0
+Meta/Llama-2-13B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama2::13b::chat (1.000),basename candidates retained; no first-match collapse,preprint_018,1
+Meta/Llama-2-70B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::llama::llama2::70b::chat (1.000),basename candidates retained; no first-match collapse,preprint_018,2
+Baichuan/Baichuan2-7B-Chat,matched_basename_unique,repo_basename,0.98,1,-0.0,1.0,variant::baichuan::baichuan2::7b::chat (1.000),basename candidates retained; no first-match collapse,preprint_018,3
+LMSYS/Vicuna-13B-v1.5,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::13b::unknown-role (1.000),exact full repository id,preprint_018,4
+LMSYS/Vicuna-7B-v1.5,matched_repo_exact,repo_exact,1.0,1,-0.0,1.0,variant::llama::llama::7b::unknown-role (1.000),exact full repository id,preprint_018,5
+DeepSeek-R1,matched_taxonomy_soft,taxonomy_series_id,0.9,27,3.1316033275857698,0.18145429918577546,variant::deepseek::deepseek-r1::684b::reasoning (0.181); variant::deepseek::deepseek-r1::397b::reasoning (0.047); variant::deepseek::deepseek-r1::671b::reasoning (0.045); variant::deepseek::deepseek-r1::2.4b::reasoning (0.038); variant::deepseek::deepseek-r1::8b::reasoning (0.036); variant::deepseek::deepseek-r1::1.5b::reasoning (0.034); variant::deepseek::deepseek-r1::17m::reasoning (0.034); variant::deepseek::deepseek-r1::14b::reasoning (0.033),exact series_id; retained as posterior over descendants,researcharena_2025,0

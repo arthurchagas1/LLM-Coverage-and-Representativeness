@@ -1,0 +1,6 @@
+role,coordinate,target,direction,formal_property
+headline adoption fidelity,adoption_gap,pi_a,lower,Tree-W1 IPM; controls mean error for lineage-Lipschitz outcomes
+lineage breadth and panel selection,breadth,pi_b,higher,"monotone, submodular, replication invariant"
+structural diagnosis,structural_linf plus per-partition TV,pi_b,lower,auditable worst cell and partition-level total variation
+observable support description,"C(q), especially C(0), C(1), and delta",pi_a,profile,soft inclusion probability prevents ambiguous-match inflation
+same-budget reference,efficiency_vs_greedy,pi_a,greater than 1 beats greedy,unclipped baseline ratio; no optimality claim

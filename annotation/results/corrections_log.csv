@@ -1,0 +1,107 @@
+item_id,annotator,field,old,new,rule,reason
+T197,1,size_bucket,70B-180B,1B-3B,R-size,parameter_count=2727774720
+T230,1,size_bucket,unknown,3B-7B,R-size,parameter_count=3085938688
+T204,1,size_bucket,unknown,7B-13B,R-size,parameter_count=7392274432
+T204,1,role,base,instruct,R-role,name has instruct/it suffix
+T035,1,size_bucket,70B-180B,34B-70B,R-size,parameter_count=68976653312
+T195,1,size_bucket,3B-7B,1B-3B,R-size,parameter_count=2796096000
+T005,1,size_bucket,unknown,<1B,R-size,parameter_count=874368
+T034,1,size_bucket,unknown,3B-7B,R-size,parameter_count=6939037248
+T229,1,size_bucket,1B-3B,<1B,R-size,parameter_count=941051904
+T166,1,role,base,instruct,R-role,name has instruct/it suffix
+T004,1,role,chat,instruct,R-role,name has instruct/it suffix
+T150,1,role,code,instruct,R-role,name has instruct/it suffix
+T165,1,decision,in_scope,out_of_scope,R-scope,tag image-text-to-text
+T041,1,size_bucket,7B-13B,3B-7B,R-size,parameter_count=6649286656
+T015,1,role,base,instruct,R-role,name has instruct/it suffix
+T028,annotator2,size_bucket,unknown,1B-3B,R-size,parameter_count=1010159360
+T151,annotator2,size_bucket,unknown,1B-3B,R-size,parameter_count=1100048384
+T048,annotator2,size_bucket,unknown,<1B,R-size,parameter_count=14970624
+T005,annotator2,size_bucket,unknown,<1B,R-size,parameter_count=874368
+T061,annotator2,role,unknown-role,base,R-role,"name has base/pretrain, no declared base model"
+T212,annotator2,size_bucket,unknown,<1B,R-size,parameter_count=3544064
+T027,annotator2,role,unknown-role,base,R-role,"name has base/pretrain, no declared base model"
+T229,annotator2,size_bucket,1B-3B,<1B,R-size,parameter_count=941051904
+T034,annotator2,size_bucket,unknown,3B-7B,R-size,parameter_count=6939037248
+T169,annotator2,size_bucket,unknown,<1B,R-size,parameter_count=1641344
+T004,annotator2,role,unknown-role,instruct,R-role,name has instruct/it suffix
+T222,annotator2,size_bucket,unknown,<1B,R-size,parameter_count=92799313
+T177,annotator2,size_bucket,unknown,3B-7B,R-size,parameter_count=5325704320
+T195,annotator2,size_bucket,3B-7B,1B-3B,R-size,parameter_count=2796096000
+T011,annotator2,size_bucket,unknown,<1B,R-size,parameter_count=803000968
+T035,annotator2,size_bucket,70B-180B,34B-70B,R-size,parameter_count=68976653312
+T098,annotator2,role,unknown-role,instruct,R-role,name has instruct/it suffix
+T230,annotator2,size_bucket,unknown,3B-7B,R-size,parameter_count=3085938688
+T018,annotator2,size_bucket,unknown,1B-3B,R-size,parameter_count=1644515328
+T197,annotator2,size_bucket,unknown,1B-3B,R-size,parameter_count=2727774720
+T150,annotator2,size_bucket,unknown,13B-34B,R-size,parameter_count=13960238080
+T204,annotator2,size_bucket,unknown,7B-13B,R-size,parameter_count=7392274432
+T082,annotator2,role,unknown-role,base,R-role,"name has base/pretrain, no declared base model"
+T079,annotator2,size_bucket,unknown,7B-13B,R-size,parameter_count=11448603648
+T038,annotator2,size_bucket,unknown,1B-3B,R-size,parameter_count=1644515328
+T110,annotator2,role,unknown-role,base,R-role,"name has base/pretrain, no declared base model"
+T165,annotator2,decision,in_scope,out_of_scope,R-scope,tag image-text-to-text
+T201,annotator2,size_bucket,7B-13B,70B-180B,R-size,parameter_count=72706203648
+T223,annotator2,size_bucket,7B-13B,<1B,R-size,parameter_count=742489344
+T015,1,artifact,fine-tune,official,manual,Qwen/Qwen2.5-32B-Instruct: the lab's own instruct release (guideline 7)
+T015,annotator2,artifact,fine-tune,official,manual,Qwen/Qwen2.5-32B-Instruct: the lab's own instruct release (guideline 7)
+T020,1,artifact,fine-tune,official,manual,meta-llama/Meta-Llama-3-70B-Instruct: guideline 7 names this repository as official
+T166,1,artifact,fine-tune,official,manual,google/gemma-2-27b-it: guideline 7 names this repository as official
+T166,annotator2,artifact,fine-tune,official,manual,google/gemma-2-27b-it: guideline 7 names this repository as official
+T065,1,artifact,fine-tune,official,manual,kakaocorp instruct release whose declared base is kakaocorp's own model (guideline 7)
+T065,annotator2,artifact,fine-tune,official,manual,kakaocorp instruct release whose declared base is kakaocorp's own model (guideline 7)
+T065,1,family,kanana2-tiny,kanana,manual,declared base kakaocorp/kanana-2-30b-a3b-mid-2601; DeepseekV3 is only the architecture (guideline 3)
+T065,annotator2,family,deepseek,kanana,manual,declared base kakaocorp/kanana-2-30b-a3b-mid-2601; DeepseekV3 is only the architecture (guideline 3)
+T065,annotator2,series,deepseek-v3,kanana2,manual,"declared base kakaocorp/kanana-2-...; 'tiny' is a size tier, not a series (guideline 4)"
+T239,1,artifact,other,official,manual,"zai-org (ex-THUDM, tag thudm) is the lab that released ChatGLM3 (guideline 7)"
+T239,annotator2,artifact,other,official,manual,"zai-org (ex-THUDM, tag thudm) is the lab that released ChatGLM3 (guideline 7)"
+T239,annotator2,series,chatglm,chatglm3,manual,"name chatglm3-6b: third generation, do not merge generations (guideline 4)"
+T239,1,role,unknown-role,chat,manual,the release itself is the chat model ChatGLM3 (guideline 6)
+T229,annotator2,family,deepseek,til,manual,"tags from-scratch and pretrained, no base model: independent pretraining, family is the new project (special cases; this item is the guideline's example)"
+T229,annotator2,series,deepseek-v3,til,manual,same as family: no versioned generation (guideline 4)
+T229,annotator2,artifact,fine-tune,independent-pretraining,manual,tags from-scratch and pretrained on a DeepseekV3 architecture (special cases)
+T025,1,family,koalpaca,polyglot,manual,declared base EleutherAI/polyglot-ko-5.8b: a fine-tune inherits its base model's family (guideline 3)
+T025,annotator2,family,gpt-neox,polyglot,manual,declared base EleutherAI/polyglot-ko-5.8b: a fine-tune inherits its base model's family (guideline 3)
+T025,1,series,koalpaca polyglot,polyglot-ko,manual,declared base EleutherAI/polyglot-ko-5.8b (guideline 4)
+T025,annotator2,series,gpt-neox,polyglot-ko,manual,declared base EleutherAI/polyglot-ko-5.8b (guideline 4)
+T034,1,family,granitemoehybrid,granite,manual,declared base unsloth/granite-4.0-h-tiny-base; granitemoehybrid is the architecture class (guideline 3)
+T034,annotator2,family,granitemoehybrid,granite,manual,declared base unsloth/granite-4.0-h-tiny-base; granitemoehybrid is the architecture class (guideline 3)
+T034,1,series,granitemoehybrid4.0,granite4.0,manual,declared base granite-4.0 (guideline 4)
+T034,annotator2,series,granitemoehybrid,granite4.0,manual,declared base granite-4.0 (guideline 4)
+T146,1,family,granitemoe,granite,manual,declared base ibm-granite/granite-3.1-3b-a800m-instruct; granitemoe is the architecture class (guideline 3)
+T146,annotator2,family,granitemoe,granite,manual,declared base ibm-granite/granite-3.1-3b-a800m-instruct; granitemoe is the architecture class (guideline 3)
+T146,1,series,granitemoe,granite3.1,manual,declared base granite-3.1 (guideline 4)
+T146,annotator2,series,granitemoe,granite3.1,manual,declared base granite-3.1 (guideline 4)
+T043,1,family,ernie4-5,ernie,manual,family is the lineage without version or architecture suffix (guideline 3)
+T043,annotator2,family,ernie4-5-moe,ernie,manual,family is the lineage without version or architecture suffix (guideline 3)
+T043,1,series,ernie4-5,ernie4.5,manual,name ERNIE-4.5; -moe is the architecture class (guideline 4)
+T043,annotator2,series,ernie4-5-moe,ernie4.5,manual,name ERNIE-4.5; -moe is the architecture class (guideline 4)
+T110,annotator2,family,hunyuan-v1-dense,hunyuan,manual,hunyuan_v1_dense is the architecture class; lineage is Hunyuan (guideline 3)
+T110,annotator2,series,hunyuan-v1-dense,hunyuan,manual,"v1-dense is the architecture class, not a release generation (guideline 4)"
+T132,annotator2,family,llama,yi,manual,name Yi-1.5-9B-Chat: an architecture name (llama) alone is not enough when the name gives the lineage (guideline 3)
+T132,annotator2,series,llama,yi1.5,manual,name Yi-1.5 (guideline 4)
+T132,1,artifact,official,fine-tune,manual,"Superoisesuki is not 01.AI, the lab that released Yi (guideline 7)"
+T156,annotator2,family,llama,yi,manual,name openbuddy-yi-34b: llama is only the architecture (guideline 3)
+T156,annotator2,series,llama,yi,manual,name gives no Yi generation beyond the first; same as family (guideline 4)
+T066,annotator2,series,qwen2,qwen1.5,manual,name CodeQwen1.5; qwen2 is only the architecture class (guideline 4)
+T078,annotator2,series,qwen2,qwen1.5,manual,name Aris-Qwen1.5-14B; qwen2 is only the architecture class (guideline 4)
+T078,1,artifact,official,fine-tune,manual,Aris-AI is not the Qwen lab (guideline 7)
+T078,3,artifact,other,fine-tune,manual,Aris-AI is not the Qwen lab (guideline 7)
+T144,1,artifact,independent-pretraining,fine-tune,manual,"name Tesla-QA-Llama-3-8B-Instruct: a third-party fine-tune, not new pretraining (guideline 7)"
+T004,annotator2,series,gemma2,gemma,manual,"tag gemma-2b: first Gemma generation, not gemma2 (guideline 4)"
+T142,1,series,mistral-small,mistral,manual,"declared base mistralai/Mistral-7B-Instruct-v0.2, not Mistral Small (guideline 4)"
+T197,1,series,gsa2.7,gsa,manual,guideline 4 example: gsa-2.7B is series gsa
+T177,1,series,mobilemoe-l,mobilemoe,manual,guideline 4 example: MobileMoE-L is series mobilemoe
+T177,3,series,mobilemoelsft,mobilemoe,manual,guideline 4 example: MobileMoE-L is series mobilemoe
+T075,1,series,t5large,t5,manual,"'large' is a size tier, not a series (guideline 4)"
+T039,1,series,4.6.384,dynamic-alibi,manual,"4.6.384 are hyperparameters, not a series (guideline 4)"
+T039,annotator2,series,,dynamic-alibi,manual,"4.6.384 are hyperparameters, not a series (guideline 4)"
+T077,1,series,dynamic-forgetting2.4.256-inverse-babylm,dynamic-forgetting,manual,"2.4.256-inverse-babylm are hyperparameters and data, not a series (guideline 4)"
+T077,annotator2,series,,dynamic-forgetting,manual,"2.4.256-inverse-babylm are hyperparameters and data, not a series (guideline 4)"
+T130,1,series,mini-gpt-french,mini-gpt,manual,"'french' is a domain, not a generation; series equals family (guideline 4)"
+T130,annotator2,series,minigpt,mini-gpt,manual,"'french' is a domain, not a generation; series equals family (guideline 4)"
+T121,1,decision,in_scope,out_of_scope,manual,"ShareGPT4V (arXiv 2311.12793, Share4VLlama architecture) is a vision-language model (guideline 2)"
+T121,annotator2,decision,in_scope,out_of_scope,manual,"ShareGPT4V (arXiv 2311.12793, Share4VLlama architecture) is a vision-language model (guideline 2)"
+T035,1,role,unknown-role,base,manual,meta-llama/Llama-2-70b-hf: official pretrained release; the tuned one is Llama-2-70b-chat-hf (guideline 6)
+T036,annotator2,role,unknown-role,base,manual,internlm/internlm2-20b: official pretrained release; the tuned one is internlm2-chat-20b (guideline 6)
+T209,1,role,unknown-role,base,manual,wenge-research/yayi2-30b: official pretrained release of YAYI 2 (arXiv 2312.14862) (guideline 6)

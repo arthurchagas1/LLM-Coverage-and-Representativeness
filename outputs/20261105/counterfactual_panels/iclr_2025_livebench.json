@@ -1,0 +1,143 @@
+{
+  "paper_id": "iclr_2025_livebench",
+  "venue": "ICLR 2025",
+  "budget": 14,
+  "observed_panel": [
+    "meta-llama/Meta-Llama-3.1-405B-Instruct",
+    "abacusai/Dracarys2-72B-Instruct",
+    "Qwen/Qwen2.5-Coder-32B-Instruct",
+    "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "google/gemma-2-27b-it",
+    "Qwen/Qwen2.5-7B-Instruct",
+    "mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "CohereForAI/c4ai-command-r-plus-08-2024",
+    "google/gemma-2-9b-it",
+    "CohereForAI/c4ai-command-r-08-2024",
+    "CohereForAI/c4ai-command-r-plus",
+    "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "microsoft/Phi-3-mini-128k-instruct",
+    "microsoft/Phi-3-mini-4k-instruct"
+  ],
+  "observed_panel_resolved": [
+    "variant::llama::llama3.1::405b::instruct",
+    "variant::qwen::qwen2::72b::instruct",
+    "variant::qwen::qwen2.5::32b::instruct",
+    "variant::llama::llama3.1::70b::instruct",
+    "variant::gemma::gemma2::27b::instruct",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::mistral::mixtral::8x22b::instruct",
+    "variant::cohere::command-r::104b::instruct",
+    "variant::gemma::gemma2::9b::instruct",
+    "variant::cohere::command-r::32b::base",
+    "variant::cohere::command-r::104b::instruct",
+    "variant::llama::llama3.1::8b::instruct",
+    "variant::phi::phi3::3.8b::instruct",
+    "variant::phi::phi3::3.8b::instruct"
+  ],
+  "observed_scores": {
+    "Ga": 1.71332,
+    "B": 0.00552,
+    "Dinf": 0.85724,
+    "C0": 0.000968
+  },
+  "greedy_adoption_panel": [
+    "variant::gpt2::gpt2::126m::base",
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen3::14b::base",
+    "variant::qwen::qwen3::4b::base",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::qwen::qwen3::1.7b::base",
+    "variant::llama::llama3.1::8b::instruct",
+    "variant::qwen::qwen3::8b::base",
+    "variant::gpt-oss::gpt-oss::20b::base",
+    "variant::nemotron::nemotron::30b::instruct",
+    "variant::mistral::mistral::7b::instruct",
+    "variant::gpt2::gpt2::126m::unknown-role",
+    "variant::t5::t5::220m::base"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::mininlm::mininlm::46m::unknown-role",
+    "variant::vbq::vbq::100m::instruct",
+    "variant::lfm-omni-dualhead::lfm-omni-dualhead::2b::code",
+    "variant::sentinel-r08-geodesic-v7-2a::sentinel-r08-geodesic-v7-2a::52m::instruct",
+    "variant::lfm3-omni::lfm3-omni::2b::instruct",
+    "variant::numbat-truncated::numbat-truncated::4.7b::unknown-role",
+    "variant::nano-ncm::nano-ncm::35m::code",
+    "variant::vistarc::vistarc::80m::code"
+  ],
+  "hybrid_panel": [
+    "variant::gpt2::gpt2::126m::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::qwen::qwen3::14b::base",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::qwen::qwen3::4b::base",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::mininlm::mininlm::46m::unknown-role",
+    "variant::qwen::qwen3::1.7b::base",
+    "variant::vbq::vbq::100m::instruct"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 0.943921,
+      "B": 0.005531,
+      "Dinf": 0.495032,
+      "C0": 0.001129
+    },
+    "greedy_breadth": {
+      "Ga": 1.999754,
+      "B": 0.014234,
+      "Dinf": 0.17213,
+      "C0": 0.001129
+    },
+    "hybrid": {
+      "Ga": 1.227753,
+      "B": 0.009848,
+      "Dinf": 0.356505,
+      "C0": 0.001129
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.485567,
+    "delta_B": 0.004328,
+    "delta_Dinf": 0.500734,
+    "delta_C0": 0.000161
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::phi::phi3::3.8b::instruct",
+      "remove_family": "phi",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.142857,
+      "new_Ga": 1.570462
+    },
+    {
+      "remove": "variant::cohere::command-r::104b::instruct",
+      "remove_family": "cohere",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.142857,
+      "new_Ga": 1.570462
+    },
+    {
+      "remove": "variant::cohere::command-r::32b::base",
+      "remove_family": "cohere",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.14284,
+      "new_Ga": 1.570479
+    }
+  ]
+}

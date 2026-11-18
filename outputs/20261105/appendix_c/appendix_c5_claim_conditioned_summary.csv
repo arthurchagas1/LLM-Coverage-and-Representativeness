@@ -1,0 +1,10 @@
+statistic,value
+papers,46.0
+papers_with_nondefault_conditioning,37.0
+papers_with_unsupported_claim_dimensions,9.0
+median_panel_mass_in_conditioned_population,0.49846846087973384
+median_delta_adoption_gap,-0.07624887615386422
+median_delta_breadth,0.000218070438041249
+median_delta_structural_linf,5.354125385825803e-07
+median_absolute_rank_shift,4.0
+maximum_absolute_rank_shift,30.0

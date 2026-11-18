@@ -1,0 +1,98 @@
+{
+  "paper_id": "enterprise_llm_evaluation_benchmark_2025",
+  "venue": "unknown",
+  "budget": 5,
+  "observed_panel": [
+    "Llama-3.2-3B-Instruct",
+    "Llama-3.3-70B-Instruct",
+    "Llama-4-Scout",
+    "DeepSeek-R1",
+    "DeepSeek-R1-Distill-Llama-70B"
+  ],
+  "observed_panel_resolved": [
+    "variant::llama::llama3.2::3b::instruct",
+    "variant::llama::llama3.1::70b::instruct",
+    "variant::llama::llama4::17b::instruct",
+    "variant::deepseek::deepseek-r1::684b::reasoning",
+    "variant::llama::llama::70b::reasoning"
+  ],
+  "observed_scores": {
+    "Ga": 1.923481,
+    "B": 0.005416,
+    "Dinf": 0.799362,
+    "C0": 0.000403
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::llama::llama3.1::8b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::t5::t5::60m::seq2seq"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.225298,
+      "B": 0.005419,
+      "Dinf": 0.491829,
+      "C0": 0.000403
+    },
+    "greedy_breadth": {
+      "Ga": 1.999919,
+      "B": 0.008525,
+      "Dinf": 0.247398,
+      "C0": 0.000403
+    },
+    "hybrid": {
+      "Ga": 1.441988,
+      "B": 0.006671,
+      "Dinf": 0.491829,
+      "C0": 0.000403
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.481493,
+    "delta_B": 0.001255,
+    "delta_Dinf": 0.307533,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::llama::llama4::17b::instruct",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.222286,
+      "new_Ga": 1.701195
+    },
+    {
+      "remove": "variant::llama::llama::70b::reasoning",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.218393,
+      "new_Ga": 1.705088
+    },
+    {
+      "remove": "variant::deepseek::deepseek-r1::684b::reasoning",
+      "remove_family": "deepseek",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.217586,
+      "new_Ga": 1.705894
+    }
+  ]
+}

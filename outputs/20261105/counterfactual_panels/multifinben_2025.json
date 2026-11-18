@@ -1,0 +1,138 @@
+{
+  "paper_id": "multifinben_2025",
+  "venue": "arXiv preprint",
+  "budget": 13,
+  "observed_panel": [
+    "Llama-4-Scout-17B-16E-Instruct",
+    "Gemma-3-4B-IT",
+    "Gemma-3-27B-IT",
+    "Qwen2.5-Omni-7B",
+    "Llama-3.1-70B-Instruct",
+    "DeepSeek-V3",
+    "Qwen2.5-32B-Instruct",
+    "DeepSeek-R1-Distill-Qwen-32B-Japanese",
+    "Llama3.1-XuanYuan-FinX1-Preview",
+    "Plutus-8B-Instruct",
+    "FinMA-7B-Full",
+    "DeepSeek-VL-7B-Chat",
+    "Qwen2-Audio-7B-Instruct"
+  ],
+  "observed_panel_resolved": [
+    "variant::llama::llama4::17b::instruct",
+    "variant::gemma::gemma3::4b::instruct",
+    "variant::gemma::gemma3::27b::code",
+    "variant::qwen::qwen2.5::7b::unknown-role",
+    "variant::llama::llama3.1::70b::instruct",
+    "variant::deepseek::deepseek-v3::16b::instruct",
+    "variant::qwen::qwen2.5::32b::instruct",
+    "variant::qwen::qwen::32b::reasoning",
+    "variant::llama::llama3.1::70b::unknown-role",
+    "variant::llama::llama::8b::reasoning",
+    "variant::llama::llama::7b::domain",
+    "variant::deepseek::deepseek::7b::chat",
+    "variant::qwen::qwen2.5::7b::instruct"
+  ],
+  "observed_scores": {
+    "Ga": 1.707565,
+    "B": 0.005447,
+    "Dinf": 0.542212,
+    "C0": 0.001049
+  },
+  "greedy_adoption_panel": [
+    "variant::gpt2::gpt2::126m::base",
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen3::14b::base",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::qwen::qwen3::4b::base",
+    "variant::qwen::qwen3::1.7b::base",
+    "variant::llama::llama3.1::8b::instruct",
+    "variant::gpt-oss::gpt-oss::20b::base",
+    "variant::nemotron::nemotron::30b::instruct",
+    "variant::mistral::mistral::7b::instruct",
+    "variant::qwen::qwen3::8b::base",
+    "variant::yi::yi1.5::34b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::mininlm::mininlm::46m::unknown-role",
+    "variant::vbq::vbq::100m::instruct",
+    "variant::lfm-omni-dualhead::lfm-omni-dualhead::2b::code",
+    "variant::sentinel-r08-geodesic-v7-2a::sentinel-r08-geodesic-v7-2a::52m::instruct",
+    "variant::lfm3-omni::lfm3-omni::2b::instruct",
+    "variant::numbat-truncated::numbat-truncated::4.7b::unknown-role",
+    "variant::nano-ncm::nano-ncm::35m::code"
+  ],
+  "hybrid_panel": [
+    "variant::gpt2::gpt2::126m::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::qwen::qwen3::14b::base",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::qwen::qwen3::4b::base",
+    "variant::mininlm::mininlm::46m::unknown-role",
+    "variant::qwen::qwen3::1.7b::base"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 0.956262,
+      "B": 0.00565,
+      "Dinf": 0.491829,
+      "C0": 0.001049
+    },
+    "greedy_breadth": {
+      "Ga": 1.999775,
+      "B": 0.0136,
+      "Dinf": 0.194108,
+      "C0": 0.001049
+    },
+    "hybrid": {
+      "Ga": 1.197931,
+      "B": 0.009214,
+      "Dinf": 0.383978,
+      "C0": 0.001049
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.509634,
+    "delta_B": 0.003767,
+    "delta_Dinf": 0.158235,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::llama::llama3.1::70b::unknown-role",
+      "remove_family": "llama",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.15384,
+      "new_Ga": 1.553725
+    },
+    {
+      "remove": "variant::gemma::gemma3::27b::code",
+      "remove_family": "gemma",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.153742,
+      "new_Ga": 1.553823
+    },
+    {
+      "remove": "variant::gemma::gemma3::4b::instruct",
+      "remove_family": "gemma",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.153611,
+      "new_Ga": 1.553954
+    }
+  ]
+}

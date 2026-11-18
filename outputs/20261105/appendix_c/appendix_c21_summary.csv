@@ -1,0 +1,16 @@
+statistic,value
+scoreable_papers,46.0
+median_panel_size,7.5
+median_eligible_set_size,4233.5
+eligible_set_size_min,655.0
+eligible_set_size_max,7553.0
+median_feasible_set_size,1465.5
+feasible_set_size_min,108.0
+feasible_set_size_max,5193.0
+papers_with_same_size_feasible_pool,46.0
+papers_using_manual_cutoff,0.0
+papers_using_newest_model_cutoff,46.0
+papers_using_year_fallback,0.0
+papers_with_role_constraint,46.0
+papers_with_size_constraint,46.0
+papers_whose_own_hardened_models_all_pass_feasibility,43.0

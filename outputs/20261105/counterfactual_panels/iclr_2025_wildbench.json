@@ -1,0 +1,158 @@
+{
+  "paper_id": "iclr_2025_wildbench",
+  "venue": "ICLR 2025",
+  "budget": 17,
+  "observed_panel": [
+    "meta-llama/Meta-Llama-3-70B-Instruct",
+    "01-ai/Yi-1.5-34B-Chat",
+    "princeton-nlp/Llama-3-Instruct-8B-SimPO",
+    "Qwen/Qwen1.5-72B-Chat",
+    "Nexusflow/Starling-LM-7B-beta",
+    "meta-llama/Meta-Llama-3-8B-Instruct",
+    "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "databricks/dbrx-instruct",
+    "01-ai/Yi-1.5-6B-Chat",
+    "mistralai/Mistral-7B-Instruct-v0.2",
+    "allenai/tulu-2-dpo-70b",
+    "meta-llama/Llama-2-70b-chat-hf",
+    "Qwen/Qwen1.5-7B-Chat",
+    "microsoft/Phi-3-medium-128k-instruct",
+    "meta-llama/Llama-2-7b-chat-hf",
+    "google/gemma-7b-it",
+    "google/gemma-2b-it"
+  ],
+  "observed_panel_resolved": [
+    "variant::llama::llama3::70b::instruct",
+    "variant::yi::yi1.5::34b::chat",
+    "variant::llama::llama3::8b::instruct",
+    "variant::qwen::qwen1.5::72b::chat",
+    "variant::mistral::mistral::7b::unknown-role",
+    "variant::llama::llama3::8b::instruct",
+    "variant::mistral::mixtral::8x7b::instruct",
+    "variant::dbrx::dbrx::132b::instruct",
+    "variant::yi::yi1.5::6b::chat",
+    "variant::mistral::mistral::7b::instruct",
+    "variant::llama::llama2::70b::base",
+    "variant::llama::llama2::70b::chat",
+    "variant::qwen::qwen1.5::7b::chat",
+    "variant::phi::phi3::14b::instruct",
+    "variant::llama::llama2::7b::chat",
+    "variant::gemma::gemma::7b::instruct",
+    "variant::gemma::gemma::2b::instruct"
+  ],
+  "observed_scores": {
+    "Ga": 1.806352,
+    "B": 0.005776,
+    "Dinf": 0.768769,
+    "C0": 0.001291
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::qwen::qwen3::14b::base",
+    "variant::qwen::qwen3::4b::base",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::qwen::qwen3::1.7b::base",
+    "variant::qwen::qwen3::8b::base",
+    "variant::llama::llama3.1::8b::instruct",
+    "variant::gpt2::gpt2::126m::unknown-role",
+    "variant::qwen::qwen2.5::1.5b::instruct",
+    "variant::gpt-oss::gpt-oss::20b::base",
+    "variant::t5::t5::220m::base",
+    "variant::nemotron::nemotron::30b::instruct",
+    "variant::mistral::mistral::7b::instruct",
+    "variant::llama::llama3.2::1b::instruct",
+    "variant::yi::yi1.5::34b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::mininlm::mininlm::46m::unknown-role",
+    "variant::vbq::vbq::100m::instruct",
+    "variant::lfm-omni-dualhead::lfm-omni-dualhead::2b::code",
+    "variant::sentinel-r08-geodesic-v7-2a::sentinel-r08-geodesic-v7-2a::52m::instruct",
+    "variant::lfm3-omni::lfm3-omni::2b::instruct",
+    "variant::numbat-truncated::numbat-truncated::4.7b::unknown-role",
+    "variant::nano-ncm::nano-ncm::35m::code",
+    "variant::vistarc::vistarc::80m::code",
+    "variant::zhihu::zhihu::0.3b::code",
+    "variant::urdu-words2sentence::urdu-words2sentence::17m::code",
+    "variant::kalia::kalia::84m::unknown-role"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::qwen::qwen3::14b::base",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::qwen::qwen3::4b::base",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::mininlm::mininlm::46m::unknown-role",
+    "variant::qwen::qwen3::1.7b::base",
+    "variant::vbq::vbq::100m::instruct",
+    "variant::qwen::qwen3::8b::base",
+    "variant::lfm-omni-dualhead::lfm-omni-dualhead::2b::code",
+    "variant::llama::llama3.1::8b::instruct"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 0.885018,
+      "B": 0.005656,
+      "Dinf": 0.491829,
+      "C0": 0.001371
+    },
+    "greedy_breadth": {
+      "Ga": 1.999701,
+      "B": 0.016137,
+      "Dinf": 0.128276,
+      "C0": 0.001371
+    },
+    "hybrid": {
+      "Ga": 1.204517,
+      "B": 0.010494,
+      "Dinf": 0.352303,
+      "C0": 0.001371
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.601835,
+    "delta_B": 0.004718,
+    "delta_Dinf": 0.416466,
+    "delta_C0": 8.1e-05
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::llama::llama3::8b::instruct",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.117647,
+      "new_Ga": 1.688704
+    },
+    {
+      "remove": "variant::llama::llama2::70b::base",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.117628,
+      "new_Ga": 1.688724
+    },
+    {
+      "remove": "variant::yi::yi1.5::6b::chat",
+      "remove_family": "yi",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.117613,
+      "new_Ga": 1.688739
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+constraint,implemented,source_field,rule,missing_data_rule
+historical_availability,True,created_at,earliest repository creation date for variant <= paper cutoff,exclude candidate with unknown creation date
+access_gate,True,gated,candidate gate rank <= maximum gate rank accepted by observed panel,missing gating metadata treated as not gated
+functional_role,True,model_role,candidate role must be among roles evaluated by the paper,constraint omitted if observed roles are all unknown
+coarse_size_envelope,True,size_bucket,known candidate size bucket <= largest known observed size bucket,constraint omitted if every observed size is unknown; unknown candidate size excluded when applied
+modality,True,primary population filter,all candidates already belong to the text-generative population,not applicable
+context_length,False,unavailable_or_insufficiently_complete,not enforced,never imputed; not used to support practical-attainability claims
+language_requirements,False,unavailable_or_insufficiently_complete,not enforced,never imputed; not used to support practical-attainability claims
+domain_requirements,False,unavailable_or_insufficiently_complete,not enforced,never imputed; not used to support practical-attainability claims
+numerical_precision,False,unavailable_or_insufficiently_complete,not enforced,never imputed; not used to support practical-attainability claims
+measured_throughput,False,unavailable_or_insufficiently_complete,not enforced,never imputed; not used to support practical-attainability claims
+hardware_requirements,False,unavailable_or_insufficiently_complete,not enforced,never imputed; not used to support practical-attainability claims
+active_parameter_count,False,unavailable_or_insufficiently_complete,not enforced,never imputed; not used to support practical-attainability claims
+total_inference_workload,False,unavailable_or_insufficiently_complete,not enforced,never imputed; not used to support practical-attainability claims

@@ -1,0 +1,103 @@
+{
+  "paper_id": "openreview_008",
+  "venue": "ICLR 2025",
+  "budget": 6,
+  "observed_panel": [
+    "meta-llama/Meta-Llama-3.1-405B-Instruct",
+    "meta-llama/Meta-Llama-3.1-70B-Instruct",
+    "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "deepseek-ai/DeepSeek-R1",
+    "internlm/internlm2-20b-reward",
+    "internlm/internlm2-7b-reward"
+  ],
+  "observed_panel_resolved": [
+    "variant::llama::llama3.1::405b::instruct",
+    "variant::llama::llama3.1::70b::instruct",
+    "variant::llama::llama3.1::8b::instruct",
+    "variant::deepseek::deepseek-r1::684b::reasoning",
+    "variant::internlm::internlm2::20b::code",
+    "variant::internlm::internlm2::7b::code"
+  ],
+  "observed_scores": {
+    "Ga": 1.922722,
+    "B": 0.0055,
+    "Dinf": 0.542212,
+    "C0": 0.000484
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen3::14b::base",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::llama::llama3.1::8b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::yebb-dense::yebb-dense::0.8b::code"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gpt2::gpt2::126m::base",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::vault-v2-5::vault-v2-5::180m::code"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.163056,
+      "B": 0.005419,
+      "Dinf": 0.499362,
+      "C0": 0.000484
+    },
+    "greedy_breadth": {
+      "Ga": 1.999903,
+      "B": 0.009159,
+      "Dinf": 0.247398,
+      "C0": 0.000484
+    },
+    "hybrid": {
+      "Ga": 1.463239,
+      "B": 0.007306,
+      "Dinf": 0.325163,
+      "C0": 0.000484
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.459483,
+    "delta_B": 0.001806,
+    "delta_Dinf": 0.21705,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::internlm::internlm2::20b::code",
+      "remove_family": "internlm",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.201344,
+      "new_Ga": 1.721378
+    },
+    {
+      "remove": "variant::llama::llama3.1::405b::instruct",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.201269,
+      "new_Ga": 1.721453
+    },
+    {
+      "remove": "variant::internlm::internlm2::7b::code",
+      "remove_family": "internlm",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.201133,
+      "new_Ga": 1.721589
+    }
+  ]
+}

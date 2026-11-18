@@ -1,0 +1,118 @@
+{
+  "paper_id": "llmspark_2025",
+  "venue": "arXiv preprint",
+  "budget": 9,
+  "observed_panel": [
+    "Baichuan-7B",
+    "Phoenix-Inst-Chat-7B",
+    "ChatGLM-6B",
+    "ChatGLM2-6B",
+    "ChatYuan-Large-v2",
+    "MOSS-Moon-003-SFT",
+    "RWKV-4-World-7B",
+    "Baichuan2-7B-Chat",
+    "Qwen-14B-Chat"
+  ],
+  "observed_panel_resolved": [
+    "variant::baichuan::baichuan::7b::code",
+    "variant::bloom::bloom::7b::chat",
+    "variant::glm::chatglm::6b::code",
+    "variant::glm::chatglm2::6b::code",
+    "variant::t5::t5::unknown-size::code",
+    "variant::moss::moss::unknown-size::code",
+    "variant::rwkv::rwkv::7b::base",
+    "variant::baichuan::baichuan2::7b::chat",
+    "variant::qwen::qwen::14b::chat"
+  ],
+  "observed_scores": {
+    "Ga": 1.834067,
+    "B": 0.006339,
+    "Dinf": 0.542212,
+    "C0": 0.000726
+  },
+  "greedy_adoption_panel": [
+    "variant::gpt2::gpt2::126m::base",
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::qwen::qwen3::14b::base",
+    "variant::qwen::qwen2.5::7b::instruct",
+    "variant::qwen::qwen3::4b::base",
+    "variant::llama::llama3.1::8b::instruct",
+    "variant::gpt-oss::gpt-oss::20b::base",
+    "variant::nemotron::nemotron::30b::instruct"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::yebb-dense::yebb-dense::0.8b::code",
+    "variant::mininlm::mininlm::46m::unknown-role",
+    "variant::vbq::vbq::100m::instruct",
+    "variant::lfm-omni-dualhead::lfm-omni-dualhead::2b::code"
+  ],
+  "hybrid_panel": [
+    "variant::gpt2::gpt2::126m::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning",
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gaggle::gaggle::400b::chat",
+    "variant::t5::t5::60m::seq2seq",
+    "variant::vault-v2-5::vault-v2-5::180m::code",
+    "variant::qwen::qwen3::14b::base",
+    "variant::looped-lm::looped-lm::55m::code",
+    "variant::qwen::qwen2.5::7b::instruct"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.037355,
+      "B": 0.005516,
+      "Dinf": 0.491829,
+      "C0": 0.000726
+    },
+    "greedy_breadth": {
+      "Ga": 1.999847,
+      "B": 0.011062,
+      "Dinf": 0.170355,
+      "C0": 0.000726
+    },
+    "hybrid": {
+      "Ga": 1.261177,
+      "B": 0.007945,
+      "Dinf": 0.332696,
+      "C0": 0.000726
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.57289,
+    "delta_B": 0.001606,
+    "delta_Dinf": 0.209517,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::moss::moss::unknown-size::code",
+      "remove_family": "moss",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.180884,
+      "new_Ga": 1.653182
+    },
+    {
+      "remove": "variant::glm::chatglm::6b::code",
+      "remove_family": "glm",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.180832,
+      "new_Ga": 1.653235
+    },
+    {
+      "remove": "variant::baichuan::baichuan::7b::code",
+      "remove_family": "baichuan",
+      "add": "variant::gpt2::gpt2::126m::base",
+      "add_family": "gpt2",
+      "delta_Ga": -0.180829,
+      "new_Ga": 1.653238
+    }
+  ]
+}

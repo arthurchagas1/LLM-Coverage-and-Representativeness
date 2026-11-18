@@ -1,0 +1,29 @@
+predictor,benchmark,loo_r2,null_p975
+closest lineage relatives,IFEval,0.18720780956371819,
+closest lineage relatives,BBH,0.6132505347104416,
+closest lineage relatives,MATH Lvl 5,0.5767809367586513,
+closest lineage relatives,GPQA,0.5694290068693938,
+closest lineage relatives,MUSR,0.36391079043810215,
+closest lineage relatives,MMLU-PRO,0.6250492876271634,
+closest lineage relatives,mean,0.48927139432791183,
+size bucket,IFEval,0.22932729167047827,
+size bucket,BBH,0.49930476404214097,
+size bucket,MATH Lvl 5,0.26964860649635247,
+size bucket,GPQA,0.3897153329412174,
+size bucket,MUSR,0.32166565558628135,
+size bucket,MMLU-PRO,0.48061520066985186,
+size bucket,mean,0.3650461419010537,
+size bucket + lineage relatives,IFEval,0.20219314260454413,
+size bucket + lineage relatives,BBH,0.6542006564526753,
+size bucket + lineage relatives,MATH Lvl 5,0.5747188806809831,
+size bucket + lineage relatives,GPQA,0.5700045676840266,
+size bucket + lineage relatives,MUSR,0.38084347956175835,
+size bucket + lineage relatives,MMLU-PRO,0.6558102950774034,
+size bucket + lineage relatives,mean,0.5062951703435652,
+"closest relatives, permuted tree (mean of 200)",IFEval,-0.43852322761678353,-0.31379630950606247
+"closest relatives, permuted tree (mean of 200)",BBH,-0.4425843073754713,-0.3167307207639345
+"closest relatives, permuted tree (mean of 200)",MATH Lvl 5,-0.4389483872403039,-0.3106172167503174
+"closest relatives, permuted tree (mean of 200)",GPQA,-0.43394916312861737,-0.2896108514766625
+"closest relatives, permuted tree (mean of 200)",MUSR,-0.4356121208954912,-0.3093587040967178
+"closest relatives, permuted tree (mean of 200)",MMLU-PRO,-0.4383556087305187,-0.309733423553022
+"closest relatives, permuted tree (mean of 200)",mean,-0.43799546916453097,-0.33678453213076964

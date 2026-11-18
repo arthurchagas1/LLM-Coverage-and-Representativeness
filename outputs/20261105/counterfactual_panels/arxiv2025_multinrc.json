@@ -1,0 +1,75 @@
+{
+  "paper_id": "arxiv2025_multinrc",
+  "venue": "arXiv",
+  "budget": 2,
+  "observed_panel": [
+    "deepseek-ai/DeepSeek-R1-0528",
+    "deepseek-ai/DeepSeek-R1"
+  ],
+  "observed_panel_resolved": [
+    "variant::deepseek::deepseek-r1::14b::reasoning",
+    "variant::deepseek::deepseek-r1::684b::reasoning"
+  ],
+  "observed_scores": {
+    "Ga": 1.994843,
+    "B": 0.00539,
+    "Dinf": 0.999909,
+    "C0": 0.000161
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gpt2::gpt2::126m::base"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.501456,
+      "B": 0.005382,
+      "Dinf": 0.959826,
+      "C0": 0.000161
+    },
+    "greedy_breadth": {
+      "Ga": 1.999968,
+      "B": 0.006622,
+      "Dinf": 0.542212,
+      "C0": 0.000161
+    },
+    "hybrid": {
+      "Ga": 1.682359,
+      "B": 0.005997,
+      "Dinf": 0.506681,
+      "C0": 0.000161
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.312484,
+    "delta_B": 0.000607,
+    "delta_Dinf": 0.493228,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::deepseek::deepseek-r1::14b::reasoning",
+      "remove_family": "deepseek",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.317618,
+      "new_Ga": 1.677225
+    },
+    {
+      "remove": "variant::deepseek::deepseek-r1::684b::reasoning",
+      "remove_family": "deepseek",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.317588,
+      "new_Ga": 1.677255
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+item_id,repo_id,stratum,field,system,reference,family_evidence
+T025,beomi/KoAlpaca-Polyglot-5.8B,large,family,gpt-neox,polyglot,structured_metadata:pattern:(?<![a-z0-9])gpt[-_ ]?neox(?![a-z0-9])
+T043,baidu/ERNIE-4.5-300B-A47B-PT,small,family,ernie4-5-moe,ernie,model_family_guess_fallback
+T065,kakaocorp/kanana-2-30b-a3b-instruct-2601,panel,family,deepseek,kanana,structured_metadata:pattern:(?<![a-z0-9])deepseek[-_ ]?v3(?![a-z0-9])
+T110,tencent/Hunyuan-7B-Pretrain,medium,family,hunyuan-v1-dense,hunyuan,model_family_guess_fallback
+T229,TilQazyna/Til-1B-multilingual-base,large,family,deepseek,til,structured_metadata:pattern:(?<![a-z0-9])deepseek[-_ ]?v3(?![a-z0-9])
+T025,beomi/KoAlpaca-Polyglot-5.8B,large,series,gpt-neox,polyglot-ko,structured_metadata:pattern:(?<![a-z0-9])gpt[-_ ]?neox(?![a-z0-9])
+T034,vnixxa31/code-nep_prelim_granite-4.0-h-tiny-base,medium,series,granite,granite4.0,declared_base_model:unsloth/granite-4.0-h-tiny-base:pattern:(?<![a-z0-9])granite(?![a-z0-9])
+T043,baidu/ERNIE-4.5-300B-A47B-PT,small,series,ernie4-5-moe,ernie4.5,model_family_guess_fallback
+T065,kakaocorp/kanana-2-30b-a3b-instruct-2601,panel,series,deepseek-v3,kanana2,structured_metadata:pattern:(?<![a-z0-9])deepseek[-_ ]?v3(?![a-z0-9])
+T066,Qwen/CodeQwen1.5-7B,panel,series,qwen,qwen1.5,repo_id:pattern:(?<![a-z0-9])qwen(?![a-z0-9])
+T095,fla-hub/RWKV7-G1j-1.5B-20260831,medium,series,rwkv,rwkv7,structured_metadata:pattern:(?<![a-z0-9])rwkv(?![a-z0-9])
+T110,tencent/Hunyuan-7B-Pretrain,medium,series,hunyuan-v1-dense,hunyuan,model_family_guess_fallback
+T146,DQN-Labs-AI/dqnWrite-v0.1-3B-A0.8B,medium,series,granite,granite3.1,declared_base_model:ibm-granite/granite-3.1-3b-a800m-instruct:pattern:(?<![a-z0-9])granite(?![a-z0-9])
+T209,wenge-research/yayi2-30b,singleton,series,yayi,yayi2,model_family_guess_fallback
+T229,TilQazyna/Til-1B-multilingual-base,large,series,deepseek-v3,til,structured_metadata:pattern:(?<![a-z0-9])deepseek[-_ ]?v3(?![a-z0-9])
+T230,iamPi/environment_test_small_qwen_21_allenvs,large,series,qwen,qwen2,repo_id:pattern:(?<![a-z0-9])qwen(?![a-z0-9])
+T005,LLM-course/chess-hamonk-v4,medium,size_bucket,unknown,<1B,model_family_guess_fallback
+T010,arithmetic-circuit-overloading/Qwen3-32B-3d-500K-50K-0.2-reverse-padzero-plus-mul-sub-99-128D-1L-8H-512I,large,size_bucket,13B-34B,<1B,declared_base_model:Qwen/Qwen3-32B:pattern:(?<![a-z0-9])qwen[-_ ]?3(?:\.\d+)?(?![a-z0-9])
+T034,vnixxa31/code-nep_prelim_granite-4.0-h-tiny-base,medium,size_bucket,7B-13B,3B-7B,declared_base_model:unsloth/granite-4.0-h-tiny-base:pattern:(?<![a-z0-9])granite(?![a-z0-9])
+T035,meta-llama/Llama-2-70b-hf,panel,size_bucket,70B-180B,34B-70B,repo_id:pattern:(?<![a-z0-9])llama[-_ ]?2(?![a-z0-9])
+T041,Cheng98/mpt-7b,medium,size_bucket,7B-13B,3B-7B,repo_id:pattern:(?<![a-z0-9])mpt(?![a-z0-9])
+T060,arthurblg1802/AtoMinima,singleton,size_bucket,unknown,<1B,model_family_guess_fallback
+T068,RaushanTurganbay/cosmos-5B-hf,small,size_bucket,3B-7B,7B-13B,model_family_guess_fallback
+T125,Beetle-FineWeb-2B/beetle-bilingual-l2-50-simultaneous-b2-fineweb-2b-hin-eng-1xa100,medium,size_bucket,1B-3B,<1B,model_family_guess_fallback
+T195,dogtooth/open-lm-3b-202407,small,size_bucket,3B-7B,1B-3B,model_family_guess_fallback
+T229,TilQazyna/Til-1B-multilingual-base,large,size_bucket,1B-3B,<1B,structured_metadata:pattern:(?<![a-z0-9])deepseek[-_ ]?v3(?![a-z0-9])
+T036,internlm/internlm2-20b,panel,role,code,base,repo_id:pattern:(?<![a-z0-9])internlm[-_ ]?2(?![a-z0-9])
+T047,seconds-0/nsa-117m-byte,singleton,role,code,unknown-role,model_family_guess_fallback
+T048,Lanni-ni/hard_3gram_2_4_256_babylm_100m_seed43,small,role,code,unknown-role,model_family_guess_fallback
+T053,RthItalia/HENLA-CONFED-3B-HENLA-PREFIX-150,singleton,role,code,unknown-role,model_family_guess_fallback
+T058,sinksilk/Yebb-MoE-2B-Base,singleton,role,code,base,model_family_guess_fallback
+T061,VectaBass/vectabass-374m-26.5bt-base-cooled,small,role,code,base,model_family_guess_fallback
+T066,Qwen/CodeQwen1.5-7B,panel,role,base,code,repo_id:pattern:(?<![a-z0-9])qwen(?![a-z0-9])
+T079,thkim93/axk1-2layers,small,role,code,unknown-role,model_family_guess_fallback
+T080,CodeAtCMU/Qwen3-4B-Base-CorruptedComments_full_sft_code_data_30K_replace_keywords_nonen,large,role,code,base,repo_id:pattern:(?<![a-z0-9])qwen[-_ ]?3(?:\.\d+)?(?![a-z0-9])
+T100,openbmb/MiniCPM-2B-128k,medium,role,code,unknown-role,repo_id:pattern:(?<![a-z0-9])minicpm(?![a-z0-9])
+T109,microsoft/Dayhoff-170M-GRS-SS-74000,medium,role,code,unknown-role,structured_metadata:pattern:(?<![a-z0-9])jamba(?![a-z0-9])
+T114,paradigma-inc/limite-1b-violetto,small,role,reasoning,unknown-role,model_family_guess_fallback
+T125,Beetle-FineWeb-2B/beetle-bilingual-l2-50-simultaneous-b2-fineweb-2b-hin-eng-1xa100,medium,role,code,unknown-role,model_family_guess_fallback
+T130,Houzeric/mini-gpt-french,small,role,code,unknown-role,model_family_guess_fallback
+T136,tjarvis91/qovaryx-1b-scratch-base,small,role,code,base,model_family_guess_fallback
+T160,Ndlcwx/NDLSLM_0.8B-base,singleton,role,code,base,model_family_guess_fallback
+T168,yehezkielhaganta/NimoLM-244M-base,singleton,role,code,base,model_family_guess_fallback
+T182,YifeiZuo/Parallax-0.6B,small,role,code,unknown-role,model_family_guess_fallback
+T187,PCIResearch/TransCore-M,singleton,role,code,unknown-role,model_family_guess_fallback
+T195,dogtooth/open-lm-3b-202407,small,role,code,unknown-role,model_family_guess_fallback
+T209,wenge-research/yayi2-30b,singleton,role,code,base,model_family_guess_fallback
+T239,zai-org/chatglm3-6b,panel,role,code,chat,repo_id:pattern:(?<![a-z0-9])chatglm[-_ ]?3(?![a-z0-9])
+T240,SenseLLM/ReflectionCoder-DS-33B,panel,role,unknown-role,code,structured_metadata:pattern:(?<![a-z0-9])llama(?![a-z0-9])

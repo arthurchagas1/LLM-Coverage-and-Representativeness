@@ -1,0 +1,39 @@
+{
+  "release": "20261105",
+  "seed": 20261116,
+  "scored_variants": 624,
+  "families": 36,
+  "benchmarks": [
+    "IFEval",
+    "BBH",
+    "MATH Lvl 5",
+    "GPQA",
+    "MUSR",
+    "MMLU-PRO"
+  ],
+  "n_perm": 999,
+  "r_paper": 2000,
+  "r_global": 4000,
+  "b_boot": 200,
+  "r_boot": 500,
+  "papers_included": 44,
+  "papers_total": 46,
+  "max_inclusion_deviation_mc": 0.03439536007477445,
+  "runtime_s": 364.9,
+  "primary": {
+    "target": "adoption",
+    "design": "lineage",
+    "papers": 44.0,
+    "median_ratio": 0.9324291960110416,
+    "ci_low": 0.9161590871470805,
+    "ci_high": 0.9443712709011318,
+    "q25": 0.9059725902686011,
+    "q75": 0.9558195386123867,
+    "papers_below_one": 44.0,
+    "wilcoxon_p": 1.1368683772161603e-13,
+    "large_error_blind": 0.06695833333333334,
+    "large_error_design": 0.0555,
+    "gap_ratio_primary": 0.9419741989966526,
+    "gap_ratio_topological": 0.9289993053096208
+  }
+}

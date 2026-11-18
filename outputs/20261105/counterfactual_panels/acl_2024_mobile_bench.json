@@ -1,0 +1,75 @@
+{
+  "paper_id": "acl_2024_mobile_bench",
+  "venue": "ACL 2024",
+  "budget": 2,
+  "observed_panel": [
+    "huggyllama/llama-13b",
+    "huggyllama/llama-65b"
+  ],
+  "observed_panel_resolved": [
+    "variant::llama::llama::13b::unknown-role",
+    "variant::llama::llama::65b::unknown-role"
+  ],
+  "observed_scores": {
+    "Ga": 1.957993,
+    "B": 0.00536,
+    "Dinf": 0.99992,
+    "C0": 0.000161
+  },
+  "greedy_adoption_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::gpt2::gpt2::126m::base"
+  ],
+  "greedy_breadth_panel": [
+    "variant::yebb-moe::yebb-moe::2b::code",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning"
+  ],
+  "hybrid_panel": [
+    "variant::qwen::qwen3::0.6b::base",
+    "variant::baanzon-moe::baanzon-moe::30b::reasoning"
+  ],
+  "reference_scores": {
+    "greedy_adoption": {
+      "Ga": 1.501456,
+      "B": 0.005382,
+      "Dinf": 0.959826,
+      "C0": 0.000161
+    },
+    "greedy_breadth": {
+      "Ga": 1.999968,
+      "B": 0.006622,
+      "Dinf": 0.542212,
+      "C0": 0.000161
+    },
+    "hybrid": {
+      "Ga": 1.682359,
+      "B": 0.005997,
+      "Dinf": 0.506681,
+      "C0": 0.000161
+    }
+  },
+  "improvement_vs_hybrid": {
+    "delta_Ga": 0.275633,
+    "delta_B": 0.000636,
+    "delta_Dinf": 0.493239,
+    "delta_C0": 0.0
+  },
+  "recommended_swaps": [
+    {
+      "remove": "variant::llama::llama::65b::unknown-role",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.317559,
+      "new_Ga": 1.640434
+    },
+    {
+      "remove": "variant::llama::llama::13b::unknown-role",
+      "remove_family": "llama",
+      "add": "variant::qwen::qwen3::0.6b::base",
+      "add_family": "qwen",
+      "delta_Ga": -0.316736,
+      "new_Ga": 1.641257
+    }
+  ]
+}

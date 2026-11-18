@@ -1,0 +1,121 @@
+group,outcome,variant_a,variant_b,relation,tree_distance,score_a_points,score_b_points,difference_points,difference_sd
+capability,IFEval,variant::llama::llama::10b::base,variant::llama::llama::405b::instruct,same_series,1.4861612458060707,78.98492666125878,0.0,78.98492666125878,4.312576764836536
+capability,IFEval,variant::llama::llama::1.1b::code,variant::llama::llama::10b::base,same_series,1.4861612458060707,0.7843632672420289,78.98492666125878,78.20056339401675,4.269750532737768
+capability,IFEval,variant::phi::phi4::24b::base,variant::phi::phi4::1024m::instruct,same_series,0.8780409475178019,77.62104549262622,0.816832670647216,76.80421282197901,4.193509795585957
+capability,IFEval,variant::llama::llama::360m::unknown-role,variant::llama::llama::10b::base,same_series,1.4861612458060707,4.448862351892978,78.98492666125878,74.5360643093658,4.069668893426937
+capability,IFEval,variant::phi::phi4::14b::math,variant::phi::phi4::24b::base,same_series,0.8780409475178019,4.176584795010571,77.62104549262622,73.44446069761565,4.010067339416071
+capability,IFEval,variant::phi::phi4::3.8b::instruct,variant::phi::phi4::1024m::instruct,same_series,0.8780409475178019,73.77923908562614,0.816832670647216,72.96240641497893,3.983747176993121
+capability,IFEval,variant::phi::phi4::14b::reasoning,variant::phi::phi4::24b::base,same_series,0.8780409475178019,5.279436340022253,77.62104549262622,72.34160915260398,3.949851648282002
+capability,IFEval,variant::qwen::qwen2.5::72b::chat,variant::qwen::qwen2.5::2.3b::unknown-role,same_series,1.1000465695685555,84.76763875406145,12.879493078365403,71.88814567569605,3.925092543768275
+capability,IFEval,variant::qwen::qwen2.5::2.3b::unknown-role,variant::qwen::qwen2.5::95b::instruct,same_series,1.100046569568555,12.879493078365403,84.31051831363006,71.43102523526466,3.9001337690568567
+capability,IFEval,variant::llama::llama3.1::70b::unknown-role,variant::llama::llama3.1::5b::instruct,same_series,0.9796860790600865,84.92001223420525,14.066011516110589,70.85400071809465,3.868628232105983
+capability,IFEval,variant::phi::phi4::3.8b::instruct,variant::phi::phi4::14b::math,same_series,0.8780409475178019,73.77923908562614,4.176584795010571,69.60265429061558,3.8003047208232354
+capability,IFEval,variant::phi::phi4::14b::instruct,variant::phi::phi4::1024m::instruct,same_series,0.8780409475178019,70.39953988749849,0.816832670647216,69.58270721685128,3.799215610654009
+capability,IFEval,variant::llama::llama3.1::5b::instruct,variant::llama::llama3.1::70b::math,same_series,0.9796860790600865,14.066011516110589,83.35256009610058,69.28654857998998,3.7830453499470362
+capability,IFEval,variant::llama::llama::12b::base,variant::llama::llama::405b::instruct,same_series,1.4861612458060707,69.0931173730147,0.0,69.0931173730147,3.772484006611574
+capability,IFEval,variant::llama::llama3.1::70b::unknown-role,variant::llama::llama3.1::4b::base,same_series,0.9796860790600865,84.92001223420525,16.069362624502986,68.85064960970226,3.759245267443433
+capability,BBH,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::7b::math,same_series,1.2461543472373355,62.409682703701066,0.2515270350564467,62.158155668644625,3.8236357898765836
+capability,BBH,variant::qwen::qwen2.5::72b::unknown-role,variant::qwen::qwen2.5::2.3b::unknown-role,same_series,1.1000465695685555,62.27406507872839,1.1167186571598344,61.15734642156856,3.7620713818790366
+capability,BBH,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::1b::base,same_series,1.246154347237335,62.409682703701066,1.6776683167876159,60.73201438691345,3.735907240218239
+capability,BBH,variant::qwen::qwen2.5::72b::chat,variant::qwen::qwen2.5::2.3b::unknown-role,same_series,1.1000465695685555,61.80360419146786,1.1167186571598344,60.68688553430803,3.733131155662288
+capability,BBH,variant::qwen::qwen2::2b::unknown-role,variant::qwen::qwen2::78b::instruct,same_series,1.246154347237335,1.9868050366680503,62.409682703701066,60.42287766703301,3.7168908100590006
+capability,BBH,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::11.3b::unknown-role,same_series,1.246154347237335,62.409682703701066,2.0673206688657717,60.3423620348353,3.711937920939238
+capability,BBH,variant::qwen::qwen2::7b::math,variant::qwen::qwen2::78b::base,same_series,1.2461543472373355,0.2515270350564467,60.30845493458398,60.05692789952754,3.694379546439948
+capability,BBH,variant::qwen::qwen2.5::72b::instruct,variant::qwen::qwen2.5::2.3b::unknown-role,same_series,1.1000465695685555,61.10313258693403,1.1167186571598344,59.986413929774194,3.6900419058594833
+capability,BBH,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::15b::unknown-role,same_series,1.246154347237335,62.409682703701066,2.6005529379115604,59.80912976578951,3.679136336556497
+capability,BBH,variant::qwen::qwen2::0.5b::unknown-role,variant::qwen::qwen2::78b::instruct,same_series,1.2461543472373355,2.624527127912808,62.409682703701066,59.78515557578825,3.6776615731897917
+capability,BBH,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::6.6b::math,same_series,1.246154347237335,62.409682703701066,3.014694718783778,59.39498798491729,3.653660559188395
+capability,BBH,variant::qwen::qwen2.5::72b::unknown-role,variant::qwen::qwen2.5::1.7b::base,same_series,1.100046569568555,62.27406507872839,2.896901055053732,59.37716402367465,3.652564124852601
+capability,BBH,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::0.3b::instruct,same_series,1.2461543472373355,62.409682703701066,3.0952799822018195,59.31440272149925,3.6487033867300545
+capability,BBH,variant::qwen::qwen2::7b::math,variant::qwen::qwen2::78b::chat,same_series,1.2461543472373355,0.2515270350564467,59.52228887249728,59.27076183744083,3.6460188340049515
+capability,BBH,variant::qwen::qwen2.5::72b::unknown-role,variant::qwen::qwen2.5::4b::instruct,same_series,1.1000465695685555,62.27406507872839,3.023581212338263,59.25048386639013,3.6447714421700184
+capability,MATH Lvl 5,variant::qwen::qwen2.5::72b::chat,variant::qwen::qwen2.5::1.7b::base,same_series,1.100046569568555,58.91238670694864,0.1510574018126888,58.761329305135945,4.537055235906416
+capability,MATH Lvl 5,variant::qwen::qwen2.5::72b::chat,variant::qwen::qwen2.5::2.3b::unknown-role,same_series,1.1000465695685555,58.91238670694864,0.5287009063444109,58.383685800604226,4.5078967832334955
+capability,MATH Lvl 5,variant::qwen::qwen2.5::72b::chat,variant::qwen::qwen2.5::2b::instruct,same_series,1.1000465695685555,58.91238670694864,2.2658610271903323,56.646525679758305,4.373767900938062
+capability,MATH Lvl 5,variant::qwen::qwen2.5::72b::chat,variant::qwen::qwen2.5::4b::instruct,same_series,1.1000465695685555,58.91238670694864,2.492447129909366,56.419939577039266,4.356272829334309
+capability,MATH Lvl 5,variant::phi::phi4::3.8b::code,variant::phi::phi4::14b::instruct,same_series,0.8780409475178019,0.0,56.19335347432024,56.19335347432024,4.338777757730558
+capability,MATH Lvl 5,variant::phi::phi4::14b::instruct,variant::phi::phi4::7.5b::base,same_series,0.8780409475178019,56.19335347432024,0.5287009063444109,55.66465256797583,4.297955923988469
+capability,MATH Lvl 5,variant::qwen::qwen2::2b::unknown-role,variant::qwen::qwen2::32b::base,same_series,1.246154347237335,0.0,55.626888217522655,55.626888217522655,4.295040078721176
+capability,MATH Lvl 5,variant::qwen::qwen2::32b::base,variant::qwen::qwen2::1b::base,same_series,1.246154347237335,55.626888217522655,0.0,55.626888217522655,4.295040078721176
+capability,MATH Lvl 5,variant::qwen::qwen2::7b::math,variant::qwen::qwen2::32b::base,same_series,1.246154347237335,0.0,55.626888217522655,55.626888217522655,4.295040078721176
+capability,MATH Lvl 5,variant::qwen::qwen2::32b::base,variant::qwen::qwen2::15b::unknown-role,same_series,1.246154347237335,55.626888217522655,0.0,55.626888217522655,4.295040078721176
+capability,MATH Lvl 5,variant::qwen::qwen2::0.5b::unknown-role,variant::qwen::qwen2::32b::base,same_series,1.246154347237335,0.0377643504531722,55.626888217522655,55.58912386706948,4.292124233453884
+capability,MATH Lvl 5,variant::qwen::qwen2::0.5b::chat,variant::qwen::qwen2::32b::base,same_series,1.246154347237335,0.1510574018126888,55.626888217522655,55.47583081570996,4.283376697652008
+capability,MATH Lvl 5,variant::qwen::qwen2::11.3b::unknown-role,variant::qwen::qwen2::32b::base,same_series,1.246154347237335,0.2265861027190332,55.626888217522655,55.40030211480362,4.277545007117425
+capability,MATH Lvl 5,variant::qwen::qwen2::32b::base,variant::qwen::qwen2::9.5b::unknown-role,same_series,1.246154347237335,55.626888217522655,0.3021148036253776,55.324773413897276,4.27171331658284
+capability,MATH Lvl 5,variant::qwen::qwen2.5::0.5b::code,variant::qwen::qwen2.5::72b::chat,same_series,1.1000465695685555,3.776435045317221,58.91238670694864,55.135951661631424,4.257134090246381
+capability,GPQA,variant::llama::llama3::70b::reasoning,variant::llama::llama3::13.45b::instruct,same_series,1.138985364637433,25.838926174496642,1.1185682326621946,24.720357941834443,4.806316355503236
+capability,GPQA,variant::llama::llama3::70b::reasoning,variant::llama::llama3::102b::instruct,same_series,1.138985364637433,25.838926174496642,1.45413870246085,24.38478747203579,4.741072242080116
+capability,GPQA,variant::llama::llama3::8b::code,variant::llama::llama3::70b::reasoning,same_series,1.138985364637433,2.460850111856823,25.838926174496642,23.37807606263982,4.545339901810753
+capability,GPQA,variant::llama::llama3::8b::reasoning,variant::llama::llama3::70b::reasoning,same_series,1.138985364637433,2.796420581655479,25.838926174496642,23.042505592841163,4.480095788387633
+capability,GPQA,variant::llama::llama3::70b::reasoning,variant::llama::llama3::16b::base,same_series,1.138985364637433,25.838926174496642,2.796420581655479,23.042505592841163,4.480095788387633
+capability,GPQA,variant::qwen::qwen2.5::72b::unknown-role,variant::qwen::qwen2.5::1.7b::base,same_series,1.100046569568555,22.14765100671141,0.0,22.14765100671141,4.306111485925978
+capability,GPQA,variant::qwen::qwen2.5::72b::unknown-role,variant::qwen::qwen2.5::2.3b::unknown-role,same_series,1.1000465695685555,22.14765100671141,0.2237136465324418,21.923937360178968,4.262615410310564
+capability,GPQA,variant::qwen::qwen2.5::0.5b::code,variant::qwen::qwen2.5::72b::unknown-role,same_series,1.1000465695685555,0.4474272930648763,22.14765100671141,21.700223713646537,4.21911933469515
+capability,GPQA,variant::llama::llama3::8b::instruct,variant::llama::llama3::70b::reasoning,same_series,1.138985364637433,4.194630872483222,25.838926174496642,21.64429530201342,4.208245315791295
+capability,GPQA,variant::qwen::qwen2.5::32b::base,variant::qwen::qwen2.5::1.7b::base,same_series,1.100046569568555,21.588366890380318,0.0,21.588366890380318,4.197371296887444
+capability,GPQA,variant::llama::llama3::70b::reasoning,variant::llama::llama3::11b::instruct,same_series,1.138985364637433,25.838926174496642,4.250559284116329,21.58836689038031,4.197371296887442
+capability,GPQA,variant::llama::llama3::8b::chat,variant::llama::llama3::70b::reasoning,same_series,1.138985364637433,4.250559284116333,25.838926174496642,21.588366890380307,4.197371296887441
+capability,GPQA,variant::qwen::qwen2.5::32b::base,variant::qwen::qwen2.5::2.3b::unknown-role,same_series,1.1000465695685555,21.588366890380318,0.2237136465324418,21.364653243847876,4.153875221272029
+capability,GPQA,variant::llama::llama3::8b::unknown-role,variant::llama::llama3::70b::reasoning,same_series,1.138985364637433,4.4742729306487705,25.838926174496642,21.36465324384787,4.153875221272028
+capability,GPQA,variant::llama::llama3::70b::reasoning,variant::llama::llama3::6.3b::base,same_series,1.138985364637433,25.838926174496642,4.4742729306487705,21.36465324384787,4.153875221272028
+capability,MUSR,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::3x1.6b::instruct,same_series,1.246154347237335,36.49947916666666,0.9440104166666663,35.55546874999999,7.44635626581715
+capability,MUSR,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::4b::unknown-role,same_series,1.246154347237335,36.49947916666666,2.102864583333332,34.39661458333333,7.203658270586062
+capability,MUSR,variant::qwen::qwen2::0.5b::instruct,variant::qwen::qwen2::78b::instruct,same_series,1.2461543472373355,2.2686197916666666,36.49947916666666,34.230859374999994,7.168944276436716
+capability,MUSR,variant::qwen::qwen2::0.5b::unknown-role,variant::qwen::qwen2::78b::instruct,same_series,1.2461543472373355,2.3539062500000005,36.49947916666666,34.14557291666666,7.151082794765214
+capability,MUSR,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::15b::unknown-role,same_series,1.246154347237335,36.49947916666666,2.408854166666666,34.09062499999999,7.139575092069987
+capability,MUSR,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::7b::math,same_series,1.2461543472373355,36.49947916666666,2.6166666666666667,33.88281249999999,7.096053069554389
+capability,MUSR,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::5b::unknown-role,same_series,1.246154347237335,36.49947916666666,2.6244791666666685,33.874999999999986,7.0944169032944036
+capability,MUSR,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::1b::base,same_series,1.246154347237335,36.49947916666666,2.734375,33.76510416666666,7.071401497903951
+capability,MUSR,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::900m::base,same_series,1.246154347237335,36.49947916666666,2.9656249999999997,33.53385416666666,7.0229709766083985
+capability,MUSR,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::3b::domain,same_series,1.246154347237335,36.49947916666666,3.1950520833333345,33.30442708333333,6.974922227440176
+capability,MUSR,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::3b::math,same_series,1.246154347237335,36.49947916666666,3.25,33.24947916666666,6.96341452474495
+capability,MUSR,variant::qwen::qwen2::0.5b::base,variant::qwen::qwen2::78b::instruct,same_series,1.2461543472373355,3.253906250000001,36.49947916666666,33.24557291666666,6.962596441614957
+capability,MUSR,variant::qwen::qwen2::0.5b::chat,variant::qwen::qwen2::78b::instruct,same_series,1.2461543472373355,3.3265625,36.49947916666666,33.17291666666666,6.947380095397097
+capability,MUSR,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::6.6b::math,same_series,1.246154347237335,36.49947916666666,3.5794270833333335,32.92005208333333,6.894422847448921
+capability,MUSR,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::1b::instruct,same_series,1.246154347237335,36.49947916666666,3.8736979166666656,32.625781249999996,6.832793918322825
+capability,MMLU-PRO,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::15b::unknown-role,same_series,1.246154347237335,68.72229609929079,1.2171247044917255,67.50517139479906,4.267951821307576
+capability,MMLU-PRO,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::4b::unknown-role,same_series,1.246154347237335,68.72229609929079,1.217124704491725,67.50517139479906,4.267951821307576
+capability,MMLU-PRO,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::6.6b::math,same_series,1.246154347237335,68.72229609929079,1.2725325059101646,67.44976359338062,4.264448714477501
+capability,MMLU-PRO,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::0.3b::instruct,same_series,1.2461543472373355,68.72229609929079,1.3464095744680846,67.3758865248227,4.2597779053707345
+capability,MMLU-PRO,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::1b::base,same_series,1.246154347237335,68.72229609929079,1.3648788416075646,67.35741725768322,4.258610203094044
+capability,MMLU-PRO,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::11.3b::unknown-role,same_series,1.246154347237335,68.72229609929079,1.383348108747044,67.33894799054376,4.257442500817352
+capability,MMLU-PRO,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::3b::math,same_series,1.246154347237335,68.72229609929079,1.429521276595744,67.29277482269505,4.254523245125623
+capability,MMLU-PRO,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::7b::math,same_series,1.2461543472373355,68.72229609929079,1.540336879432624,67.18195921985817,4.247517031465474
+capability,MMLU-PRO,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::900m::base,same_series,1.246154347237335,68.72229609929079,1.5772754137115832,67.1450206855792,4.245181626912091
+capability,MMLU-PRO,variant::qwen::qwen2::0.5b::unknown-role,variant::qwen::qwen2::78b::instruct,same_series,1.2461543472373355,1.609596631205673,68.72229609929079,67.11269946808511,4.24313814792788
+capability,MMLU-PRO,variant::qwen::qwen2::2b::unknown-role,variant::qwen::qwen2::78b::instruct,same_series,1.246154347237335,1.6234485815602824,68.72229609929079,67.0988475177305,4.242262371220362
+capability,MMLU-PRO,variant::qwen::qwen2::3b::unknown-role,variant::qwen::qwen2::78b::instruct,same_series,1.246154347237335,1.8266105200945613,68.72229609929079,66.89568557919623,4.2294176461767545
+capability,MMLU-PRO,variant::qwen::qwen2::78b::instruct,variant::qwen::qwen2::1b::instruct,same_series,1.246154347237335,68.72229609929079,2.639258274231678,66.08303782505911,4.1780387460023265
+capability,MMLU-PRO,variant::qwen::qwen2::0.5b::base,variant::qwen::qwen2::78b::instruct,same_series,1.2461543472373355,3.5719562647754137,68.72229609929079,65.15033983451538,4.119069781029404
+capability,MMLU-PRO,variant::qwen::qwen2::0.5b::chat,variant::qwen::qwen2::78b::instruct,same_series,1.2461543472373355,3.6365986997635926,68.72229609929079,65.08569739952719,4.114982823060984
+safety,salad_base_safety,variant::qwen::qwen1.5::1.8b::chat,variant::qwen::qwen1.5::4b::chat,same_series,0.8641494594365695,62.96000000000001,95.51,32.550000000000004,2.4427350582994385
+safety,salad_base_safety,variant::qwen::qwen1.5::1.8b::chat,variant::qwen::qwen1.5::14b::chat,same_series,0.8641494594365695,62.96000000000001,95.37,32.41,2.432228670951914
+safety,salad_base_safety,variant::qwen::qwen1.5::1.8b::chat,variant::qwen::qwen1.5::72b::chat,same_series,0.8641494594365695,62.96000000000001,93.55,30.589999999999996,2.2956456354340955
+safety,salad_base_safety,variant::qwen::qwen1.5::7b::chat,variant::qwen::qwen1.5::1.8b::chat,same_series,0.8641494594365695,93.0,62.96000000000001,30.04,2.254370542283107
+safety,salad_base_safety,variant::qwen::qwen1.5::1.8b::chat,variant::qwen::qwen1.5::0.5b::chat,same_series,0.8641494594365695,62.96000000000001,80.36,17.39999999999999,1.305793856049469
+safety,salad_base_safety,variant::qwen::qwen1.5::0.5b::chat,variant::qwen::qwen1.5::4b::chat,same_series,0.8641494594365695,80.36,95.51,15.150000000000007,1.1369412022499696
+safety,salad_base_safety,variant::qwen::qwen1.5::0.5b::chat,variant::qwen::qwen1.5::14b::chat,same_series,0.8641494594365695,80.36,95.37,15.010000000000002,1.1264348149024448
+safety,salad_base_safety,variant::qwen::qwen1.5::0.5b::chat,variant::qwen::qwen1.5::72b::chat,same_series,0.8641494594365695,80.36,93.55,13.190000000000001,0.9898517793846268
+safety,salad_base_safety,variant::qwen::qwen1.5::7b::chat,variant::qwen::qwen1.5::0.5b::chat,same_series,0.8641494594365695,93.0,80.36,12.640000000000008,0.9485766862336381
+safety,salad_base_safety,variant::llama::llama2::13b::chat,variant::llama::llama2::7b::base,same_series,1.0550083505069159,96.81,84.79,12.019999999999998,0.9020483994088861
+safety,salad_base_safety,variant::llama::llama2::7b::chat,variant::llama::llama2::7b::base,same_base,0.4668606552226202,96.51,84.79,11.719999999999997,0.8795347122356194
+safety,salad_base_safety,variant::llama::llama2::7b::base,variant::llama::llama2::70b::chat,same_series,1.0550083505069159,84.79,96.21,11.419999999999986,0.8570210250623519
+safety,salad_base_safety,variant::llama::llama2::13b::chat,variant::llama::llama2::13b::base,same_base,0.4423270232755885,96.81,86.51,10.299999999999997,0.7729699262821571
+safety,salad_base_safety,variant::llama::llama2::7b::chat,variant::llama::llama2::13b::base,same_series,1.0550083505069159,96.51,86.51,9.999999999999998,0.7504562391088904
+safety,salad_base_safety,variant::llama::llama2::13b::base,variant::llama::llama2::70b::chat,same_series,1.0550083505069159,86.51,96.21,9.699999999999987,0.7279425519356227
+safety,salad_attack_safety,variant::llama::llama2::7b::base,variant::llama::llama2::70b::chat,same_series,1.0550083505069159,4.62,66.24,61.62,4.5406971436804335
+safety,salad_attack_safety,variant::llama::llama2::13b::chat,variant::llama::llama2::7b::base,same_series,1.0550083505069159,65.72,4.62,61.1,4.502379024324481
+safety,salad_attack_safety,variant::llama::llama2::13b::base,variant::llama::llama2::70b::chat,same_series,1.0550083505069159,5.64,66.24,60.6,4.46553467878991
+safety,salad_attack_safety,variant::llama::llama2::13b::chat,variant::llama::llama2::13b::base,same_base,0.4423270232755885,65.72,5.64,60.08,4.427216559433957
+safety,salad_attack_safety,variant::llama::llama2::70b::chat,variant::llama::llama2::70b::base,same_base,0.41451308537045684,66.24,7.9399999999999995,58.3,4.296050689330888
+safety,salad_attack_safety,variant::llama::llama2::13b::chat,variant::llama::llama2::70b::base,same_series,1.0550083505069159,65.72,7.9399999999999995,57.78,4.257732569974935
+safety,salad_attack_safety,variant::llama::llama2::7b::chat,variant::llama::llama2::70b::chat,same_series,1.0550083505069159,18.24,66.24,48.0,3.5370571713187413
+safety,salad_attack_safety,variant::llama::llama2::13b::chat,variant::llama::llama2::7b::chat,same_series,1.0550083505069159,65.72,18.24,47.48,3.4987390519627883
+safety,salad_attack_safety,variant::gemma::gemma::2b::instruct,variant::gemma::gemma::7b::instruct,same_series,1.0755129376215238,50.34,15.54,34.80000000000001,2.564366449206088
+safety,salad_attack_safety,variant::qwen::qwen1.5::4b::chat,variant::qwen::qwen1.5::14b::chat,same_series,0.8641494594365695,23.34,6.12,17.22,1.2689192602105983
+safety,salad_attack_safety,variant::qwen::qwen1.5::1.8b::chat,variant::qwen::qwen1.5::4b::chat,same_series,0.8641494594365695,6.959999999999999,23.34,16.38,1.2070207597125204
+safety,salad_attack_safety,variant::qwen::qwen1.5::0.5b::chat,variant::qwen::qwen1.5::4b::chat,same_series,0.8641494594365695,7.780000000000001,23.34,15.559999999999999,1.1465960330358251
+safety,salad_attack_safety,variant::qwen::qwen1.5::7b::chat,variant::qwen::qwen1.5::4b::chat,same_series,0.8641494594365695,8.08,23.34,15.260000000000002,1.1244894257150833
+safety,salad_attack_safety,variant::llama::llama2::7b::chat,variant::llama::llama2::7b::base,same_base,0.4668606552226202,18.24,4.62,13.62,1.0036399723616927
+safety,salad_attack_safety,variant::llama::llama2::7b::chat,variant::llama::llama2::13b::base,same_series,1.0550083505069159,18.24,5.64,12.599999999999998,0.9284775074711694

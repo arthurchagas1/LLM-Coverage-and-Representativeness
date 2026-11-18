@@ -1,0 +1,8 @@
+operation,time,memory
+tree,O(V log V),O(V)
+adoption_gap,O(k),"O(E) once, for the target branch masses"
+breadth,O(k V),O(V)
+structural,O(k + C),O(C)
+coverage,O(k),O(V)
+greedy_adoption,O(k V),O(V + E)
+greedy_breadth,O(k V C) with a stored kernel,O(V^2) kernel

@@ -1,0 +1,7 @@
+field,annotator_a,annotator_b,cohen_kappa
+decision,1,annotator2,0.12430065677450775
+family,1,annotator2,0.9132439832828938
+series,1,annotator2,0.9042316258351892
+size_bucket,1,annotator2,1.0
+role,1,annotator2,0.616
+artifact,1,annotator2,0.5986778145051525
